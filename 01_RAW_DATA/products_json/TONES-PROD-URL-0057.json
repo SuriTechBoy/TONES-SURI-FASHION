@@ -1,0 +1,73 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/grey-cargo",
+  "collected_at": "2026-09-22T17:03:15.740158",
+  "name": "Grey Cargo",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/grey-cargo",
+  "description": "Fit: Straight Fit\nFabric: Cotton Lycra\nColor: Grey\nHow To Style:\n\n\n\n\n\n\n\n\nCrafted from premium cotton stretch twill (98% cotton, 2% Lycra), these straight-fit cargo pants feature utility pockets, clean seam detailing, and a structured yet comfortable feel. Easy to style with polos, hoodies, or jackets—pair with sneakers or boots for a versatile everyday look.",
+  "brand": "Tones Fashion",
+  "category": "Pants",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Grey Cargo - 28",
+      "sku": "GCG28",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_24.jpg?v=1770191049&width=1920"
+    },
+    {
+      "name": "Grey Cargo - 30",
+      "sku": "GCG30",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_24.jpg?v=1770191049&width=1920"
+    },
+    {
+      "name": "Grey Cargo - 32",
+      "sku": "GCG32",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_24.jpg?v=1770191049&width=1920"
+    },
+    {
+      "name": "Grey Cargo - 34",
+      "sku": "GCG34",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_24.jpg?v=1770191049&width=1920"
+    },
+    {
+      "name": "Grey Cargo - 36",
+      "sku": "GCG36",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_24.jpg?v=1770191049&width=1920"
+    },
+    {
+      "name": "Grey Cargo - 38",
+      "sku": "GCG38",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_24.jpg?v=1770191049&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0057"
+}

@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/tusker-tails-soft-cream-short-kurta",
+  "collected_at": "2026-09-22T17:03:03.872424",
+  "name": "Tusker Trails  Soft Cream Short Kurta",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/tusker-tails-soft-cream-short-kurta",
+  "description": "Product Description: \nCrafted in a soft, breathable fabric with a subtle natural sheen, the Tusker Trails kurta is designed for effortless festive dressing. The relaxed-fit silhouette is elevated with intricate tusker-inspired embroidery, featuring a striking pop of colour that adds depth and visual interest to the minimal base. Finished with a clean mandarin collar, it balances tradition with contemporary ease.\nStyling:Style it with straight-fit jeans for a modern festive look, as paired, or dress it up with classic ethnic bottoms. Complete with mojaris or sleek leather footwear for a refined finish.Material: 100% Cotton\nColor: Cream\nModel Size: M",
+  "brand": "Tones Fashion",
+  "category": "Tunics",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Tusker Trails  Soft Cream Short Kurta - S",
+      "sku": "TTSCS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_dec12a86-c2c7-45ed-afb0-30a93a7ac975.jpg?v=1770013197&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Soft Cream Short Kurta - M",
+      "sku": "TTSCM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_dec12a86-c2c7-45ed-afb0-30a93a7ac975.jpg?v=1770013197&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Soft Cream Short Kurta - L",
+      "sku": "TTSCL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_dec12a86-c2c7-45ed-afb0-30a93a7ac975.jpg?v=1770013197&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Soft Cream Short Kurta - XL",
+      "sku": "TTSCXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_dec12a86-c2c7-45ed-afb0-30a93a7ac975.jpg?v=1770013197&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Soft Cream Short Kurta - XXL",
+      "sku": "TTSCXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_dec12a86-c2c7-45ed-afb0-30a93a7ac975.jpg?v=1770013197&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0052"
+}

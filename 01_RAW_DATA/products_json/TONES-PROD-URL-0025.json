@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/olive-green-chions",
+  "collected_at": "2026-09-22T17:02:07.860795",
+  "name": "OLIVE GREEN CHINOS",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/olive-green-chions",
+  "description": "Fit: Tones chinos come in a tailored slim fit - not too tight, not too loose. Designed to give you a clean silhouette while still staying breathable for all-day comfort.\nVersatility: Wear them with a crisp shirt and loafers for work or formal events. Throw on a graphic tee and sneakers for weekend plans. Want to hit brunch? Pair them with a linen shirt and slides for that effortless vibe.\nStyle Tips:* Roll up the hem slightly for a more casual, streetwear touch. * Pair with layers (think: jackets or over-shirts) for cooler evenings. * Match your shoe color with your watch or belt to tie the look together.\nWash Care:\n\nGentle Machine Wash Cold with Similar Colors.\nTumble Dry Low.\nWarm Iron.",
+  "brand": "Tones Fashion",
+  "category": "Chinos",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "OLIVE GREEN CHINOS - 30",
+      "sku": "OGC30",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/NEW.jpg?v=1758874229&width=1920"
+    },
+    {
+      "name": "OLIVE GREEN CHINOS - 32",
+      "sku": "OGC32",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/NEW.jpg?v=1758874229&width=1920"
+    },
+    {
+      "name": "OLIVE GREEN CHINOS - 34",
+      "sku": "OGC34",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/NEW.jpg?v=1758874229&width=1920"
+    },
+    {
+      "name": "OLIVE GREEN CHINOS - 36",
+      "sku": "OGC36",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/NEW.jpg?v=1758874229&width=1920"
+    },
+    {
+      "name": "OLIVE GREEN CHINOS - 38",
+      "sku": "OGC38",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/NEW.jpg?v=1758874229&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0025"
+}

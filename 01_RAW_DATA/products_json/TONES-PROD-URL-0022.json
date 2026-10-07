@@ -1,0 +1,55 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/gods-master-piece-white-copy",
+  "collected_at": "2026-09-22T17:02:01.142080",
+  "name": "GOD'S MASTER PIECE GREEN",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/gods-master-piece-white-copy",
+  "description": "Size Note:Our oversized t-shirts run slightly big we recommend going one size down for the best fit.\nFit: Relaxed\nFabric: 100% cotton, 240 GSM Loop Knit\nModel Size: Male - M\nColor:  Green\nWash Care:\n\nMachine Wash at 86° F / 30° C\nNo Chlorine Bleach\nDo not tumble dry\nMaximum iron at 230° F / 110 °C\nDry Clean\nWash inside out and dry separately",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "GOD'S MASTER PIECE GREEN - S",
+      "sku": "GMGS",
+      "url": "",
+      "price": "599.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6068.jpg?v=1758280369&width=1920"
+    },
+    {
+      "name": "GOD'S MASTER PIECE GREEN - M",
+      "sku": "GMGM",
+      "url": "",
+      "price": "599.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6068.jpg?v=1758280369&width=1920"
+    },
+    {
+      "name": "GOD'S MASTER PIECE GREEN - L",
+      "sku": "GMGL",
+      "url": "",
+      "price": "599.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6068.jpg?v=1758280369&width=1920"
+    },
+    {
+      "name": "GOD'S MASTER PIECE GREEN - XL",
+      "sku": "GMGXL",
+      "url": "",
+      "price": "599.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6068.jpg?v=1758280369&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0022"
+}

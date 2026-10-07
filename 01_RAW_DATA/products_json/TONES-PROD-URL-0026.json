@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/jute-light-blue-shirt",
+  "collected_at": "2026-09-22T17:02:10.050195",
+  "name": "JUTE- LIGHT BLUE SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/jute-light-blue-shirt",
+  "description": "Product Description:Tailored from soft, breathable cotton, this slim-fit shirt delivers a clean, polished look while ensuring all-day comfort. Its off-white shade adds a touch of understated elegance, perfect for versatile semi-formal styling.\nFit: Slim Fit\nFabric: Jute Cotton\nColor: LIGHT BLUE\nModel Size: L\nHow To Style:Pair it with tailored trousers for a sleek semi-formal look, or with dark denim for a smart-casual edge. For business settings, layer it under a blazer, while for relaxed evenings, keep it untucked with rolled-up sleeves. Finish with loafers or classic lace-ups to match the occasion.\nWash Care:\n\n\nGentle Machine Wash Cold with Similar Colors\n\n\nDo Not Tumble Dry\n\n\nDo Not Bleach\n\n\nWarm Iron",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "JUTE- LIGHT BLUE SHIRT - S",
+      "sku": "LBS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6287.jpg?v=1758867003&width=1920"
+    },
+    {
+      "name": "JUTE- LIGHT BLUE SHIRT - M",
+      "sku": "LBM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6287.jpg?v=1758867003&width=1920"
+    },
+    {
+      "name": "JUTE- LIGHT BLUE SHIRT - L",
+      "sku": "LBL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6287.jpg?v=1758867003&width=1920"
+    },
+    {
+      "name": "JUTE- LIGHT BLUE SHIRT - XL",
+      "sku": "LBXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6287.jpg?v=1758867003&width=1920"
+    },
+    {
+      "name": "JUTE- LIGHT BLUE SHIRT - XXL",
+      "sku": "LBXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6287.jpg?v=1758867003&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0026"
+}

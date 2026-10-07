@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/cream-chinos",
+  "collected_at": "2026-09-22T17:01:54.040943",
+  "name": "Cream Chinos",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/cream-chinos",
+  "description": "Fit: Tones chinos come in a tailored slim fit - not too tight, not too loose. Designed to give you a clean silhouette while still staying breathable for all-day comfort.\nVersatility: Wear them with a crisp shirt and loafers for work or formal events. Throw on a graphic tee and sneakers for weekend plans. Want to hit brunch? Pair them with a linen shirt and slides for that effortless vibe.\nStyle Tips:* Roll up the hem slightly for a more casual, streetwear touch. * Pair with layers (think: jackets or over-shirts) for cooler evenings. * Match your shoe color with your watch or belt to tie the look together.\nWash Care:\n\nGentle Machine Wash Cold with Similar Colors.\nTumble Dry Low.\nWarm Iron.",
+  "brand": "Tones Fashion",
+  "category": "Chinos",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Cream Chinos - 30",
+      "sku": "CRCH11072530",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_2.jpg?v=1752138367&width=1920"
+    },
+    {
+      "name": "Cream Chinos - 32",
+      "sku": "CRCH11072532",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_2.jpg?v=1752138367&width=1920"
+    },
+    {
+      "name": "Cream Chinos - 34",
+      "sku": "CRCH11072534",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_2.jpg?v=1752138367&width=1920"
+    },
+    {
+      "name": "Cream Chinos - 36",
+      "sku": "CRCH11072536",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_2.jpg?v=1752138367&width=1920"
+    },
+    {
+      "name": "Cream Chinos - 38",
+      "sku": "CRCH11072538",
+      "url": "",
+      "price": "1799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_2.jpg?v=1752138367&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0017"
+}

@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/soft-white-satin-shirt",
+  "collected_at": "2026-09-22T17:03:38.720629",
+  "name": "Soft White - Satin Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/soft-white-satin-shirt",
+  "description": "Fabric : SatinFit: Slim FitModel Size: MProduct description : Slim Fit Satin ShirtCrafted in smooth satin with a soft, fluid drape.Designed in a relaxed fit for effortless comfort and movement.Features a clean button-down front with a classic collar.A versatile elevated essential with a subtle, refined finish.\nStyle With:Pair with tailored trousers or relaxed-fit trousers for a polished, contemporary look.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Soft White - Satin Shirt - S",
+      "sku": "SWSSS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1d7de8ae-eead-43b9-b2f5-c516f6fe0b9e.jpg?v=1786626949&width=1920"
+    },
+    {
+      "name": "Soft White - Satin Shirt - M",
+      "sku": "SWSSM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1d7de8ae-eead-43b9-b2f5-c516f6fe0b9e.jpg?v=1786626949&width=1920"
+    },
+    {
+      "name": "Soft White - Satin Shirt - L",
+      "sku": "SWSSL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1d7de8ae-eead-43b9-b2f5-c516f6fe0b9e.jpg?v=1786626949&width=1920"
+    },
+    {
+      "name": "Soft White - Satin Shirt - XL",
+      "sku": "SWSSXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1d7de8ae-eead-43b9-b2f5-c516f6fe0b9e.jpg?v=1786626949&width=1920"
+    },
+    {
+      "name": "Soft White - Satin Shirt - 2XL",
+      "sku": "SWSSXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1d7de8ae-eead-43b9-b2f5-c516f6fe0b9e.jpg?v=1786626949&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0066"
+}

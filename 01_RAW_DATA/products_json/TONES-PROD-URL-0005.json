@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-navy-blue-copy",
+  "collected_at": "2026-09-22T17:01:30.365035",
+  "name": "Round Neck Slim Fit Tee - White",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-navy-blue-copy",
+  "description": "Minimal yet bold, the White Round Neck Slim Fit Tee is a staple in every modern wardrobe. Made with 160 GSM breathable fabric, it offers all-day comfort with a flattering silhouette that doesn’t compromise on style. \nProduct Features:* Round neck* Slim fit* 100% cotton* 160 GSM* Breathable & lightweight* Soft-touch finish* Pocket detail\nStyle it with: Wear it under an open shirt or with joggers for an easygoing, layered streetwear fit.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Round Neck Slim Fit Tee - White - S",
+      "sku": "RNTWT0425_S",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer_1.jpg?v=1744454814&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - White - M",
+      "sku": "RNTWT0425_M",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer_1.jpg?v=1744454814&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - White - L",
+      "sku": "",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer_1.jpg?v=1744454814&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - White - XL",
+      "sku": "RNTWT0425_XL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer_1.jpg?v=1744454814&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - White - 2XL",
+      "sku": "RNTWT0425_2XL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer_1.jpg?v=1744454814&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0005"
+}

@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/chaotic-good-pink-1",
+  "collected_at": "2026-09-22T17:01:28.504860",
+  "name": "Chaotic Good - Pink - C5",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/chaotic-good-pink-1",
+  "description": "Fit: Oversized \nFabric: 100% cotton, 240 GSM \n Model Size:M\nColor: Pink\nHow To Style:\nThe pink Chaotic Good oversized T-shirt brings a playful pop of color to your look. Pair it with slim-fit joggers or light-wash jeans for a modern vibe. Layer it with a hoodie or varsity jacket for an on-tre",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Chaotic Good - Pink - C5 - S",
+      "sku": "CGP_S",
+      "url": "",
+      "price": "498.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9c37a0df-4b8e-4a15-9434-538ad4a38cff.jpg?v=1745769822&width=1920"
+    },
+    {
+      "name": "Chaotic Good - Pink - C5 - M",
+      "sku": "CGP_M",
+      "url": "",
+      "price": "498.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9c37a0df-4b8e-4a15-9434-538ad4a38cff.jpg?v=1745769822&width=1920"
+    },
+    {
+      "name": "Chaotic Good - Pink - C5 - L",
+      "sku": "CGP_L",
+      "url": "",
+      "price": "498.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9c37a0df-4b8e-4a15-9434-538ad4a38cff.jpg?v=1745769822&width=1920"
+    },
+    {
+      "name": "Chaotic Good - Pink - C5 - XL",
+      "sku": "CGP_XL",
+      "url": "",
+      "price": "498.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9c37a0df-4b8e-4a15-9434-538ad4a38cff.jpg?v=1745769822&width=1920"
+    },
+    {
+      "name": "Chaotic Good - Pink - C5 - XXL",
+      "sku": "CGP_XXL",
+      "url": "",
+      "price": "498.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9c37a0df-4b8e-4a15-9434-538ad4a38cff.jpg?v=1745769822&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0004"
+}

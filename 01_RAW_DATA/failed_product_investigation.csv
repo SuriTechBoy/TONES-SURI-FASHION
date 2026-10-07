@@ -1,0 +1,5 @@
+﻿url_id,url,status,product_name,variants,error
+TONES-PROD-URL-0011,https://www.tonesfashion.com/products/predator-tee-relaxed-fit-white,FAILED,,0,curl: (22) The requested URL returned error: 404
+TONES-PROD-URL-0018,https://www.tonesfashion.com/products/beige-flannel-shirt-copy,FAILED,,0,curl: (22) The requested URL returned error: 404
+TONES-PROD-URL-0021,https://www.tonesfashion.com/products/urban-drfit-green,FAILED,,0,curl: (22) The requested URL returned error: 404
+TONES-PROD-URL-0030,https://www.tonesfashion.com/products/double-pocket-off-white-shirt,FAILED,,0,curl: (22) The requested URL returned error: 404

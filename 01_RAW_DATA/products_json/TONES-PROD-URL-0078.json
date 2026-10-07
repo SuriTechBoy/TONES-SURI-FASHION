@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/deep-sage-gauze-cotton-shirt-copy",
+  "collected_at": "2026-09-22T17:04:05.783278",
+  "name": "Blue Oxford Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/deep-sage-gauze-cotton-shirt-copy",
+  "description": "Fabric : CottonFit: Relaxed Box FitModel Size: L\nProduct Description:\nCrafted from 100% cotton Oxford fabric, featuring classic blue and white stripes with a relaxed, box-fit silhouette. Designed with a pointed collar, full sleeves and a front pocket. Finished with Money Buys Freedom embroidery above the pocket.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Blue Oxford Shirt - S",
+      "sku": "BOSS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_7.jpg?v=1789996422&width=1920"
+    },
+    {
+      "name": "Blue Oxford Shirt - M",
+      "sku": "BOSM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_7.jpg?v=1789996422&width=1920"
+    },
+    {
+      "name": "Blue Oxford Shirt - L",
+      "sku": "BOSL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_7.jpg?v=1789996422&width=1920"
+    },
+    {
+      "name": "Blue Oxford Shirt - XL",
+      "sku": "BOSXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_7.jpg?v=1789996422&width=1920"
+    },
+    {
+      "name": "Blue Oxford Shirt - 2XL",
+      "sku": "BOSXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_7.jpg?v=1789996422&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0078"
+}

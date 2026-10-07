@@ -1,0 +1,542 @@
+[
+  {
+    "id": "P01",
+    "category": "product_search",
+    "question": "Show me black t-shirts",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P02",
+    "category": "product_search",
+    "question": "Show me oversized t-shirts under ₹1000",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P03",
+    "category": "product_search",
+    "question": "Find shirts under ₹1000",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P04",
+    "category": "product_search",
+    "question": "Show me black shirts",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P05",
+    "category": "product_search",
+    "question": "Find cargos",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P06",
+    "category": "product_search",
+    "question": "Show me kurtas",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P07",
+    "category": "product_search",
+    "question": "I want a relaxed fit shirt",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P08",
+    "category": "product_search",
+    "question": "Find products under ₹800",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P09",
+    "category": "product_search",
+    "question": "Show me jeans",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P10",
+    "category": "product_search",
+    "question": "Recommend a TONES tee for college",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P11",
+    "category": "product_search",
+    "question": "Find black oversized tees",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P12",
+    "category": "product_search",
+    "question": "Show me white t-shirts",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P13",
+    "category": "product_search",
+    "question": "Find sweatshirts under ₹1200",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P14",
+    "category": "product_search",
+    "question": "Show me polos",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P15",
+    "category": "product_search",
+    "question": "Find blue shirts",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P16",
+    "category": "product_search",
+    "question": "Show me products on sale",
+    "expected_intent": "PRODUCT_OFFERS"
+  },
+  {
+    "id": "P17",
+    "category": "product_search",
+    "question": "What is the cheapest TONES product?",
+    "expected_intent": "CHEAPEST_PRODUCT"
+  },
+  {
+    "id": "P18",
+    "category": "product_search",
+    "question": "What is the most expensive TONES product?",
+    "expected_intent": "MOST_EXPENSIVE_PRODUCT"
+  },
+  {
+    "id": "P19",
+    "category": "product_search",
+    "question": "Find beige products",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "P20",
+    "category": "product_search",
+    "question": "Show me products in my budget",
+    "expected_intent": "PRODUCT_SEARCH"
+  },
+  {
+    "id": "A01",
+    "category": "product_attribute",
+    "question": "What is the fabric of Tones Original Black?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A02",
+    "category": "product_attribute",
+    "question": "What sizes does Tones Original - Black have?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A03",
+    "category": "product_attribute",
+    "question": "What is the price of Tones Original - Black?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A04",
+    "category": "product_attribute",
+    "question": "What is the fit of Tones Original - Black?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A05",
+    "category": "product_attribute",
+    "question": "What color is Tones Original - Black?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A06",
+    "category": "product_attribute",
+    "question": "Is Tones Original - Black in stock?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A07",
+    "category": "product_attribute",
+    "question": "What material is The Alpha - Oversized Tee?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A08",
+    "category": "product_attribute",
+    "question": "What sizes are available?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A09",
+    "category": "product_attribute",
+    "question": "What is the fabric of the product?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A10",
+    "category": "product_attribute",
+    "question": "What is the price of this product?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A11",
+    "category": "product_attribute",
+    "question": "What color is Daily Tees - orange?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A12",
+    "category": "product_attribute",
+    "question": "What sizes does Daily Tees - orange have?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A13",
+    "category": "product_attribute",
+    "question": "What fabric does The Alpha - Oversized Tee use?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A14",
+    "category": "product_attribute",
+    "question": "What is the fit of Daily Tees - orange?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "A15",
+    "category": "product_attribute",
+    "question": "What is the price of Daily Tees - orange?",
+    "expected_intent": "PRODUCT_ATTRIBUTE"
+  },
+  {
+    "id": "R01",
+    "category": "reviews",
+    "question": "What are the reviews for Tones Original Black T-Shirt?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R02",
+    "category": "reviews",
+    "question": "Show reviews of Daily Tees - orange",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R03",
+    "category": "reviews",
+    "question": "What do customers say about The Alpha - Oversized Tee?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R04",
+    "category": "reviews",
+    "question": "Is Tones Original - Black highly rated?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R05",
+    "category": "reviews",
+    "question": "Give me customer feedback for Karma - Jet Black shirt",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R06",
+    "category": "reviews",
+    "question": "Show me reviews for Blue Drip Sweatshirt",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R07",
+    "category": "reviews",
+    "question": "What is the rating of Daily Tees - orange?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R08",
+    "category": "reviews",
+    "question": "Are there any reviews for Tones Original - Black?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R09",
+    "category": "reviews",
+    "question": "What do buyers think of Daily Tees - orange?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R10",
+    "category": "reviews",
+    "question": "Show me customer reviews for Karma - Jet Black shirt",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R11",
+    "category": "reviews",
+    "question": "Reviews for Rose Bloom Maroon Sweatshirt",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R12",
+    "category": "reviews",
+    "question": "What are people saying about Navy Blue Corduroy Shacket?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R13",
+    "category": "reviews",
+    "question": "Show reviews for Red Drip Sweatshirt",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R14",
+    "category": "reviews",
+    "question": "What is the rating of Karma - Jet Black shirt?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "R15",
+    "category": "reviews",
+    "question": "Does The Alpha - Oversized Tee have reviews?",
+    "expected_intent": "PRODUCT_REVIEWS"
+  },
+  {
+    "id": "B01",
+    "category": "business",
+    "question": "What is TONES Fashion?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B02",
+    "category": "business",
+    "question": "Why should I choose TONES Fashion?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B03",
+    "category": "business",
+    "question": "What is special about TONES Fashion?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B04",
+    "category": "business",
+    "question": "How is TONES different from other clothing brands?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B05",
+    "category": "business",
+    "question": "Who is the owner of TONES Fashion?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B06",
+    "category": "business",
+    "question": "What is the overall profit of TONES Fashion?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B07",
+    "category": "business",
+    "question": "Tell me about the TONES brand",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B08",
+    "category": "business",
+    "question": "What does TONES stand for?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B09",
+    "category": "business",
+    "question": "What is the TONES philosophy?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B10",
+    "category": "business",
+    "question": "What makes TONES unique?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B11",
+    "category": "business",
+    "question": "Does TONES focus on Indian men?",
+    "expected_intent": "BRAND_BUSINESS"
+  },
+  {
+    "id": "B12",
+    "category": "business",
+    "question": "What are the current TONES offers?",
+    "expected_intent": "PRODUCT_OFFERS"
+  },
+  {
+    "id": "B13",
+    "category": "business",
+    "question": "What is the TFV25 offer?",
+    "expected_intent": "PRODUCT_OFFERS"
+  },
+  {
+    "id": "B14",
+    "category": "business",
+    "question": "How do I contact TONES Fashion?",
+    "expected_intent": "CONTACT"
+  },
+  {
+    "id": "B15",
+    "category": "business",
+    "question": "What is the customer support email?",
+    "expected_intent": "CONTACT"
+  },
+  {
+    "id": "S01",
+    "category": "shipping_returns_orders",
+    "question": "How long does shipping take?",
+    "expected_intent": "SHIPPING"
+  },
+  {
+    "id": "S02",
+    "category": "shipping_returns_orders",
+    "question": "How much is shipping?",
+    "expected_intent": "SHIPPING"
+  },
+  {
+    "id": "S03",
+    "category": "shipping_returns_orders",
+    "question": "When will my order be dispatched?",
+    "expected_intent": "SHIPPING"
+  },
+  {
+    "id": "S04",
+    "category": "shipping_returns_orders",
+    "question": "Do you deliver across India?",
+    "expected_intent": "SHIPPING"
+  },
+  {
+    "id": "S05",
+    "category": "shipping_returns_orders",
+    "question": "How long is international delivery?",
+    "expected_intent": "SHIPPING"
+  },
+  {
+    "id": "S06",
+    "category": "shipping_returns_orders",
+    "question": "Can I change my address before dispatch?",
+    "expected_intent": "SHIPPING"
+  },
+  {
+    "id": "S07",
+    "category": "shipping_returns_orders",
+    "question": "What is your return policy?",
+    "expected_intent": "RETURN_EXCHANGE"
+  },
+  {
+    "id": "S08",
+    "category": "shipping_returns_orders",
+    "question": "Can I exchange an item?",
+    "expected_intent": "RETURN_EXCHANGE"
+  },
+  {
+    "id": "S09",
+    "category": "shipping_returns_orders",
+    "question": "How many days do I have to return?",
+    "expected_intent": "RETURN_EXCHANGE"
+  },
+  {
+    "id": "S10",
+    "category": "shipping_returns_orders",
+    "question": "Can I return a discounted product?",
+    "expected_intent": "RETURN_EXCHANGE"
+  },
+  {
+    "id": "S11",
+    "category": "shipping_returns_orders",
+    "question": "What if my product is damaged?",
+    "expected_intent": "RETURN_EXCHANGE"
+  },
+  {
+    "id": "S12",
+    "category": "shipping_returns_orders",
+    "question": "How do I start a return?",
+    "expected_intent": "RETURN_EXCHANGE"
+  },
+  {
+    "id": "S13",
+    "category": "shipping_returns_orders",
+    "question": "Can I cancel my order?",
+    "expected_intent": "CANCELLATION"
+  },
+  {
+    "id": "S14",
+    "category": "shipping_returns_orders",
+    "question": "How can I track my order?",
+    "expected_intent": "ORDER_TRACKING"
+  },
+  {
+    "id": "S15",
+    "category": "shipping_returns_orders",
+    "question": "Where is my order?",
+    "expected_intent": "ORDER_TRACKING"
+  },
+  {
+    "id": "Z01",
+    "category": "out_of_scope",
+    "question": "What is the capital of India?",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z02",
+    "category": "out_of_scope",
+    "question": "Explain Python loops",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z03",
+    "category": "out_of_scope",
+    "question": "Who is Elon Musk?",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z04",
+    "category": "out_of_scope",
+    "question": "Give me a recipe for biryani",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z05",
+    "category": "out_of_scope",
+    "question": "What is the weather today?",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z06",
+    "category": "out_of_scope",
+    "question": "Solve this calculus problem",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z07",
+    "category": "out_of_scope",
+    "question": "Tell me a joke",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z08",
+    "category": "out_of_scope",
+    "question": "What is Bitcoin?",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z09",
+    "category": "out_of_scope",
+    "question": "How do I repair my laptop?",
+    "expected_intent": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "Z10",
+    "category": "out_of_scope",
+    "question": "Who won the cricket match?",
+    "expected_intent": "OUT_OF_SCOPE"
+  }
+]

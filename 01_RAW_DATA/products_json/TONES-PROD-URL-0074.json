@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/jet-black-satin-shirt-copy",
+  "collected_at": "2026-09-22T17:03:56.370053",
+  "name": "Soft Lavender - Gauze Cotton Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/jet-black-satin-shirt-copy",
+  "description": "Fabric : CottonFit: Relaxed Box FitModel Size: L\nProduct Description:\nA relaxed box fit shirt crafted in lightweight gauze cotton, offering a soft, breathable feel with a naturally textured finish. Designed with a classic collar, full sleeves and a button-down front, creating an effortless and versatile everyday silhouette.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Soft Lavender - Gauze Cotton Shirt - S",
+      "sku": "SLGCS",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/lav.jpg?v=1790060877&width=1920"
+    },
+    {
+      "name": "Soft Lavender - Gauze Cotton Shirt - M",
+      "sku": "SLGCM",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/lav.jpg?v=1790060877&width=1920"
+    },
+    {
+      "name": "Soft Lavender - Gauze Cotton Shirt - L",
+      "sku": "SLGCL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/lav.jpg?v=1790060877&width=1920"
+    },
+    {
+      "name": "Soft Lavender - Gauze Cotton Shirt - XL",
+      "sku": "SLGCXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/lav.jpg?v=1790060877&width=1920"
+    },
+    {
+      "name": "Soft Lavender - Gauze Cotton Shirt - 2XL",
+      "sku": "SLGCXXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/lav.jpg?v=1790060877&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0074"
+}

@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/dobby-burnt-orange-shirt",
+  "collected_at": "2026-09-22T17:02:19.182640",
+  "name": "DOBBY BURNT ORANGE SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/dobby-burnt-orange-shirt",
+  "description": "Product Description:Crafted from soft, breathable cotton, this slim-fit shirt features a textured finish that adds depth and character to its design. The rich brown tone makes it a versatile choice, offering a refined yet modern edge for semi-formal and smart-casual occasions.\nFit: Slim Fit\nFabric: 100% Cotton\nColor: Textured Orange\nModel Size: L\nHow To Style:Pair it with tailored trousers for a sharp semi-formal look, or with dark denim for a polished casual vibe. For workdays, layer it under a blazer, and for relaxed evenings, wear it untucked with rolled-up sleeves. Complete the look with loafers or classic lace-ups.\nWash Care:\n\n\nGentle Machine Wash Cold with Similar Colors\n\n\nDo Not Tumble Dry\n\n\nDo Not Bleach\n\n\nWarm Iron",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "DOBBY BURNT ORANGE SHIRT - S",
+      "sku": "DBOS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6433.jpg?v=1758983847&width=1920"
+    },
+    {
+      "name": "DOBBY BURNT ORANGE SHIRT - M",
+      "sku": "DBOM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6433.jpg?v=1758983847&width=1920"
+    },
+    {
+      "name": "DOBBY BURNT ORANGE SHIRT - L",
+      "sku": "DBOL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6433.jpg?v=1758983847&width=1920"
+    },
+    {
+      "name": "DOBBY BURNT ORANGE SHIRT - XL",
+      "sku": "DOBXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6433.jpg?v=1758983847&width=1920"
+    },
+    {
+      "name": "DOBBY BURNT ORANGE SHIRT - XXL",
+      "sku": "DOBXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6433.jpg?v=1758983847&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0031"
+}

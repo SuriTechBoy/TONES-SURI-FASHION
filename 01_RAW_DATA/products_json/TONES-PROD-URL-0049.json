@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/brown-double-pocket-shacket",
+  "collected_at": "2026-09-22T17:02:57.610657",
+  "name": "BROWN DOUBLE POCKET FLANNEL SHACKET",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/brown-double-pocket-shacket",
+  "description": "Fit:Relaxed oversized-fit  ShacketNote: Size runs large, opt for the smaller one\n\n\nTimeless and understated, this oversized grey flannel shacket redefines casual layering. Tailored from soft, brushed flannel in neutral grey tones, it delivers both structure and comfort. Finished with full button closure and flap pockets, it’s a seasonless staple that transitions seamlessly from day to night.Color: Brown\n\n\nKey Features:\n • Oversized relaxed silhouette\n • Brushed flannel fabric\n • Grey and off-white check pattern\n • Button-down front closure\n • Dual chest flap pockets with button fastening\n • Clean DTM stitching throughout",
+  "brand": "Tones Fashion",
+  "category": "Coats & Jackets",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "BROWN DOUBLE POCKET FLANNEL SHACKET - S",
+      "sku": "BDPSS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/shacket_1_1.png?v=1763021907&width=1920"
+    },
+    {
+      "name": "BROWN DOUBLE POCKET FLANNEL SHACKET - M",
+      "sku": "BDPSM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/shacket_1_1.png?v=1763021907&width=1920"
+    },
+    {
+      "name": "BROWN DOUBLE POCKET FLANNEL SHACKET - L",
+      "sku": "BDPSL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/shacket_1_1.png?v=1763021907&width=1920"
+    },
+    {
+      "name": "BROWN DOUBLE POCKET FLANNEL SHACKET - XL",
+      "sku": "BDPSXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/shacket_1_1.png?v=1763021907&width=1920"
+    },
+    {
+      "name": "BROWN DOUBLE POCKET FLANNEL SHACKET - XXL",
+      "sku": "BDPSXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/shacket_1_1.png?v=1763021907&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0049"
+}

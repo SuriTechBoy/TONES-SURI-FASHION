@@ -1,0 +1,12 @@
+source_id,page_type,category,title,url,source_type,priority,status,notes
+TONES-BIZ-0001,HOME,Brand,TONES Fashion,https://www.tonesfashion.com/,official_homepage,HIGH,READY,"Dynamic homepage snapshot"
+TONES-BIZ-0002,ABOUT,Business,About Us,https://www.tonesfashion.com/pages/about,official_page,HIGH,COLLECTED,"Brand description and philosophy"
+TONES-BIZ-0003,CONTACT,Business,Contact Us,https://www.tonesfashion.com/pages/contact,official_page,HIGH,COLLECTED,"D2C and B2B email contacts"
+TONES-BIZ-0004,SHIPPING,Policy,Shipping and Delivery Policy,https://www.tonesfashion.com/policies/shipping-policy,official_policy,HIGH,COLLECTED,"Shipping/dispatch/tracking/cancellation rules"
+TONES-BIZ-0005,RETURNS,Policy,Return & Exchange Policy,https://www.tonesfashion.com/pages/return-exchange-policy,official_policy,HIGH,COLLECTED,"Return/exchange/refund/store-credit rules"
+TONES-BIZ-0006,TERMS,Policy,Terms of Service,https://www.tonesfashion.com/policies/terms-of-service,official_policy,HIGH,COLLECTED,"Terms and website rules"
+TONES-BIZ-0007,PRIVACY,Policy,Privacy Policy,https://www.tonesfashion.com/policies/privacy-policy,official_policy,HIGH,COLLECTED,"Personal data/cookies/Shopify processing"
+TONES-BIZ-0008,ORDER_TRACKING,Order,Track Order,https://1093.logisy.tech/track-order/,external_tracking_portal,HIGH,COLLECTED,"Third-party portal; OTP flow"
+TONES-BIZ-0009,RETURN_REQUEST,Order,Exchange/Return Request,https://returns.logisy.tech/returns,external_portal,HIGH,PARTIAL,"JS app; workflow requires browser verification"
+TONES-BIZ-0010,BLOG_INDEX,Content,Blogs,https://www.tonesfashion.com/blogs/news,official_page,MEDIUM,NEEDS_VERIFICATION,"Blog index not verified"
+TONES-BIZ-0011,FAQ,Customer Knowledge,FAQ,https://www.tonesfashion.com/pages/faq,official_page,MEDIUM,NEEDS_VERIFICATION,"Dedicated FAQ page not verified"

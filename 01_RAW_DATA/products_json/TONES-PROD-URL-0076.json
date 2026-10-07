@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/muted-peach-gauze-cotton-shirt",
+  "collected_at": "2026-09-22T17:04:01.110193",
+  "name": "Muted  Peach - Gauze Cotton Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/muted-peach-gauze-cotton-shirt",
+  "description": "Fabric : CottonFit: Relaxed Box FitModel Size: L\nProduct Description:\nA relaxed box fit shirt crafted in lightweight gauze cotton, offering a soft, breathable feel with a naturally textured finish. Designed with a classic collar, full sleeves and a button-down front, creating an effortless and versatile everyday silhouette.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Muted  Peach - Gauze Cotton Shirt - S",
+      "sku": "MPGCS",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/g5.jpg?v=1790060564&width=1920"
+    },
+    {
+      "name": "Muted  Peach - Gauze Cotton Shirt - M",
+      "sku": "MPGCM",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/g5.jpg?v=1790060564&width=1920"
+    },
+    {
+      "name": "Muted  Peach - Gauze Cotton Shirt - L",
+      "sku": "MPGCL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/g5.jpg?v=1790060564&width=1920"
+    },
+    {
+      "name": "Muted  Peach - Gauze Cotton Shirt - XL",
+      "sku": "MPGCXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/g5.jpg?v=1790060564&width=1920"
+    },
+    {
+      "name": "Muted  Peach - Gauze Cotton Shirt - 2XL",
+      "sku": "MPGCXXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/g5.jpg?v=1790060564&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0076"
+}

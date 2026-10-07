@@ -1,0 +1,990 @@
+{
+  "TONES-PROD-URL-0001": {
+    "product_id": "TONES-PROD-URL-0001",
+    "product_name": "Daily Tees - black",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0002": {
+    "product_id": "TONES-PROD-URL-0002",
+    "product_name": "Daily Tees - orange",
+    "review_count": 4,
+    "average_rating": 4.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0003": {
+    "product_id": "TONES-PROD-URL-0003",
+    "product_name": "Tones Original - Black",
+    "review_count": 5,
+    "average_rating": 4.6,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0004": {
+    "product_id": "TONES-PROD-URL-0004",
+    "product_name": "Chaotic Good - Pink - C5",
+    "review_count": 1,
+    "average_rating": 4.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0005": {
+    "product_id": "TONES-PROD-URL-0005",
+    "product_name": "Round Neck Slim Fit Tee - White",
+    "review_count": 2,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0006": {
+    "product_id": "TONES-PROD-URL-0006",
+    "product_name": "Round Neck Slim Fit Tee – Grey",
+    "review_count": 5,
+    "average_rating": 4.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0007": {
+    "product_id": "TONES-PROD-URL-0007",
+    "product_name": "Elevated Basics - Relaxed - Beige Color",
+    "review_count": 2,
+    "average_rating": 4.5,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0008": {
+    "product_id": "TONES-PROD-URL-0008",
+    "product_name": "Elevated Basics - Relaxed - Black Color",
+    "review_count": 5,
+    "average_rating": 4.4,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0009": {
+    "product_id": "TONES-PROD-URL-0009",
+    "product_name": "Elevated Basics - Relaxed - White Color",
+    "review_count": 5,
+    "average_rating": 4.4,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0010": {
+    "product_id": "TONES-PROD-URL-0010",
+    "product_name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0012": {
+    "product_id": "TONES-PROD-URL-0012",
+    "product_name": "PREDATOR OVERSIZED TEE - GREEN",
+    "review_count": 5,
+    "average_rating": 4.4,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0013": {
+    "product_id": "TONES-PROD-URL-0013",
+    "product_name": "ANTI-PERFECT OVERSIZED TEE - COFEE BEIGE",
+    "review_count": 5,
+    "average_rating": 4.6,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0015": {
+    "product_id": "TONES-PROD-URL-0015",
+    "product_name": "Maroon Satin Shirt",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0016": {
+    "product_id": "TONES-PROD-URL-0016",
+    "product_name": "Electric Blue Satin Shirt",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0017": {
+    "product_id": "TONES-PROD-URL-0017",
+    "product_name": "Cream Chinos",
+    "review_count": 3,
+    "average_rating": 4.67,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0019": {
+    "product_id": "TONES-PROD-URL-0019",
+    "product_name": "Red Drip Sweatshirt",
+    "review_count": 3,
+    "average_rating": 4.67,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0020": {
+    "product_id": "TONES-PROD-URL-0020",
+    "product_name": "Blue Drip Sweatshirt",
+    "review_count": 4,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0022": {
+    "product_id": "TONES-PROD-URL-0022",
+    "product_name": "GOD'S MASTER PIECE GREEN",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0023": {
+    "product_id": "TONES-PROD-URL-0023",
+    "product_name": "GREY CHINOS",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0024": {
+    "product_id": "TONES-PROD-URL-0024",
+    "product_name": "DARK BROWN CHINOS",
+    "review_count": 3,
+    "average_rating": 4.67,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0025": {
+    "product_id": "TONES-PROD-URL-0025",
+    "product_name": "OLIVE GREEN CHINOS",
+    "review_count": 4,
+    "average_rating": 4.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0026": {
+    "product_id": "TONES-PROD-URL-0026",
+    "product_name": "JUTE- LIGHT BLUE SHIRT",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0027": {
+    "product_id": "TONES-PROD-URL-0027",
+    "product_name": "JUTE- GREY SHIRT",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0028": {
+    "product_id": "TONES-PROD-URL-0028",
+    "product_name": "DOBBY- BROWN SHIRT",
+    "review_count": 2,
+    "average_rating": 3.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0029": {
+    "product_id": "TONES-PROD-URL-0029",
+    "product_name": "Black - Double Pocket Shirt",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0031": {
+    "product_id": "TONES-PROD-URL-0031",
+    "product_name": "DOBBY BURNT ORANGE SHIRT",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0032": {
+    "product_id": "TONES-PROD-URL-0032",
+    "product_name": "WHITE - BLOOM SHIRT",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0033": {
+    "product_id": "TONES-PROD-URL-0033",
+    "product_name": "SAGE CUBAN - SHIRT",
+    "review_count": 1,
+    "average_rating": 4.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0034": {
+    "product_id": "TONES-PROD-URL-0034",
+    "product_name": "TROPIC CUBAN - SHIRRT",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0035": {
+    "product_id": "TONES-PROD-URL-0035",
+    "product_name": "MARINE CUBAN - SHIRT",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0036": {
+    "product_id": "TONES-PROD-URL-0036",
+    "product_name": "Karma - Jet Black shirt",
+    "review_count": 2,
+    "average_rating": 4.5,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0037": {
+    "product_id": "TONES-PROD-URL-0037",
+    "product_name": "Karma - White shirt",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0038": {
+    "product_id": "TONES-PROD-URL-0038",
+    "product_name": "Round Neck Slim Fit Tee - Charcoal Black",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0039": {
+    "product_id": "TONES-PROD-URL-0039",
+    "product_name": "Round Neck Slim Fit Tee - Green",
+    "review_count": 3,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0040": {
+    "product_id": "TONES-PROD-URL-0040",
+    "product_name": "Round Neck Slim Fit Tee - Brown",
+    "review_count": 3,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0041": {
+    "product_id": "TONES-PROD-URL-0041",
+    "product_name": "3 T-shirt Combo",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0042": {
+    "product_id": "TONES-PROD-URL-0042",
+    "product_name": "Brown Checks Flannel",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0043": {
+    "product_id": "TONES-PROD-URL-0043",
+    "product_name": "Blue Checks Flannel",
+    "review_count": 3,
+    "average_rating": 3.67,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0044": {
+    "product_id": "TONES-PROD-URL-0044",
+    "product_name": "Dark Blue Checks Flannel",
+    "review_count": 3,
+    "average_rating": 4.33,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0045": {
+    "product_id": "TONES-PROD-URL-0045",
+    "product_name": "Grey Checks Flannel",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0046": {
+    "product_id": "TONES-PROD-URL-0046",
+    "product_name": "BLACK DOUBLE POCKET FLANNEL   SHIRT",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0047": {
+    "product_id": "TONES-PROD-URL-0047",
+    "product_name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0048": {
+    "product_id": "TONES-PROD-URL-0048",
+    "product_name": "GREY DOUBLE POCKET FLANNEL SHACKET",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0049": {
+    "product_id": "TONES-PROD-URL-0049",
+    "product_name": "BROWN DOUBLE POCKET FLANNEL SHACKET",
+    "review_count": 2,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0050": {
+    "product_id": "TONES-PROD-URL-0050",
+    "product_name": "MAROON DOUBLE POCKET FLANNEL SHIRT",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0051": {
+    "product_id": "TONES-PROD-URL-0051",
+    "product_name": "Tusker Trails  Powder Blue Short Kurta",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0052": {
+    "product_id": "TONES-PROD-URL-0052",
+    "product_name": "Tusker Trails  Soft Cream Short Kurta",
+    "review_count": 2,
+    "average_rating": 4.5,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0053": {
+    "product_id": "TONES-PROD-URL-0053",
+    "product_name": "Scenic Stillness Butter Yellow Short Kurta",
+    "review_count": 3,
+    "average_rating": 4.67,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0054": {
+    "product_id": "TONES-PROD-URL-0054",
+    "product_name": "Petal Trace Teal Blue Short Kurta",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0055": {
+    "product_id": "TONES-PROD-URL-0055",
+    "product_name": "Petal Trace Charcoal Green Short Kurta",
+    "review_count": 3,
+    "average_rating": 4.33,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0056": {
+    "product_id": "TONES-PROD-URL-0056",
+    "product_name": "Scenic Stillness Sage Green Short Kurta",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0057": {
+    "product_id": "TONES-PROD-URL-0057",
+    "product_name": "Grey Cargo",
+    "review_count": 2,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0058": {
+    "product_id": "TONES-PROD-URL-0058",
+    "product_name": "Olive Green Cargo",
+    "review_count": 2,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0059": {
+    "product_id": "TONES-PROD-URL-0059",
+    "product_name": "Navy Blue Corduroy Shacket",
+    "review_count": 4,
+    "average_rating": 4.5,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0060": {
+    "product_id": "TONES-PROD-URL-0060",
+    "product_name": "Mustard Corduroy Shacket",
+    "review_count": 2,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0061": {
+    "product_id": "TONES-PROD-URL-0061",
+    "product_name": "ACID WASH MUSCLE TEE",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0062": {
+    "product_id": "TONES-PROD-URL-0062",
+    "product_name": "Ivory Sand - Modal Shirt",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0063": {
+    "product_id": "TONES-PROD-URL-0063",
+    "product_name": "Brown Acid Wash Ringer T-Shirt",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0064": {
+    "product_id": "TONES-PROD-URL-0064",
+    "product_name": "Red Acid Wash Ringer T-Shirt",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0065": {
+    "product_id": "TONES-PROD-URL-0065",
+    "product_name": "Navy Blue Acid Wash Ringer T-Shirt",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0066": {
+    "product_id": "TONES-PROD-URL-0066",
+    "product_name": "Soft White - Satin Shirt",
+    "review_count": 2,
+    "average_rating": 4.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0067": {
+    "product_id": "TONES-PROD-URL-0067",
+    "product_name": "Light Blue - Satin Shirt",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0068": {
+    "product_id": "TONES-PROD-URL-0068",
+    "product_name": "Burgundy - Satin Shirt",
+    "review_count": 4,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0069": {
+    "product_id": "TONES-PROD-URL-0069",
+    "product_name": "Navy Blue - Satin Shirt",
+    "review_count": 3,
+    "average_rating": 4.67,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0070": {
+    "product_id": "TONES-PROD-URL-0070",
+    "product_name": "Jet Black - Satin Shirt",
+    "review_count": 1,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    }
+  },
+  "TONES-PROD-URL-0071": {
+    "product_id": "TONES-PROD-URL-0071",
+    "product_name": "The Alpha - Oversized Tee",
+    "review_count": 5,
+    "average_rating": 4.2,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 2
+    }
+  },
+  "TONES-PROD-URL-0072": {
+    "product_id": "TONES-PROD-URL-0072",
+    "product_name": "The Final Act - Oversized Tee",
+    "review_count": 0,
+    "average_rating": null,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "TONES-PROD-URL-0073": {
+    "product_id": "TONES-PROD-URL-0073",
+    "product_name": "Created To Create - Oversized Tee",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0074": {
+    "product_id": "TONES-PROD-URL-0074",
+    "product_name": "Soft Lavender - Gauze Cotton Shirt",
+    "review_count": 5,
+    "average_rating": 4.6,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0075": {
+    "product_id": "TONES-PROD-URL-0075",
+    "product_name": "Mustard - Gauze Cotton Shirt",
+    "review_count": 5,
+    "average_rating": 4.6,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0076": {
+    "product_id": "TONES-PROD-URL-0076",
+    "product_name": "Muted  Peach - Gauze Cotton Shirt",
+    "review_count": 5,
+    "average_rating": 4.6,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0077": {
+    "product_id": "TONES-PROD-URL-0077",
+    "product_name": "Deep Sage - Gauze Cotton Shirt",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0078": {
+    "product_id": "TONES-PROD-URL-0078",
+    "product_name": "Blue Oxford Shirt",
+    "review_count": 5,
+    "average_rating": 4.8,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 4
+    }
+  },
+  "TONES-PROD-URL-0079": {
+    "product_id": "TONES-PROD-URL-0079",
+    "product_name": "Sage Oxford Shirt",
+    "review_count": 5,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 5
+    }
+  },
+  "TONES-PROD-URL-0080": {
+    "product_id": "TONES-PROD-URL-0080",
+    "product_name": "Yellow Oxford Shirt",
+    "review_count": 5,
+    "average_rating": 4.6,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 3
+    }
+  },
+  "TONES-PROD-URL-0081": {
+    "product_id": "TONES-PROD-URL-0081",
+    "product_name": "Pink Oxford Shirt",
+    "review_count": 5,
+    "average_rating": 5.0,
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 5
+    }
+  }
+}

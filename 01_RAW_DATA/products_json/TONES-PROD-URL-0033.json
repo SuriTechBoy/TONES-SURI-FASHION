@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/sage-rayon",
+  "collected_at": "2026-09-22T17:02:23.321315",
+  "name": "SAGE CUBAN - SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/sage-rayon",
+  "description": "Product Description: Cuban Collar Sage Print Shirt\nCrafted in breathable rayon with a relaxed fit, these Cuban collar shirts come in three distinct all-over tropical prints. The designs, Tropic, Marine and Sage, offer variety while keeping the vibe effortless and vacation ready.Model Size: M\nPerfect for beach days, brunches, sundowners and getaways, they pair well with linen shorts or chinos for an elevated resort look.\nWash Care:\n\n\nGentle Machine Wash Cold with Similar Colors\n\n\nDo Not Tumble Dry\n\n\nDo Not Bleach\n\n\nWarm Iron",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "SAGE CUBAN - SHIRT - S",
+      "sku": "SRS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3.5.png?v=1760101902&width=1920"
+    },
+    {
+      "name": "SAGE CUBAN - SHIRT - M",
+      "sku": "SRM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3.5.png?v=1760101902&width=1920"
+    },
+    {
+      "name": "SAGE CUBAN - SHIRT - L",
+      "sku": "SRL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3.5.png?v=1760101902&width=1920"
+    },
+    {
+      "name": "SAGE CUBAN - SHIRT - XL",
+      "sku": "SRXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3.5.png?v=1760101902&width=1920"
+    },
+    {
+      "name": "SAGE CUBAN - SHIRT - XXL",
+      "sku": "SRXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3.5.png?v=1760101902&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0033"
+}

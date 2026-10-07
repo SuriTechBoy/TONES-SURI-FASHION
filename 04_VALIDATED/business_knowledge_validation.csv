@@ -1,0 +1,13 @@
+knowledge_id,domain,topic,status,validation_status,issues
+TONES-KB-ABOUT-001,business,brand_identity,VERIFIED,PASS,
+TONES-KB-CONTACT-001,business,customer_support,VERIFIED,PASS,
+TONES-KB-SHIPPING-001,shipping,shipping_policy,VERIFIED,PASS,
+TONES-KB-RETURNS-001,returns,return_exchange_policy,VERIFIED,PASS,
+TONES-KB-TERMS-001,policy,terms_of_service,VERIFIED,PASS,
+TONES-KB-PRIVACY-001,policy,privacy,VERIFIED,PASS,
+TONES-KB-ORDER-TRACKING-001,orders,order_tracking,VERIFIED,PASS,
+TONES-KB-RETURN-PORTAL-001,orders,return_request_portal,VERIFIED_WITH_LIMITATION,PASS,
+TONES-KB-PAYMENT-001,payment,payment_methods,NEEDS_VERIFICATION,PASS,
+TONES-KB-FAQ-001,customer_knowledge,faq,NEEDS_VERIFICATION,PASS,
+TONES-KB-BLOG-001,content,blogs,NEEDS_VERIFICATION,PASS,
+TONES-KB-HOME-001,business,homepage_snapshot,TEMPORARY/CURRENT,PASS,

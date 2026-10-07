@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/the-alpha-oversized-tee",
+  "collected_at": "2026-09-22T17:03:49.841527",
+  "name": "The Alpha - Oversized Tee",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/the-alpha-oversized-tee",
+  "description": "Fabric : CottonFit: Relaxed FitModel Size: LProduct description:A black oversized tee crafted from 100% cotton loop knit, featuring a striking wolf-inspired graphic with a deep red moon and subtle vintage detailing. Finished with a relaxed oversized silhouette for an effortless, statement-making streetwear look.Wash Care:Machine Wash at 86° F / 30° CNo Chlorine BleachDo not tumble dryMaximum iron at 230° F / 110 °CDry CleanWash inside out and dry separately.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "The Alpha - Oversized Tee - S",
+      "sku": "TAOTS",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_4de729d4-17e8-4212-93cd-8056fe0694cb.jpg?v=1788264430&width=1920"
+    },
+    {
+      "name": "The Alpha - Oversized Tee - M",
+      "sku": "TAOTM",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_4de729d4-17e8-4212-93cd-8056fe0694cb.jpg?v=1788264430&width=1920"
+    },
+    {
+      "name": "The Alpha - Oversized Tee - L",
+      "sku": "TAOTL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_4de729d4-17e8-4212-93cd-8056fe0694cb.jpg?v=1788264430&width=1920"
+    },
+    {
+      "name": "The Alpha - Oversized Tee - XL",
+      "sku": "TAOTXL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_4de729d4-17e8-4212-93cd-8056fe0694cb.jpg?v=1788264430&width=1920"
+    },
+    {
+      "name": "The Alpha - Oversized Tee - 2XL",
+      "sku": "TAOTXXL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_4de729d4-17e8-4212-93cd-8056fe0694cb.jpg?v=1788264430&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0071"
+}

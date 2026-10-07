@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/3-t-shirt-combo",
+  "collected_at": "2026-09-22T17:02:40.488794",
+  "name": "3 T-shirt Combo",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/3-t-shirt-combo",
+  "description": "3 T-Shirts of 100 % Cotton at 999 only. Deal breaker !!!\nColours : Brown, Charcoal, Green\n \nProduct: \nMinimal yet bold, the Round Neck Slim Fit Tee is a staple in every modern wardrobe. Made with 160 GSM breathable fabric, it offers all-day comfort with a flattering silhouette that doesn’t compromise on style. \nProduct Features:•⁠  ⁠Round neck•⁠  ⁠Slim fit•⁠  ⁠100% cotton•⁠  ⁠160 GSM•⁠  ⁠Breathable & lightweight•⁠  ⁠Soft-touch finish•⁠  ⁠Pocket detail\nStyle it with: Pair it with beige chinos, light-wash denim, or black jeans for a versatile look, whether dressed up with an open shirt or down with joggers and sneakers for a clean, minimal, or streetwear vibe that transitions effortlessly from day to night.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "3 T-shirt Combo - S",
+      "sku": "RNCTS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3In1Combo.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "3 T-shirt Combo - M",
+      "sku": "RNCTM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3In1Combo.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "3 T-shirt Combo - L",
+      "sku": "RNCTL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3In1Combo.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "3 T-shirt Combo - XL",
+      "sku": "RNCTXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3In1Combo.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "3 T-shirt Combo - XXL",
+      "sku": "RNCTXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3In1Combo.png?v=1761204497&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0041"
+}

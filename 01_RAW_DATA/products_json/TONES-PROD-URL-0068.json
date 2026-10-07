@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/burgundy-satin-shirt",
+  "collected_at": "2026-09-22T17:03:43.261955",
+  "name": "Burgundy - Satin Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/burgundy-satin-shirt",
+  "description": "Fabric : SatinFit: Slim FitModel Size: MProduct description : Slim Fit Satin ShirtCrafted in smooth satin with a soft, fluid drape.Designed in a relaxed fit for effortless comfort and movement.Features a clean button-down front with a classic collar.A versatile elevated essential with a subtle, refined finish.\nStyle With:Pair with tailored trousers or relaxed-fit trousers for a polished, contemporary look.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Burgundy - Satin Shirt - S",
+      "sku": "BSSS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1_999a28e0-7b3b-412d-a8f9-4131740fac7b.jpg?v=1786628488&width=1920"
+    },
+    {
+      "name": "Burgundy - Satin Shirt - M",
+      "sku": "BSSM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1_999a28e0-7b3b-412d-a8f9-4131740fac7b.jpg?v=1786628488&width=1920"
+    },
+    {
+      "name": "Burgundy - Satin Shirt - L",
+      "sku": "BSSL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1_999a28e0-7b3b-412d-a8f9-4131740fac7b.jpg?v=1786628488&width=1920"
+    },
+    {
+      "name": "Burgundy - Satin Shirt - XL",
+      "sku": "BSSXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1_999a28e0-7b3b-412d-a8f9-4131740fac7b.jpg?v=1786628488&width=1920"
+    },
+    {
+      "name": "Burgundy - Satin Shirt - 2XL",
+      "sku": "BSSXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_1_999a28e0-7b3b-412d-a8f9-4131740fac7b.jpg?v=1786628488&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0068"
+}

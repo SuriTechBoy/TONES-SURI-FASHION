@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/petal-trays-charcoal-green-short-kurta",
+  "collected_at": "2026-09-22T17:03:11.579508",
+  "name": "Petal Trace Charcoal Green Short Kurta",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/petal-trays-charcoal-green-short-kurta",
+  "description": "Product Description: \nPetal Trace is a modern festive essential crafted in a breathable fabric with a soft, understated sheen. The relaxed-fit silhouette is accented with delicate floral line embroidery, tracing organic petal forms that add subtle texture and quiet elegance. Finished with a clean mandarin collar, it keeps the look refined yet effortless.\nStyling:Style it with straight-fit jeans for a contemporary festive look or pair it with classic ethnic bottoms for a more traditional finish. Complete with minimal leather footwear or mojaris.Material: 100% Cotton\nColor: Green\nModel Size: M",
+  "brand": "Tones Fashion",
+  "category": "Tunics",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Petal Trace Charcoal Green Short Kurta - S",
+      "sku": "PTCGS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_5_9946130c-34bb-4a6d-a99d-052ae9bfe24b.jpg?v=1767421590&width=1920"
+    },
+    {
+      "name": "Petal Trace Charcoal Green Short Kurta - M",
+      "sku": "PTCGM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_5_9946130c-34bb-4a6d-a99d-052ae9bfe24b.jpg?v=1767421590&width=1920"
+    },
+    {
+      "name": "Petal Trace Charcoal Green Short Kurta - L",
+      "sku": "PTCGL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_5_9946130c-34bb-4a6d-a99d-052ae9bfe24b.jpg?v=1767421590&width=1920"
+    },
+    {
+      "name": "Petal Trace Charcoal Green Short Kurta - XL",
+      "sku": "PTCGXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_5_9946130c-34bb-4a6d-a99d-052ae9bfe24b.jpg?v=1767421590&width=1920"
+    },
+    {
+      "name": "Petal Trace Charcoal Green Short Kurta - XXL",
+      "sku": "PTCGXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_5_9946130c-34bb-4a6d-a99d-052ae9bfe24b.jpg?v=1767421590&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0055"
+}

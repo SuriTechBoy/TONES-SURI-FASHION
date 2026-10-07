@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-charcoal-copy",
+  "collected_at": "2026-09-22T17:02:36.074392",
+  "name": "Round Neck Slim Fit Tee - Green",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-charcoal-copy",
+  "description": "Crafted from 160 GSM breathable cotton, the Green Neck Slim Fit Tee is designed for those who prefer timeless, versatile style. Its tailored slim fit hugs the body just right, while the deep navy hue adds a refined edge to any outfit.\nProduct Features:•⁠  ⁠Round neck•⁠  ⁠Slim fit•⁠  ⁠100% cotton•⁠  ⁠160 GSM•⁠  ⁠Breathable & lightweight•⁠  ⁠Soft-touch finish•⁠  ⁠Pocket detail\nStyle it with: Pair it with beige chinos or light-wash denim for a clean, put-together look that works from day to night.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Round Neck Slim Fit Tee - Green - S",
+      "sku": "RNGS",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_1_f7499434-9a9c-4ac7-873b-15ef034bf0a9.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Green - M",
+      "sku": "RNGM",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_1_f7499434-9a9c-4ac7-873b-15ef034bf0a9.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Green - L",
+      "sku": "RNGL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_1_f7499434-9a9c-4ac7-873b-15ef034bf0a9.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Green - XL",
+      "sku": "RNGXL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_1_f7499434-9a9c-4ac7-873b-15ef034bf0a9.png?v=1761204497&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Green - XXL",
+      "sku": "RNGXXL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_1_f7499434-9a9c-4ac7-873b-15ef034bf0a9.png?v=1761204497&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0039"
+}

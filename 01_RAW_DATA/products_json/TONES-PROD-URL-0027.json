@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/jute-grey-shirt",
+  "collected_at": "2026-09-22T17:02:12.194636",
+  "name": "JUTE- GREY SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/jute-grey-shirt",
+  "description": "Product Description:Tailored from soft, breathable cotton, this slim-fit shirt delivers a clean, polished look while ensuring all-day comfort. Its off-white shade adds a touch of understated elegance, perfect for versatile semi-formal styling.\nFit: Slim Fit\nFabric: Jute Cotton\nColor: GREY\nModel Size: L\nHow To Style:Pair it with tailored trousers for a sleek semi-formal look, or with dark denim for a smart-casual edge. For business settings, layer it under a blazer, while for relaxed evenings, keep it untucked with rolled-up sleeves. Finish with loafers or classic lace-ups to match the occasion.\nWash Care:\n\n\nGentle Machine Wash Cold with Similar Colors\n\n\nDo Not Tumble Dry\n\n\nDo Not Bleach\n\n\nWarm Iron",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "JUTE- GREY SHIRT - S",
+      "sku": "GSS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6283.jpg?v=1758867186&width=1920"
+    },
+    {
+      "name": "JUTE- GREY SHIRT - M",
+      "sku": "GSM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6283.jpg?v=1758867186&width=1920"
+    },
+    {
+      "name": "JUTE- GREY SHIRT - L",
+      "sku": "GSL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6283.jpg?v=1758867186&width=1920"
+    },
+    {
+      "name": "JUTE- GREY SHIRT - XL",
+      "sku": "GSXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6283.jpg?v=1758867186&width=1920"
+    },
+    {
+      "name": "JUTE- GREY SHIRT - XXL",
+      "sku": "GSXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6283.jpg?v=1758867186&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0027"
+}

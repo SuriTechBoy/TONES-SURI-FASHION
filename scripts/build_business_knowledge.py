@@ -1,0 +1,239 @@
+"""Build structured/canonical/RAG-ready business knowledge from verified records.
+
+The initial records in this file are deliberately conservative: only facts
+verified from official TONES pages are included. Unknown areas remain marked
+NEEDS_VERIFICATION instead of being invented.
+"""
+from __future__ import annotations
+
+import json
+from datetime import date
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+TODAY = str(date.today())
+
+records = [
+    {
+        "knowledge_id": "TONES-KB-ABOUT-001",
+        "domain": "business",
+        "topic": "brand_identity",
+        "title": "TONES Fashion - About Us",
+        "facts": [
+            "TONES Fashion describes itself as a brand focused on clothing, experiences, style and individuality.",
+            "The brand says its pieces are designed to support self-expression while blending comfort, quality and timeless appeal.",
+            "TONES says its inspiration comes from colors, cultures and creativity.",
+            "The brand explains the name TONES as symbolizing diversity of hues and shades in life and fashion.",
+        ],
+        "source_url": "https://www.tonesfashion.com/pages/about",
+        "source_type": "official_page",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-CONTACT-001",
+        "domain": "business",
+        "topic": "customer_support",
+        "title": "TONES Fashion - Contact",
+        "facts": [
+            "D2C customer queries/issues can be sent to info@tonesfashion.com.",
+            "B2B, bulk orders, collaborations and wholesale queries can be sent to business@tonesfashion.com.",
+        ],
+        "source_url": "https://www.tonesfashion.com/pages/contact",
+        "source_type": "official_page",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-SHIPPING-001",
+        "domain": "shipping",
+        "topic": "shipping_policy",
+        "title": "Shipping and Delivery Policy",
+        "facts": [
+            "Shipping is subject to stock availability; the policy notes that stock discrepancies can occur.",
+            "The shipping policy currently states a flat Rs. 99 shipping charge for orders below Rs. 1,498.",
+            "Domestic shipments are generally stated as 2-10 days in transit during normal sale periods; timing can differ during pre-sale, festive or clearance sales.",
+            "International shipments are generally stated as 4-22 days in transit, depending on courier selection.",
+            "Orders are usually dispatched within 2 business days of payment.",
+            "Delivery address changes are allowed before dispatch according to the policy.",
+            "If an item is out of stock, the policy says the out-of-stock item may be cancelled/refunded while the rest of the order is dispatched.",
+            "After dispatch, customers receive a tracking link from the shipping provider.",
+            "For customer-service enquiries, the policy gives info@tonesfashion.com.",
+        ],
+        "source_url": "https://www.tonesfashion.com/policies/shipping-policy",
+        "source_type": "official_policy",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-RETURNS-001",
+        "domain": "returns",
+        "topic": "return_exchange_policy",
+        "title": "Return and Exchange Policy",
+        "facts": [
+            "The policy states a 3-day return/exchange window from delivery.",
+            "The policy states that defective, incorrect or damaged products should be reported within 24 hours of delivery.",
+            "The first reverse shipment is stated as free; subsequent reverse shipment/pickup charges are stated as Rs. 100 under specified conditions.",
+            "Return/exchange requests are initiated through the Exchange/Return Request link in the site footer.",
+            "Returned items should be unused, with original tags and packaging intact, and the Order ID and registered mobile number should be displayed on the package.",
+            "After inspection and approval, the policy states that store credit equivalent to the order amount is issued within 5-7 business days and that refunds to the original payment method are not offered.",
+            "The policy also states store credit may be issued within 1-3 working days after return pickup in the alternative store-credit process.",
+            "Shipping charges are stated as non-refundable.",
+            "Orders can be cancelled only before dispatch.",
+            "Certain discounted, coupon, BOGO and promotional purchases are excluded from returns/exchanges according to the policy.",
+            "Products purchased from the Price Drop page are stated as final sale and ineligible for return, exchange, refund or store credit.",
+        ],
+        "source_url": "https://www.tonesfashion.com/pages/return-exchange-policy",
+        "source_type": "official_policy",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-TERMS-001",
+        "domain": "policy",
+        "topic": "terms_of_service",
+        "title": "Terms of Service",
+        "facts": [
+            "The website is operated by Tones Fashion and is hosted on Shopify.",
+            "The terms state that users agree to the Terms of Service and referenced policies when using the website or purchasing from it.",
+            "The terms state that prices may change without notice and products may be modified or discontinued.",
+            "Product colors/images are intended to be displayed accurately, but the terms state that monitor color accuracy cannot be guaranteed.",
+            "The terms state that product descriptions and pricing may change and that quantities may be limited.",
+            "The terms state that website information may contain errors, inaccuracies or omissions and may be corrected or updated.",
+            "The terms state that they are governed by the laws of India.",
+            "Questions about the Terms of Service should be sent to info@tonesfashion.com.",
+        ],
+        "source_url": "https://www.tonesfashion.com/policies/terms-of-service",
+        "source_type": "official_policy",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-PRIVACY-001",
+        "domain": "policy",
+        "topic": "privacy",
+        "title": "Privacy Policy",
+        "facts": [
+            "The privacy policy describes collection and use of personal information when users visit the site or make purchases.",
+            "Device information can be collected automatically through cookies, log files, web beacons, tags or pixels.",
+            "Order information is used for fulfilling purchases, processing payments, shipping, invoices/order confirmations, communications and fraud-risk screening.",
+            "The policy states that Shopify is used as a processor for relevant personal information.",
+            "The policy states that customer-support information is collected to provide customer support.",
+            "The site is stated not to be intended for individuals under 18 and says it does not intentionally collect personal information from children.",
+            "The policy describes use of cookies and analytics/advertising-related technologies.",
+        ],
+        "source_url": "https://www.tonesfashion.com/policies/privacy-policy",
+        "source_type": "official_policy",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-ORDER-TRACKING-001",
+        "domain": "orders",
+        "topic": "order_tracking",
+        "title": "Track Order",
+        "facts": [
+            "TONES links its Track Order function to a third-party Logisy tracking portal.",
+            "The tracking page asks for an email address or phone number.",
+            "The tracking flow displays an OTP step before selecting an order to track.",
+            "The portal is an external service and should not be treated as the source of live order data inside the static knowledge base.",
+        ],
+        "source_url": "https://1093.logisy.tech/track-order/",
+        "source_type": "external_tracking_portal",
+        "status": "VERIFIED",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-RETURN-PORTAL-001",
+        "domain": "orders",
+        "topic": "return_request_portal",
+        "title": "Exchange/Return Request Portal",
+        "facts": [
+            "The official TONES footer links Exchange/Return Request to a third-party Logisy portal.",
+            "The currently accessible portal requires JavaScript to render its application interface, so its interactive workflow should be tested separately with a browser if needed.",
+        ],
+        "source_url": "https://returns.logisy.tech/returns",
+        "source_type": "external_portal",
+        "status": "VERIFIED_WITH_LIMITATION",
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-PAYMENT-001",
+        "domain": "payment",
+        "topic": "payment_methods",
+        "title": "Payment Methods - Verification Register",
+        "facts": [
+            "The official site states that checkout uses secure/encrypted payments.",
+            "The privacy policy states that payment information is processed as part of order fulfillment and that Shopify is a processor.",
+        ],
+        "source_url": "https://www.tonesfashion.com/policies/privacy-policy",
+        "source_type": "official_policy",
+        "status": "NEEDS_VERIFICATION",
+        "missing": ["Supported payment methods", "COD availability/conditions", "Payment gateway details", "Payment failure/refund workflow"],
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-FAQ-001",
+        "domain": "customer_knowledge",
+        "topic": "faq",
+        "title": "FAQ - Verification Register",
+        "facts": [],
+        "source_url": "https://www.tonesfashion.com/pages/faq",
+        "source_type": "official_page_candidate",
+        "status": "NEEDS_VERIFICATION",
+        "missing": ["Dedicated FAQ page/content not verified from current official navigation/search"],
+        "collected_at": TODAY,
+    },
+    {
+        "knowledge_id": "TONES-KB-BLOG-001",
+        "domain": "content",
+        "topic": "blogs",
+        "title": "Blog - Verification Register",
+        "facts": [],
+        "source_url": "https://www.tonesfashion.com/blogs/news",
+        "source_type": "official_page_candidate",
+        "status": "NEEDS_VERIFICATION",
+        "missing": ["Blog index and individual blog URLs/content need collection and verification"],
+        "collected_at": TODAY,
+    },
+]
+
+# Homepage is stored separately because it contains dynamic merchandising and offers.
+home = {
+    "knowledge_id": "TONES-KB-HOME-001",
+    "domain": "business",
+    "topic": "homepage_snapshot",
+    "title": "TONES Homepage Snapshot",
+    "facts": [
+        "Homepage navigation exposes categories including Kurtas, Shirts, T-Shirts & Sweatshirts and Bottom Wear.",
+        "Homepage merchandising includes New Launch, Best Sellers and Designer Wear - Exclusive sections.",
+        "The homepage currently displays promotional codes including TFV10, TFV25 with a stated minimum order of ₹2,000, and TONESCLAN750 with a stated minimum order of ₹3,000.",
+        "The homepage states secure checkout, easy returns/exchanges within 3 days, and Pan India delivery.",
+        "Homepage promotional/product content is dynamic and should be treated as TEMPORARY/CURRENT rather than permanent business policy.",
+    ],
+    "source_url": "https://www.tonesfashion.com/",
+    "source_type": "official_homepage_snapshot",
+    "status": "TEMPORARY/CURRENT",
+    "collected_at": TODAY,
+}
+records.append(home)
+
+structured_path = ROOT / "03_STRUCTURED" / "business_knowledge.json"
+canonical_path = ROOT / "05_CANONICAL" / "business_knowledge_canonical.json"
+rag_path = ROOT / "06_RAG" / "business_knowledge_chunks.jsonl"
+structured_path.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+canonical_path.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+with rag_path.open("w", encoding="utf-8") as f:
+    for r in records:
+        text = f"{r['title']}\nDomain: {r['domain']}\nTopic: {r['topic']}\nStatus: {r['status']}\n"
+        if r.get("facts"):
+            text += "\n".join(f"- {x}" for x in r["facts"])
+        if r.get("missing"):
+            text += "\nMissing/needs verification:\n" + "\n".join(f"- {x}" for x in r["missing"])
+        chunk = {"chunk_id": r["knowledge_id"] + "-CHUNK-001", "knowledge_id": r["knowledge_id"], "domain": r["domain"], "topic": r["topic"], "status": r["status"], "source_url": r["source_url"], "text": text}
+        f.write(json.dumps(chunk, ensure_ascii=False) + "\n")
+
+print(f"Structured/canonical records: {len(records)}")
+print(f"Wrote {structured_path}")
+print(f"Wrote {canonical_path}")
+print(f"Wrote {rag_path}")

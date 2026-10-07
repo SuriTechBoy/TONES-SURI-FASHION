@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/scenic-still-ness-butter-yellow-short-kurta",
+  "collected_at": "2026-09-22T17:03:05.980904",
+  "name": "Scenic Stillness Butter Yellow Short Kurta",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/scenic-still-ness-butter-yellow-short-kurta",
+  "description": "Product Description: \nScenic Stillness is crafted in a soft, breathable fabric with a gentle, muted finish that feels light and effortless. The relaxed-fit silhouette is highlighted with a serene landscape embroidery, featuring a subtle pop of colour that brings the design to life while keeping the overall look minimal. Finished with a clean mandarin collar, it reflects calm, modern elegance.\nStyling:Pair it with straight-fit jeans for a contemporary festive look or style it with classic ethnic bottoms for a timeless appeal. Complete the look with minimal leather footwear or mojaris for an easy, refined finish.\nMaterial: 100% CottonColor: Yellow\nModel Size: M",
+  "brand": "Tones Fashion",
+  "category": "Tunics",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Scenic Stillness Butter Yellow Short Kurta - S",
+      "sku": "SSNYS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_6_e70c6d99-1cd4-4db5-b846-db84962e374f.jpg?v=1767430084&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Butter Yellow Short Kurta - M",
+      "sku": "SSNYM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_6_e70c6d99-1cd4-4db5-b846-db84962e374f.jpg?v=1767430084&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Butter Yellow Short Kurta - L",
+      "sku": "SSNYL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_6_e70c6d99-1cd4-4db5-b846-db84962e374f.jpg?v=1767430084&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Butter Yellow Short Kurta - XL",
+      "sku": "SSNYXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_6_e70c6d99-1cd4-4db5-b846-db84962e374f.jpg?v=1767430084&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Butter Yellow Short Kurta - XXL",
+      "sku": "SSNYXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_6_e70c6d99-1cd4-4db5-b846-db84962e374f.jpg?v=1767430084&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0053"
+}

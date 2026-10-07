@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/ivory-sand-modal-shirt",
+  "collected_at": "2026-09-22T17:03:30.008262",
+  "name": "Ivory Sand - Modal Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/ivory-sand-modal-shirt",
+  "description": "Fabric: ModalFit: Relaxed FitModel Size: LProduct Description: Ivory Sand - Modal ShirtCrafted from premium 100% Modal fabric, this shirt offers exceptional softness, fluid drape, and breathable comfort. Designed for effortless everyday wear, it features a relaxed silhouette and refined finish that move naturally with the body, delivering timeless style and all-day ease.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Ivory Sand - Modal Shirt - S",
+      "sku": "ISMSS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/ivorysand4.jpg?v=1783419405&width=1920"
+    },
+    {
+      "name": "Ivory Sand - Modal Shirt - M",
+      "sku": "ISMSM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/ivorysand4.jpg?v=1783419405&width=1920"
+    },
+    {
+      "name": "Ivory Sand - Modal Shirt - XL",
+      "sku": "ISMSL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/ivorysand4.jpg?v=1783419405&width=1920"
+    },
+    {
+      "name": "Ivory Sand - Modal Shirt - L",
+      "sku": "ISMSXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/ivorysand4.jpg?v=1783419405&width=1920"
+    },
+    {
+      "name": "Ivory Sand - Modal Shirt - 2XL",
+      "sku": "ISMSXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/ivorysand4.jpg?v=1783419405&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0062"
+}

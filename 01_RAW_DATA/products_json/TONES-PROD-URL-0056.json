@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/scenic-still-ness-sage-green-1",
+  "collected_at": "2026-09-22T17:03:13.690114",
+  "name": "Scenic Stillness Sage Green Short Kurta",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/scenic-still-ness-sage-green-1",
+  "description": "Product Description: \nScenic Stillness is crafted in a soft, breathable fabric with a gentle, muted finish that feels light and effortless. The relaxed-fit silhouette is highlighted with a serene landscape embroidery, featuring a subtle pop of colour that brings the design to life while keeping the overall look minimal. Finished with a clean mandarin collar, it reflects calm, modern elegance.\nStyling:Pair it with straight-fit jeans for a contemporary festive look or style it with classic ethnic bottoms for a timeless appeal. Complete the look with minimal leather footwear or mojaris for an easy, refined finish.Material: 100% Cotton\nColor: Green\nModel Size: M",
+  "brand": "Tones Fashion",
+  "category": "Tunics",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Scenic Stillness Sage Green Short Kurta - S",
+      "sku": "SSNGS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_e546c315-8e01-4e0b-a734-be41c1354e60.jpg?v=1767187233&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Sage Green Short Kurta - M",
+      "sku": "SSNGM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_e546c315-8e01-4e0b-a734-be41c1354e60.jpg?v=1767187233&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Sage Green Short Kurta - L",
+      "sku": "SSNGL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_e546c315-8e01-4e0b-a734-be41c1354e60.jpg?v=1767187233&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Sage Green Short Kurta - XL",
+      "sku": "SSNGXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_e546c315-8e01-4e0b-a734-be41c1354e60.jpg?v=1767187233&width=1920"
+    },
+    {
+      "name": "Scenic Stillness Sage Green Short Kurta - XXL",
+      "sku": "SSNGXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_e546c315-8e01-4e0b-a734-be41c1354e60.jpg?v=1767187233&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0056"
+}

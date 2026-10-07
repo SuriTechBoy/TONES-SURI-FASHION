@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/daily-tees-orange",
+  "collected_at": "2026-09-22T17:01:24.288412",
+  "name": "Daily Tees - orange",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/daily-tees-orange",
+  "description": "Fit: Regular\nModel Size: L\nFabric: 100% cotton\nColor: Orange\nHow to style: Stand out with the bold orange Daily Tee. Combine it with black or navy jeans for a balanced, eye-catching outfit. Throw on a neutral-colored bomber jacket or a casual blazer for a stylish look. Finish with desert boots or clean white sneakers to keep the focus on the vibrant tee.\n \n*No Return & Exchange on this Product *",
+  "brand": "Tones Fashion",
+  "category": "Apparel & Accessories",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Daily Tees - orange - S / 36",
+      "sku": "DTO_S",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3135.jpg?v=1718791924&width=1920"
+    },
+    {
+      "name": "Daily Tees - orange - M / 38",
+      "sku": "DTO_M",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3135.jpg?v=1718791924&width=1920"
+    },
+    {
+      "name": "Daily Tees - orange - L / 40",
+      "sku": "DTO_L",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3135.jpg?v=1718791924&width=1920"
+    },
+    {
+      "name": "Daily Tees - orange - XL / 42",
+      "sku": "DTO_XL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3135.jpg?v=1718791924&width=1920"
+    },
+    {
+      "name": "Daily Tees - orange - XXL / 44",
+      "sku": "DTO_XXL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3135.jpg?v=1718791924&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0002"
+}

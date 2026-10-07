@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "entity_type": "product",
+  "fields": {
+    "product_id": "string",
+    "handle": "string",
+    "name": "string",
+    "sku": "string",
+    "url": "string",
+
+    "brand": "string",
+    "category": "string",
+    "collections": [
+      "string"
+    ],
+
+    "description": "string",
+
+    "images": [
+      "string"
+    ],
+
+    "variants": [
+      {
+        "variant_id": "string",
+        "name": "string",
+        "sku": "string",
+        "size": "string",
+        "color": "string",
+        "price": "number",
+        "compare_at_price": "number",
+        "currency": "string",
+        "availability": "string",
+        "image": "string"
+      }
+    ],
+
+    "product_level_price": "number",
+    "currency": "string",
+
+    "special_conditions": [
+      "string"
+    ],
+
+    "customer_facing_notes": [
+      "string"
+    ],
+
+    "source": {
+      "source_url": "string",
+      "collection_method": "string",
+      "collected_at": "string"
+    },
+
+    "validation": {
+      "status": "string",
+      "issues": [
+        "string"
+      ],
+      "last_validated": "string"
+    }
+  }
+}

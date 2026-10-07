@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/black-flannel-double-pocket-shirt",
+  "collected_at": "2026-09-22T17:02:50.854408",
+  "name": "BLACK DOUBLE POCKET FLANNEL   SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/black-flannel-double-pocket-shirt",
+  "description": "Fit: Relaxed Oversized Flannel ShirtNote: The size runs large, opt for smaller Size\n\n\nA laid-back essential made for everyday comfort. Crafted from soft brushed flannel, this relaxed oversized shirt blends style and ease effortlessly. Perfect for college goers and casual outings, it’s designed for those who like to keep it comfortable yet confident. Wear it buttoned up or layer it open over a tee for a relaxed, off-duty vibe.color: Black\n\n\nKey Features:\n • Relaxed oversized fit\n • Soft brushed flannel fabric\n • Classic button-down front\n • Dual chest flap pockets with button fastening\n • Curved hem for easy layering\n • DTM stitching for a clean finish",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "BLACK DOUBLE POCKET FLANNEL   SHIRT - S",
+      "sku": "B1FDPS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Black_DPF.png?v=1762948435&width=1920"
+    },
+    {
+      "name": "BLACK DOUBLE POCKET FLANNEL   SHIRT - M",
+      "sku": "B1FDPM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Black_DPF.png?v=1762948435&width=1920"
+    },
+    {
+      "name": "BLACK DOUBLE POCKET FLANNEL   SHIRT - L",
+      "sku": "B1FDPL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Black_DPF.png?v=1762948435&width=1920"
+    },
+    {
+      "name": "BLACK DOUBLE POCKET FLANNEL   SHIRT - XL",
+      "sku": "B1FDPXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Black_DPF.png?v=1762948435&width=1920"
+    },
+    {
+      "name": "BLACK DOUBLE POCKET FLANNEL   SHIRT - XXL",
+      "sku": "B1FDPXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Black_DPF.png?v=1762948435&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0046"
+}

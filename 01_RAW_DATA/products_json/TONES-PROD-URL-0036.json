@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/karma-jet-black-shirt",
+  "collected_at": "2026-09-22T17:02:29.716282",
+  "name": "Karma - Jet Black shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/karma-jet-black-shirt",
+  "description": "Product Description:\nKARMA – Slim Fit Designer Shirt with Statement Embroidery\nKarma merges structure with attitude. The slim-fit silhouette is elevated with contrast piping across the shoulders, back yoke, placket, and cuffs, creating a defined, tailored frame. The bold chest embroidery adds intent and identity without overpowering the look.\nColor: BlackModel Size: L\nAvailable in Jet Black and Porcelain White, it’s ideal for cocktail nights, sundowners, private celebrations, and luxe evening gatherings. Style it with tailored trousers, sharp denim, or layered jackets and finish with polished shoes to complete the statement.",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Karma - Jet Black shirt - S",
+      "sku": "JBS",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7548.jpg?v=1760513306&width=1920"
+    },
+    {
+      "name": "Karma - Jet Black shirt - M",
+      "sku": "JBM",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7548.jpg?v=1760513306&width=1920"
+    },
+    {
+      "name": "Karma - Jet Black shirt - L",
+      "sku": "JBL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7548.jpg?v=1760513306&width=1920"
+    },
+    {
+      "name": "Karma - Jet Black shirt - XL",
+      "sku": "JBXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7548.jpg?v=1760513306&width=1920"
+    },
+    {
+      "name": "Karma - Jet Black shirt - XXL",
+      "sku": "JBXXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7548.jpg?v=1760513306&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0036"
+}

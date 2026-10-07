@@ -1,0 +1,73 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/olive-green-cargos",
+  "collected_at": "2026-09-22T17:03:17.959819",
+  "name": "Olive Green Cargo",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/olive-green-cargos",
+  "description": "Fit: Straight Fit\nFabric: Cotton Lycra\nColor: Olive\nHow To Style:\n\n\n\n\n\n\n\n\nCrafted from premium cotton stretch twill (98% cotton, 2% Lycra), these straight-fit cargo pants feature utility pockets, clean seam detailing, and a structured yet comfortable feel. Easy to style with polos, hoodies, or jackets—pair with sneakers or boots for a versatile everyday look.",
+  "brand": "Tones Fashion",
+  "category": "Pants",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Olive Green Cargo - 28",
+      "sku": "OC28",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_11_7ea37d98-860e-4a7f-9ab0-d35464f1e05f.jpg?v=1770191284&width=1920"
+    },
+    {
+      "name": "Olive Green Cargo - 30",
+      "sku": "OC30",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_11_7ea37d98-860e-4a7f-9ab0-d35464f1e05f.jpg?v=1770191284&width=1920"
+    },
+    {
+      "name": "Olive Green Cargo - 32",
+      "sku": "OC32",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_11_7ea37d98-860e-4a7f-9ab0-d35464f1e05f.jpg?v=1770191284&width=1920"
+    },
+    {
+      "name": "Olive Green Cargo - 34",
+      "sku": "OC34",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_11_7ea37d98-860e-4a7f-9ab0-d35464f1e05f.jpg?v=1770191284&width=1920"
+    },
+    {
+      "name": "Olive Green Cargo - 36",
+      "sku": "OC36",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_11_7ea37d98-860e-4a7f-9ab0-d35464f1e05f.jpg?v=1770191284&width=1920"
+    },
+    {
+      "name": "Olive Green Cargo - 38",
+      "sku": "OC38",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_11_7ea37d98-860e-4a7f-9ab0-d35464f1e05f.jpg?v=1770191284&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0058"
+}

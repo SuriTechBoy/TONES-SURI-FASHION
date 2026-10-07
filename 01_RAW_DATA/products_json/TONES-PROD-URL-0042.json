@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/brown-checks-flanel",
+  "collected_at": "2026-09-22T17:02:42.639785",
+  "name": "Brown Checks Flannel",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/brown-checks-flanel",
+  "description": "Fit: Relaxed Oversized Flannel ShirtNote: The size runs large, opt for smaller Size\n\n\nA laid-back essential made for everyday comfort. Crafted from soft brushed flannel, this relaxed oversized shirt blends style and ease effortlessly. Perfect for college goers and casual outings, it’s designed for those who like to keep it comfortable yet confident. Wear it buttoned up or layer it open over a tee for a relaxed, off-duty vibe.color: Brown\n\n\nKey Features:\n • Relaxed oversized fit\n • Soft brushed flannel fabric\n • Classic button-down front\n • Dual chest flap pockets with button fastening\n • Curved hem for easy layering\n • DTM stitching for a clean finish",
+  "brand": "Tones Fashion",
+  "category": "Overshirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Brown Checks Flannel - S",
+      "sku": "BCFS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/brwon_white_2.jpg?v=1762495043&width=1920"
+    },
+    {
+      "name": "Brown Checks Flannel - M",
+      "sku": "BCFM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/brwon_white_2.jpg?v=1762495043&width=1920"
+    },
+    {
+      "name": "Brown Checks Flannel - L",
+      "sku": "BCFL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/brwon_white_2.jpg?v=1762495043&width=1920"
+    },
+    {
+      "name": "Brown Checks Flannel - XL",
+      "sku": "BCFXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/brwon_white_2.jpg?v=1762495043&width=1920"
+    },
+    {
+      "name": "Brown Checks Flannel - XXL",
+      "sku": "BCFXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/brwon_white_2.jpg?v=1762495043&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0042"
+}

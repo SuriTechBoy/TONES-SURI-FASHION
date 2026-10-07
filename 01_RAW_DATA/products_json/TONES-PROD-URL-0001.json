@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/daily-tees-black-copy",
+  "collected_at": "2026-09-22T17:01:22.207087",
+  "name": "Daily Tees - black",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/daily-tees-black-copy",
+  "description": "Fit: Regular\nModel Size: L\nFabric: 100% cotton\nColor: Black\nHow to style: The classic black Daily Tee is a wardrobe staple that can be dressed up or down. Wear it with distressed jeans and combat boots for an effortlessly cool look. Layer it under a leather jacket for a timeless, rugged style. For a more refined appearance, pair it with tailored trousers and loafers, adding a wristwatch to complete the look.\n *No Return & Exchange on this Product *",
+  "brand": "Tones Fashion",
+  "category": "Apparel & Accessories",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Daily Tees - black - S / 36",
+      "sku": "DTBL_S",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3139.jpg?v=1718791906&width=1920"
+    },
+    {
+      "name": "Daily Tees - black - M / 38",
+      "sku": "DTBL_M",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3139.jpg?v=1718791906&width=1920"
+    },
+    {
+      "name": "Daily Tees - black - L / 40",
+      "sku": "DTBL_L",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3139.jpg?v=1718791906&width=1920"
+    },
+    {
+      "name": "Daily Tees - black - XL / 42",
+      "sku": "DTBL_XL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3139.jpg?v=1718791906&width=1920"
+    },
+    {
+      "name": "Daily Tees - black - XXL / 44",
+      "sku": "DTBL_XXL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_3139.jpg?v=1718791906&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0001"
+}

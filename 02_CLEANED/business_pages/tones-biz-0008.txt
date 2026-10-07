@@ -1,0 +1,18 @@
+Preparing your tracking page
+Return to TONES
+Track your order
+Email / Phone #
+Please provide your phone number or email id.
+Proceed
+Track your order
+We have sent an OTP to
+.
+Change
+Enter OTP here
+Proceed
+Resend OTP
+Select an order to track
+Powered by
+Bootstrap
+11 mins ago
+×

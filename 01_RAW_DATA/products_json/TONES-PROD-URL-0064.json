@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/navy-blue-acid-wash-t-shirt-1",
+  "collected_at": "2026-09-22T17:03:34.260426",
+  "name": "Red Acid Wash Ringer T-Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/navy-blue-acid-wash-t-shirt-1",
+  "description": "Fabric: CottonFit: Relaxed FitModel Size: LProduct Description:\nA relaxed box-fit T-shirt crafted from premium cotton with a vintage-inspired acid wash finish. Finished with a contrast white rib crew neck, dropped shoulders, and an oversized silhouette, it offers a clean, timeless aesthetic with everyday comfort.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild Detergent",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Red Acid Wash Ringer T-Shirt - S",
+      "sku": "AWCRS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_2_4a03e785-ddf2-49f3-a6cc-cbbf4010e0a1.jpg?v=1784552313&width=1920"
+    },
+    {
+      "name": "Red Acid Wash Ringer T-Shirt - M",
+      "sku": "AWCRM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_2_4a03e785-ddf2-49f3-a6cc-cbbf4010e0a1.jpg?v=1784552313&width=1920"
+    },
+    {
+      "name": "Red Acid Wash Ringer T-Shirt - L",
+      "sku": "AWCRL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_2_4a03e785-ddf2-49f3-a6cc-cbbf4010e0a1.jpg?v=1784552313&width=1920"
+    },
+    {
+      "name": "Red Acid Wash Ringer T-Shirt - XL",
+      "sku": "AWCRXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_2_4a03e785-ddf2-49f3-a6cc-cbbf4010e0a1.jpg?v=1784552313&width=1920"
+    },
+    {
+      "name": "Red Acid Wash Ringer T-Shirt - 2XL",
+      "sku": "AWCRXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_2_4a03e785-ddf2-49f3-a6cc-cbbf4010e0a1.jpg?v=1784552313&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0064"
+}

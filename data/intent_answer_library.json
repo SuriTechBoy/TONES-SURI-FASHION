@@ -1,0 +1,206 @@
+{
+  "version": "0.1",
+  "purpose": "TONES Fashion Intent -> Existing Knowledge -> Customer Answer mapping",
+  "principle": "Reuse verified canonical knowledge instead of creating a separate answer for every wording variation.",
+  "rules": {
+    "reuse_existing_verified_knowledge": true,
+    "do_not_invent_missing_facts": true,
+    "do_not_mix_unrelated_product_results_into_business_policy_answers": true,
+    "ask_for_product_name_when_attribute_question_has_no_product_reference": true,
+    "live_inventory_is_not_claimed_from_static_knowledge": true
+  },
+  "intents": [
+    {
+      "intent_id": "RETURN_POLICY",
+      "triggers": [
+        "can I return a product",
+        "what is your return policy",
+        "can I send the product back",
+        "is return available",
+        "can I get a return"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-RETURNS-001"
+      ],
+      "answer_mode": "reuse_verified_facts",
+      "response_template": "Here is the TONES Fashion return and exchange policy:\n\n{facts}",
+      "suppress_product_results": true
+    },
+    {
+      "intent_id": "EXCHANGE_POLICY",
+      "triggers": [
+        "can I exchange a product",
+        "what is your exchange policy",
+        "can I exchange this",
+        "is exchange available"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-RETURNS-001"
+      ],
+      "answer_mode": "reuse_verified_facts",
+      "response_template": "Here is the TONES Fashion return and exchange policy:\n\n{facts}",
+      "suppress_product_results": true
+    },
+    {
+      "intent_id": "ORDER_CANCELLATION",
+      "triggers": [
+        "can I cancel my order",
+        "can I cancel an order",
+        "is order cancellation possible",
+        "can I cancel after placing an order"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-RETURNS-001",
+        "TONES-KB-SHIPPING-001"
+      ],
+      "answer_mode": "reuse_relevant_verified_facts",
+      "response_template": "According to the current TONES Fashion policy:\n\n{facts}",
+      "suppress_product_results": true,
+      "fact_filter": [
+        "Orders can be cancelled only before dispatch.",
+        "If an item is out of stock, the policy says the out-of-stock item may be cancelled/refunded while the rest of the order is dispatched."
+      ]
+    },
+    {
+      "intent_id": "SHIPPING_POLICY",
+      "triggers": [
+        "do you deliver across india",
+        "how long does shipping take",
+        "what are the shipping charges",
+        "how long will delivery take"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-SHIPPING-001"
+      ],
+      "answer_mode": "reuse_verified_facts",
+      "response_template": "Here is the current TONES Fashion shipping information:\n\n{facts}",
+      "suppress_product_results": true
+    },
+    {
+      "intent_id": "ORDER_TRACKING",
+      "triggers": [
+        "how can I track my order",
+        "can you track my order",
+        "where can I track my order"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-ORDER-TRACKING-001"
+      ],
+      "answer_mode": "reuse_verified_facts",
+      "response_template": "TONES Fashion links order tracking to its tracking service:\n\n{facts}",
+      "suppress_product_results": true
+    },
+    {
+      "intent_id": "ORDER_STATUS",
+      "triggers": [
+        "what is my order status",
+        "where is my order",
+        "has my order shipped"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-ORDER-TRACKING-001"
+      ],
+      "answer_mode": "reuse_verified_facts",
+      "response_template": "I cannot see your live order status from the static knowledge base. The current tracking information is:\n\n{facts}",
+      "suppress_product_results": true
+    },
+    {
+      "intent_id": "CONTACT_INFO",
+      "triggers": [
+        "how can I contact tones fashion",
+        "what is your email",
+        "how do I contact support"
+      ],
+      "knowledge_ids": [
+        "TONES-KB-CONTACT-001"
+      ],
+      "answer_mode": "reuse_verified_facts",
+      "response_template": "{facts}",
+      "suppress_product_results": true
+    },
+    {
+      "intent_id": "PRODUCT_FABRIC",
+      "triggers": [
+        "what is the fabric",
+        "what fabric is this",
+        "what material is the product made of"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "product_attribute_lookup",
+      "missing_product_response": "Which product are you asking about? Please give me the product name, and I can check its recorded fabric information.",
+      "attribute": "fabric",
+      "suppress_product_results_when_product_missing": true
+    },
+    {
+      "intent_id": "PRODUCT_SIZE",
+      "triggers": [
+        "what sizes are available",
+        "what sizes does this come in",
+        "which sizes are available"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "product_attribute_lookup",
+      "missing_product_response": "Which product are you asking about? Please give me the product name, and I can check its recorded size information.",
+      "attribute": "variant_sizes",
+      "suppress_product_results_when_product_missing": true
+    },
+    {
+      "intent_id": "CHEAPEST_PRODUCT",
+      "triggers": [
+        "what is the cheapest product",
+        "which is the cheapest product",
+        "what is your lowest priced product"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "structured_aggregation",
+      "operation": "MIN(price)",
+      "suppress_generic_top_k_product_retrieval": true
+    },
+    {
+      "intent_id": "MOST_EXPENSIVE_PRODUCT",
+      "triggers": [
+        "what is the most expensive product",
+        "which is the most expensive product",
+        "what is your highest priced product"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "structured_aggregation",
+      "operation": "MAX(price)",
+      "suppress_generic_top_k_product_retrieval": true
+    },
+    {
+      "intent_id": "PRODUCTS_UNDER_PRICE",
+      "triggers": [
+        "show me products under",
+        "products below",
+        "products less than"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "structured_filter",
+      "operation": "price < requested_limit"
+    },
+    {
+      "intent_id": "PRODUCTS_ON_SALE",
+      "triggers": [
+        "show me products on sale",
+        "which products are on sale",
+        "what is discounted"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "structured_filter",
+      "operation": "compare_at_price > displayed_price",
+      "note": "Only use this rule when both price fields are present and validated."
+    },
+    {
+      "intent_id": "PRODUCT_SEARCH",
+      "triggers": [
+        "show me black t shirts",
+        "show me shirts",
+        "show me chinos",
+        "show me oversized t shirts"
+      ],
+      "knowledge_ids": [],
+      "answer_mode": "structured_product_search"
+    }
+  ]
+}

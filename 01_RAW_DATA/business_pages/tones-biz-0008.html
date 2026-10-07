@@ -1,0 +1,2601 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic and for PWA -->
+    <meta charset="UTF-8">
+    <!-- Add meta theme-color -->
+    <meta name="theme-color" content="#000000" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    
+<title>Track Order</title>
+<script data-cfasync="false">
+  document.documentElement.classList.add('tracking-page-booting');
+
+  function finishTrackingPageBoot() {
+    window.requestAnimationFrame(function() {
+      document.documentElement.classList.remove('tracking-page-booting');
+    });
+  }
+
+  function hideMobileReturnToStoreText() {
+    if (!window.matchMedia('(max-width: 768px)').matches) {
+      return;
+    }
+
+    window.setTimeout(function() {
+      document.querySelectorAll('.return-to-store-link').forEach(function(element) {
+        element.classList.add('is-mobile-hidden');
+      });
+    }, 2000);
+  }
+
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', function() {
+      finishTrackingPageBoot();
+      hideMobileReturnToStoreText();
+    }, { once: true });
+  } else {
+    finishTrackingPageBoot();
+    hideMobileReturnToStoreText();
+  }
+</script>
+ 
+
+
+    <link rel="shortcut icon" type="image/jpg" href="https://logisy-connect.s3.amazonaws.com/MerchantUploadedMedia/1093/11334_Toneslogojpg.jpg"/>
+    <style type="text/css">@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bootstrap-4@3.1.4/bootstrap-4.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" type="a0875781cfa6b2956ee8796d-text/javascript"></script>
+
+    
+<style>
+  .tracking-page-booting body > .parent-wrapper {
+    visibility: hidden;
+  }
+
+  .tracking-page-boot-loader {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #000000;
+    background: #ffffff;
+  }
+
+  .tracking-page-booting .tracking-page-boot-loader {
+    display: flex;
+  }
+
+  .tracking-page-boot-spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: tracking-page-boot-spin 0.8s linear infinite;
+  }
+
+  .tracking-page-boot-label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  body > .parent-wrapper > .brand-logo {
+    display:  none ;
+  }
+
+  
+  body > .parent-wrapper {
+    width: 100%;
+    max-width: none;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+
+  @keyframes tracking-page-boot-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tracking-page-boot-spinner {
+      animation: none;
+      border-right-color: currentColor;
+    }
+  }
+
+  /* RMS-FE porting styles */
+  .otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid var(--custom-primary);
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .otp-input:focus {
+    border-width: 2px;
+  }
+
+  /* Hide spinners in number inputs */
+  .otp-input::-webkit-outer-spin-button,
+  .otp-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .otp-input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .return-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    max-width: 450px;
+    width: 100%;
+    color: var(--custom-primary);
+  }
+
+  .input-label {
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    color: #3b444d;
+    display: block;
+    text-align: left;
+  }
+
+  .brand-note {
+    max-width: 450px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+
+  /* Updated Layout Styles */
+  #orderFormSection {
+    height: 100vh; /* Changed from 94vh to full height */
+    width: 100%;
+  }
+
+  .brand-cover-image {
+    flex: 1;
+    width: 50%;
+    height: 100vh;
+    display:  flex ;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-cover-image__link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .brand-cover-image img {
+    width: 100%;
+  }
+
+  .login-container {
+    /* Logic for full width vs split handled in HTML classes, fallback background here */
+    background: #fff;
+    height: 100%;
+  }
+
+  .return-to-store-link {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #3B444D;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 0px 0px 10px 0px;
+    padding: 5px 10px;
+    background: #00000033;
+  }
+
+  .return-to-store-link:hover .return-to-store-text {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .return-to-store-arrow {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .return-to-store-text {
+    text-decoration: none;
+  }
+
+  /* When cover image width is 100 (full background) */
+  .login-container.full-cover {
+    background:  url(https://logisy-connect.s3.amazonaws.com/MerchantUploadedMedia/1093/11334_Toneslogojpg.jpg) center / cover no-repeat ;
+    padding: 5rem;
+    position: relative;
+  }
+
+  .login-container.full-cover .full-cover-link {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    cursor: pointer;
+  }
+
+  .login-container.full-cover .full-cover-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .login-section {
+    /* Base styles for the form area */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background: #fff;
+  }
+
+  .login-section.split-view {
+    padding:  0 6rem ;
+  }
+
+  /* Overlay style for full cover image mode */
+  .login-section.overlay-view {
+    background: rgba(0,0,0,1.0);
+    padding: 2rem;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    max-height: max-content;
+    min-height: 100px;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .login-section.overlay-view .input-label,
+  .login-section.overlay-view .return-title,
+  .login-section.overlay-view .form-text {
+    color: #fff;
+  }
+
+  .merchant-brand-logo {
+    max-width: 350px;
+    max-height: 60px; /* Match rms-fe */
+    margin-bottom: 1.5rem;
+    width: auto;
+    width: auto;
+    display:  block ;
+  }
+
+  .form-group {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .otp-fields-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 300px;
+  }
+
+  .parent-wrapper.show-order-list {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parent-wrapper.show-order-list #orderFormSection {
+    flex: 1;
+    height: auto; /* Reset height for list view */
+  }
+
+  .otp-section {
+    max-width: 450px;
+    width: 100%;
+    /* margin: 0 auto;  Removed auto margin to align left if needed */
+  }
+
+  /* Post-OTP Verification Layout */
+  .parent-wrapper.show-order-list .brand-cover-image {
+    display: none !important;
+  }
+
+  .parent-wrapper.show-order-list .login-container {
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+  }
+
+  .parent-wrapper.show-order-list .login-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Ensure logo max height 100px in list view */
+  .parent-wrapper.show-order-list .merchant-brand-logo {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  #orderListContainer {
+    width: 100%;
+  }
+
+  .order-list-card {
+    border: 1px solid var(--custom-primary-lighter);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+  .order-list-card .order-meta {
+    color: #6c757d;
+    font-size: 0.85rem;
+  }
+
+  .btn-group-toggle .btn-custom-primary {
+    background-color: var(--custom-primary-light);
+  }
+
+  .btn-group-toggle .active {
+    background-color: var(--custom-primary-lighter);
+    color: var(--custom-primary);
+    box-shadow: 0 0 0 0.2rem var(--custom-primary-border);
+  }
+
+  .shipment-details .nav-pills .active {
+    border-right: 0.25rem solid var(--custom-primary);
+    background-color: var(--custom-primary-lightest);
+  }
+
+  .shipment-selector {
+    padding: 1rem;
+    border-right: 0.25rem solid #00000000;
+    cursor: pointer;
+  }
+
+  .tracking-steps-container .card {
+    border: none;
+  }
+
+  .shipment-tracking {
+    display: flex;
+    flex-direction: column;
+    max-height: 550px;
+    overflow: hidden;
+  }
+
+  .shipment-tracking__header {
+    flex: 0 0 auto;
+  }
+
+  .shipment-tracking__events {
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+  }
+
+  .shipment-journey {
+    overflow: visible;
+  }
+
+  .shipment-journey__event {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .shipment-journey__main {
+    display: flex;
+    width: 72%;
+    min-width: 0;
+  }
+
+  .shipment-journey__marker {
+    position: relative;
+    flex: 0 0 8%;
+    min-width: 18px;
+  }
+
+  .shipment-journey__event:not(:last-child) .shipment-journey__marker::after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    bottom: -17px;
+    left: 50%;
+    z-index: 1;
+    border-left: 1px dashed #c8cace;
+    transform: translateX(-0.5px);
+  }
+
+  .shipment-journey__dot {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 10px auto 0;
+    border: 1px solid #16ac37;
+    background: #16ac37;
+  }
+
+  .shipment-journey__dot--rounded {
+    border-radius: 50%;
+  }
+
+  .shipment-journey__dot--square {
+    border-radius: 0;
+  }
+
+  .shipment-journey__copy {
+    min-width: 0;
+    margin-top: 6px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+
+  .shipment-journey__time-column {
+    box-sizing: border-box;
+    width: 28%;
+    padding-right: 8px;
+    min-width: 0;
+  }
+
+  .shipment-journey__event--current .shipment-journey__dot::after,
+  .tracking-step-dot--current::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border: 2px solid;
+    border-radius: inherit;
+    animation: trackingTimelineRipple 1.8s ease-out infinite;
+    pointer-events: none;
+  }
+
+  .shipment-journey__event--current .shipment-journey__dot::after {
+    border-color: #16ac37;
+  }
+
+  .tracking-step-dot--current::after {
+    border-color: var(--custom-primary);
+  }
+
+  @keyframes trackingTimelineRipple {
+    0% {
+      opacity: 0.7;
+      transform: scale(0.75);
+    }
+    75%,
+    100% {
+      opacity: 0;
+      transform: scale(1.8);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .shipment-journey__event--current .shipment-journey__dot::after,
+    .tracking-step-dot--current::after {
+      animation: none;
+      opacity: 0.35;
+      transform: scale(1.35);
+    }
+  }
+
+  .shipment-journey .card {
+    width: 95%;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: var(--custom-primary-light);
+  }
+
+  .shipment-journey .journey-dash {
+    /* border-left: #34343450 dashed 2px; */
+    border-left: var(--custom-primary) dashed 2px;
+    position: absolute;
+    width: 100%;
+    top: -3rem;
+    height: 3rem;
+    left: 2rem;
+    z-index: 0;
+  }
+
+  /* width */
+  .custom-scrollbar::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+  }
+
+
+  /* Handle */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: var(--custom-primary);
+    -webkit-box-shadow: 0 0 1px rgb(255 255 255 / 50%);
+  }
+
+  .highlight-current-step {
+    border-color: var(--custom-primary);
+  }
+
+  .steps .step {
+    width: 15%;
+  }
+
+  .steps .rounded-circle, .steps .square {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    z-index: 2;
+  }
+
+  .steps .inactive-circle {
+    background-color: #a7acb1;
+  }
+
+  .steps .rounded-circle svg {
+    margin-top: 1rem;
+  }
+
+  .steps .horizontal-dash {
+    border-bottom: 2px dashed #a7acb1;
+    width: 15%;
+    position: absolute;
+    height: 0.55rem;
+    z-index: 1;
+  }
+
+  .steps .horizontal-dash-active {
+    border-bottom: 2px dashed var(--custom-primary);
+  }
+
+  .steps .horizontal-dash-first {
+    left: 20%;
+  }
+
+  .steps .horizontal-dash-second {
+    left: 35%;
+  }
+
+  .steps .horizontal-dash-third {
+    left: 50%;
+  }
+
+  .steps .horizontal-dash-fourth {
+    left: 65%;
+  }
+
+  .img-section a {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+  }
+
+  .img-section a.position-top-left {
+    left: 2rem!important;
+    right: unset!important;
+    top: 1rem!important;
+    bottom: unset!important;
+  }
+
+  .img-section a.position-top-right {
+    left: unset!important;
+    right: 2rem!important;
+    top: 1rem!important;
+    bottom: unset!important;
+  }
+
+  .img-section a.position-bottom-left {
+    left: 2rem!important;
+    right: unset!important;
+    top: unset!important;
+    bottom: 1rem!important;
+  }
+
+  .img-section a.position-bottom-right {
+    left: unset!important;
+    right: 2rem!important;
+    top: unset!important;
+    bottom: 1rem!important;
+  }
+
+  .status-card{
+    min-height: 180px;
+  }
+
+  .scans-container{
+    min-height: 180px;
+    position: relative;
+    border-radius: 15px;
+    border: 1px solid var(--custom-primary-lighter);
+    background-color: var(--custom-primary-lightest);
+  }
+
+  .no-scans-detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+
+  .nps-collection-container {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: var(--custom-primary-lightest);
+    border: 1px solid var(--custom-primary);
+  }
+
+  body.has-tracking-top-fixed-banner {
+    padding-top: var(--tracking-fixed-banner-offset, 0px);
+  }
+
+  .centered-login-page {
+    min-height: 100vh;
+    padding: 0 32px 36px;
+    background: #ffffff;
+    color: #172033;
+  }
+
+  .centered-login-header {
+    min-height: 92px;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) auto minmax(180px, 1fr);
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid rgba(23, 32, 51, 0.08);
+  }
+
+  .centered-login-header .return-to-store-link {
+    position: static;
+    justify-self: start;
+    background: transparent;
+    padding: 8px 0;
+  }
+
+  .centered-login-header.utility-only {
+    min-height: 64px;
+  }
+
+  .centered-login-header-logo {
+    display:  block ;
+    width: auto;
+    max-width: 220px;
+    max-height: 58px;
+    object-fit: contain;
+  }
+
+  .centered-login-hero {
+    max-width: 1040px;
+    min-height: 540px;
+    margin: 0 auto;
+    display: flex;
+    gap: clamp(28px, 5vw, 80px);
+    padding: clamp(36px, 6vw, 76px) 0;
+  }
+
+  .centered-login-hero.poster-left {
+    flex-direction: row-reverse;
+  }
+
+  .centered-login-content-column,
+  .centered-poster-panel {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .centered-login-content-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .centered-login-panel,
+  .centered-poster-panel {
+    min-width: 0;
+    display: flex;
+  }
+
+  .centered-login-panel {
+    width: 100%;
+    flex: 1 1 auto;
+  }
+
+  .centered-login-panel.align-top,
+  .centered-poster-panel.align-top { align-items: flex-start; }
+  .centered-login-panel.align-center,
+  .centered-poster-panel.align-center { align-items: center; }
+  .centered-login-panel.align-bottom,
+  .centered-poster-panel.align-bottom { align-items: flex-end; }
+
+  .centered-login-surface {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 28px;
+  }
+
+  .centered-login-surface.surface-card {
+    background: #fff;
+    border: 1px solid rgba(23, 32, 51, 0.08);
+    border-radius:  0 ;
+    box-shadow: 0 22px 60px rgba(23, 32, 51, 0.11);
+  }
+
+  .centered-login-inline-logo {
+    display:  block ;
+    width: auto;
+    max-width: 240px;
+    max-height: 64px;
+    object-fit: contain;
+    margin: 0 auto 30px;
+  }
+
+  .centered-login-form-state {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .centered-login-surface.copy-align-left .centered-login-form-state {
+    align-items: flex-start;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .centered-login-surface.copy-align-center .centered-login-form-state {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .centered-login-title {
+    width: 100%;
+    margin: 0 0 10px;
+    color: #172033;
+    font-size: clamp(28px, 2.5vw, 35px);
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+  }
+
+  .centered-login-description {
+    max-width: 420px;
+    margin: 0 auto 22px;
+    color: #687083;
+    line-height: 1.55;
+    text-align: center;
+  }
+
+  .centered-login-surface.copy-align-left .centered-login-title,
+  .centered-login-surface.copy-align-left .centered-login-description {
+    text-align: left;
+  }
+
+  .centered-login-surface.copy-align-left .centered-login-description {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .centered-login-surface .form-group {
+    max-width: 420px;
+  }
+
+  .centered-login-surface #contact {
+    min-height: 48px;
+    padding: 10px 12px;
+    border: 1px solid #d9deea;
+    border-radius:  0 ;
+  }
+
+  .centered-login-submit {
+    max-width: 420px;
+    min-height: 48px;
+    margin-top: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius:  0 ;
+  }
+
+  .centered-login-help,
+  .centered-login-help:hover,
+  .centered-login-help:focus,
+  .centered-login-help:active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--custom-primary) !important;
+    background: transparent !important;
+    border: 1px solid var(--custom-primary) !important;
+  }
+
+  .centered-login-change {
+    color: var(--custom-primary);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .centered-login-otp-label {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .centered-login-resend {
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .centered-login-resend a { color: #51596b; }
+
+  .centered-poster-link,
+  .centered-poster-frame {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centered-poster-link:focus-visible {
+    outline: 3px solid var(--custom-primary);
+    outline-offset: 5px;
+  }
+
+  .centered-poster-image {
+    display: block;
+    width: 100%;
+    max-height: 520px;
+    object-fit: contain;
+    border-radius:  0 ;
+    box-shadow: 0 22px 60px rgba(23, 32, 51, 0.12);
+  }
+
+  .centered-login-products {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+  }
+
+  .centered-login-products--sidebar {
+    width: 100%;
+    max-width: none;
+    margin: 24px 0 0;
+    padding: 0;
+  }
+
+  .campaign-sidebar .centered-login-products-loading {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .campaign-sidebar .tracking-recommended-products--grid .tracking-recommended-products__track {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .campaign-sidebar .tracking-recommended-products--carousel .tracking-recommended-products__track {
+    grid-auto-columns: calc((100% - 16px) / 2);
+  }
+
+  @media only screen and (min-width: 769px) {
+    .centered-login-hero.campaign-sidebar {
+      max-width: 1320px;
+      gap: clamp(20px, 3vw, 36px);
+      align-items: stretch;
+    }
+
+    .centered-login-hero.campaign-sidebar .centered-login-content-column {
+      flex: 1 1 68%;
+    }
+
+    .centered-login-hero.campaign-sidebar .centered-poster-panel {
+      flex: 0 1 32%;
+      align-items: stretch;
+    }
+
+    .centered-login-hero.campaign-sidebar .centered-login-panel {
+      flex: 0 0 auto;
+      align-items: flex-start;
+    }
+
+    .centered-login-hero.campaign-sidebar .centered-login-surface {
+      max-width: none;
+    }
+
+    .centered-login-hero.campaign-sidebar .centered-poster-link,
+    .centered-login-hero.campaign-sidebar .centered-poster-frame {
+      align-items: stretch;
+    }
+
+    .centered-login-hero.campaign-sidebar .centered-poster-image {
+      height: 100%;
+      max-height: none;
+      object-fit: cover;
+    }
+  }
+
+  
+
+  .centered-login-products-loading {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .centered-login-products-loading span {
+    display: block;
+    height: 260px;
+    background: linear-gradient(90deg, #f1f3f6 25%, #fafbfc 50%, #f1f3f6 75%);
+    background-size: 200% 100%;
+    animation: centeredProductsLoading 1.4s ease infinite;
+  }
+
+  @keyframes centeredProductsLoading {
+    from { background-position: 200% 0; }
+    to { background-position: -200% 0; }
+  }
+
+  .line-item-product-title {
+    line-height: 1;
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 700ms ease-out;
+  }
+
+  .accordion-content.show {
+    max-height: 600px;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+  }
+
+  /* Mobile Responsive */
+  @media only screen and (max-width: 768px) {
+    .centered-login-page {
+      min-height: 100vh;
+      padding: 0 18px 28px;
+    }
+
+    .centered-login-header {
+      min-height: 68px;
+      grid-template-columns: minmax(76px, 1fr) auto minmax(76px, 1fr);
+      gap: 8px;
+    }
+
+    .centered-login-header .return-to-store-link {
+      font-size: 12px;
+    }
+
+    .centered-login-header-logo {
+      display:  block ;
+      max-width: 112px;
+      max-height: 42px;
+    }
+
+    .centered-login-hero,
+    .centered-login-hero.poster-left {
+      min-height: 0;
+      flex-direction: column;
+      gap: 26px;
+      padding: 30px 0;
+    }
+
+    .centered-login-content-column,
+    .centered-login-panel,
+    .centered-poster-panel {
+      flex-basis: auto !important;
+      width: 100%;
+      align-items: stretch !important;
+    }
+
+    .centered-login-surface {
+      max-width: 520px;
+      padding: 22px 10px;
+    }
+
+    .centered-login-surface.surface-card {
+      padding: 24px 18px;
+    }
+
+    .centered-login-inline-logo {
+      display:  block ;
+      max-width: 140px;
+      max-height: 52px;
+    }
+
+    .centered-login-title {
+      font-size: 30px;
+    }
+
+    .centered-poster-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: none;
+    }
+
+    .centered-poster-panel.hide-on-mobile {
+      display: none;
+    }
+
+    .centered-login-products-loading {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #orderFormSection {
+      height: auto;
+    }
+
+    .login-container:not(.full-cover) {
+      height: auto !important;
+    }
+
+    .login-container.full-cover {
+      padding: 1.5rem;
+      background:  url(https://logisy-connect.s3.amazonaws.com/MerchantUploadedMedia/1093/11334_Toneslogojpg.jpg) center / cover no-repeat ;
+    }
+
+    .brand-cover-image {
+      width: 100%;
+      height: 35vh; /* Explicit height for mobile split view */
+      padding: 1rem;
+      display:  flex ;
+    }
+
+    .brand-cover-image img {
+      width: 90%;
+    }
+
+    .return-to-store-link {
+      top: 16px;
+      left: 16px;
+    }
+
+    .return-to-store-link.is-mobile-hidden {
+      display: none;
+    }
+
+    .login-section.split-view {
+      padding: 20px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      height: auto;
+      min-height: 0;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+      justify-content: flex-start !important;
+    }
+
+    .otp-input {
+      width: 40px;
+      height: 40px;
+      font-size: 1rem;
+    }
+
+    .merchant-brand-logo {
+      display:  block ;
+      max-width: 100px;
+    }
+
+    #shipmentAccordion .header {
+      padding: 1rem;
+      border-bottom: 0.25rem solid var(--custom-primary);
+      background-color: var(--custom-primary-lightest);
+    }
+
+    .shipment-journey {
+      max-height: unset;
+      overflow: visible;
+    }
+
+    .shipment-journey .card {
+      width: 100%;
+    }
+
+    .steps .step {
+      width: 25%;
+    }
+
+    .steps .horizontal-dash {
+      width: 20%;
+    }
+
+    .steps .horizontal-dash-first {
+      left: 10%;
+    }
+
+    .steps .horizontal-dash-second {
+      left: 30%;
+    }
+
+    .steps .horizontal-dash-third {
+      left: 50%;
+    }
+
+    .steps .horizontal-dash-fourth {
+      left: 70%;
+    }
+
+    .img-section a {
+      border-radius: 0!important;
+      position: relative;
+      left: unset;
+      top: unset;
+    }
+
+    .nps-collection-container {
+      border-radius: 15px;
+      padding: unset;
+    }
+
+    .shipment-items{
+      display: none;
+    }
+
+    .shipment-items.show{
+      display: block;
+    }
+
+    .shipment-tracking{
+      display: none;
+    }
+
+    .shipment-tracking.show{
+      display: flex;
+    }
+
+    .tracking-announcement-banner {
+      font-size: var(--tracking-banner-mobile-font-size);
+    }
+  }
+
+  /* User requested fixes */
+  .footer,
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background: #fff; /* Ensure legibility */
+  }
+
+  /* Input focus overrides */
+  #contact:focus {
+    box-shadow: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--custom-primary) !important;
+  }
+
+  .order-line-items {
+    margin-top: 8px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .order-list-card:hover {
+    background-color: var(--custom-primary-lighter);
+  }
+
+  .order-line-item-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #eee;
+  }
+
+  .tracking-announcement-banner {
+    position: relative;
+    z-index: 25;
+    width: 100%;
+    min-height: var(--tracking-banner-height, 40px);
+    background: var(--tracking-banner-bg);
+    color: var(--tracking-banner-text);
+    border-radius: var(--tracking-banner-radius);
+    font-size: var(--tracking-banner-font-size);
+    font-weight: var(--tracking-banner-font-weight);
+    text-align: var(--tracking-banner-align);
+    overflow: hidden;
+  }
+
+  .tracking-announcement-banner--top_inline {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    border-radius: 0;
+  }
+
+  .tracking-announcement-banner--top_fixed,
+  .tracking-announcement-banner--bottom_fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10001;
+    border-radius: 0;
+  }
+
+  .tracking-announcement-banner--top_fixed {
+    top: 0;
+  }
+
+  .tracking-announcement-banner--bottom_fixed {
+    bottom: 0;
+  }
+
+  .tracking-announcement-banner__viewport {
+    min-height: var(--tracking-banner-height, 40px);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .tracking-announcement-banner--dismissible .tracking-announcement-banner__viewport {
+    width: calc(100% - 96px);
+    box-sizing: border-box;
+  }
+
+  .tracking-announcement-banner__track {
+    width: 100%;
+  }
+
+  .tracking-announcement-banner__message {
+    width: 100%;
+    padding: 8px 42px;
+    line-height: 1.35;
+  }
+
+  .tracking-announcement-banner__link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .tracking-announcement-banner__link:hover {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .tracking-announcement-banner__close {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    z-index: 5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: inherit;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    touch-action: manipulation;
+  }
+
+  .tracking-announcement-banner__close:hover,
+  .tracking-announcement-banner__close:focus {
+    background: rgba(255, 255, 255, 0.18);
+    outline: none;
+  }
+
+  .tracking-announcement-banner--fade .tracking-announcement-banner__message,
+  .tracking-announcement-banner--slide_up .tracking-announcement-banner__message,
+  .tracking-announcement-banner--static .tracking-announcement-banner__message {
+    display: none;
+  }
+
+  .tracking-announcement-banner--fade .tracking-announcement-banner__message.is-active,
+  .tracking-announcement-banner--slide_up .tracking-announcement-banner__message.is-active,
+  .tracking-announcement-banner--static .tracking-announcement-banner__message.is-active {
+    display: block;
+  }
+
+  .tracking-announcement-banner--fade .tracking-announcement-banner__message.is-active {
+    animation: trackingBannerFade 650ms ease;
+  }
+
+  .tracking-announcement-banner--slide_up .tracking-announcement-banner__message.is-active {
+    animation: trackingBannerSlideUp 650ms ease-out;
+  }
+
+  .tracking-announcement-banner--marquee_left .tracking-announcement-banner__track {
+    display: inline-flex;
+    width: max-content;
+    min-width: 100%;
+    animation: trackingBannerMarquee var(--tracking-banner-duration, 18s) linear infinite;
+    box-sizing: border-box;
+  }
+
+  .tracking-announcement-banner--marquee_left:hover .tracking-announcement-banner__track,
+  .tracking-announcement-banner--marquee_left:focus-within .tracking-announcement-banner__track {
+    animation-play-state: paused;
+  }
+
+  .tracking-announcement-banner--marquee_left .tracking-announcement-banner__message {
+    flex: 0 0 auto;
+    width: auto;
+    white-space: nowrap;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .tracking-recommended-products {
+    margin-top: 32px;
+  }
+
+  .tracking-recommended-products__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+
+  .tracking-recommended-products__title {
+    margin: 0;
+    color: #151f32;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .tracking-recommended-products__controls {
+    display: flex;
+    gap: 8px;
+  }
+
+  .tracking-recommended-products__button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #dfe0e1;
+    background: #ffffff;
+    color: #151f32;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .tracking-recommended-products__viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .tracking-recommended-products__track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 48px) / 4);
+    gap: 16px;
+  }
+
+  .tracking-recommended-products--grid .tracking-recommended-products__controls {
+    display: none;
+  }
+
+  .tracking-recommended-products--grid .tracking-recommended-products__viewport {
+    overflow: visible;
+  }
+
+  .tracking-recommended-products--grid .tracking-recommended-products__track {
+    grid-auto-flow: row;
+    grid-auto-columns: unset;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .tracking-recommended-product {
+    min-width: 0;
+    border: 1px solid #dfe0e1;
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+    scroll-snap-align: start;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+
+  .tracking-recommended-product:hover {
+    color: inherit;
+    text-decoration: none;
+    border-color: var(--custom-primary);
+  }
+
+  .tracking-recommended-product__image-wrap {
+    aspect-ratio: 1 / 1;
+    background: #f4f6f8;
+    overflow: hidden;
+  }
+
+  .tracking-recommended-product__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .tracking-recommended-product__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #858a93;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .tracking-recommended-product__body {
+    padding: 12px;
+  }
+
+  .tracking-recommended-product__title {
+    color: #151f32;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    min-height: 38px;
+  }
+
+  .tracking-recommended-product__price {
+    margin-top: 8px;
+    color: #151f32;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .tracking-recommended-product__variants {
+    margin-top: 4px;
+    color: #858a93;
+    font-size: 12px;
+  }
+
+  @keyframes trackingBannerFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes trackingBannerSlideUp {
+    from { opacity: 0; transform: translateY(100%); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes trackingBannerMarquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tracking-announcement-banner__track {
+      animation: none !important;
+    }
+
+    .tracking-announcement-banner__message {
+      display: none !important;
+    }
+
+    .tracking-announcement-banner__message:first-child {
+      display: block !important;
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .tracking-recommended-products__track {
+      grid-auto-columns: calc((100% - 16px) / 2);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tracking-announcement-banner {
+      font-size: var(--tracking-banner-mobile-font-size);
+    }
+
+    .tracking-announcement-banner--dismissible .tracking-announcement-banner__viewport {
+      width: calc(100% - 56px);
+    }
+
+    .tracking-recommended-products__track {
+      grid-auto-columns: 76%;
+    }
+
+    .tracking-recommended-products__controls {
+      display: none;
+    }
+
+    .tracking-recommended-products--grid .tracking-recommended-products__track {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>
+
+
+    <style>
+    
+
+      :root {
+        --custom-primary: #000000;
+        --custom-primary-border: #00000061;
+        --custom-primary-lightest: #00000012;
+        --custom-primary-lighter: #00000040;
+        --custom-primary-light: #000000e8;
+        --custom-secondary: #ffffff;
+      }
+
+      body {
+        font-family: 'Inter', serif;
+      }
+
+      .font-google {
+        font-family: 'Inter', serif;
+      }
+
+      .font-inter {
+        font-family: 'Inter', serif;
+      }
+
+      .big {
+        font-size: 120%;
+      }
+
+      .primary-theme-color-svg {
+        fill: var(--custom-primary)!important;
+      }
+
+      .bg-custom-primary {
+        background-color: var(--custom-primary);
+      }
+
+      .text-custom-primary {
+        color: var(--custom-primary);
+      }
+
+      .btn-custom-primary {
+        color: #fff;
+        background-color: var(--custom-primary);
+        border-color: var(--custom-primary);
+      }
+
+      .btn-custom-primary:focus {
+        box-shadow: 0 0 0 0.2rem var(--custom-primary-border);
+      }
+
+      .btn-custom-primary:hover {
+        color: #fff;
+      }
+
+      .btn .spinner-grow-sm {
+        margin-bottom: 0.2rem;
+      }
+
+      .form-control:focus {
+        border-color: var(--custom-primary);
+        box-shadow: 0 0 0 0.2rem var(--custom-primary-border);
+      }
+
+      .brand-logo {
+        max-width: 10rem;
+        display: block;
+      }
+
+      .powered-by {
+        margin-top: 1rem;
+        left: 50%;
+      }
+
+      .powered-by h6 {
+        margin-top: 0.25rem;
+        font-size: 14px;
+      }
+
+      .powered-by img {
+        height: 0.75rem;
+      }
+
+      .error-img {
+        width: 100%;
+        min-width: 30rem;
+      }
+
+      .error-wrapper {
+        height: 85vh;
+      }
+
+      @media screen and (max-width: 768px) {
+        .parent-wrapper{
+          height: 100vh;
+        }
+
+        .brand-logo {
+          max-width: 7rem;
+        }
+
+        .powered-by {
+          padding-bottom: 18px;
+          bottom: unset;
+          position: relative;
+          left: 0%;
+          margin-top: 0rem;
+          height: calc(100% - 94vh);
+        }
+
+        .powered-by h6{
+          font-size: 12px;
+        }
+
+        .powered-by img {
+          height: 0.6rem;
+        }
+
+        .error-img {
+          width: 100%;
+          min-width: unset;
+        }
+      }
+    </style>
+
+    
+  </head>
+
+  <body>
+    <input type="hidden" name="csrfmiddlewaretoken" value="olNpwmqx1tJ6g2V5Rrs4f5VxPtgHwSgELPbBf8sQRMu4j3Fzid3OOEbAp3TszzJm">
+    <input type="hidden" id="staticPath" value="https://d7y6q7motgve2.cloudfront.net/static/">
+    
+<input type="hidden" id="merchantId" value="1093" />
+<input
+  type="hidden"
+  id="submitNPSAPI"
+  value="/api/merchants/nps/submit/"
+/>
+<input
+  type="hidden"
+  id="sendOtpAPI"
+  value="/api/merchants/order-tracking/otp/send/"
+/>
+<input
+  type="hidden"
+  id="verifyOtpAPI"
+  value="/api/merchants/order-tracking/otp/verify/"
+/>
+<input type="hidden" name="csrfmiddlewaretoken" value="olNpwmqx1tJ6g2V5Rrs4f5VxPtgHwSgELPbBf8sQRMu4j3Fzid3OOEbAp3TszzJm"> 
+
+    
+
+    
+<div class="tracking-page-boot-loader" role="status" aria-live="polite">
+  <span class="tracking-page-boot-spinner" aria-hidden="true"></span>
+  <span class="tracking-page-boot-label">Preparing your tracking page</span>
+</div>
+
+  
+
+
+
+
+
+
+    <div class="container parent-wrapper">
+      <img class="mt-3 mb-4 brand-logo mx-auto" src="https://logisy-connect.s3.amazonaws.com/MerchantUploadedMedia/1093/11334_Toneslogojpg.jpg" alt="">
+      
+         
+
+
+
+
+
+<div id="orderFormSection">
+  
+  
+  <a class="return-to-store-link" href="https://tones-fashion.myshopify.com">
+    <i class="fa fa-long-arrow-alt-left return-to-store-arrow" aria-hidden="true"></i>
+    <span class="return-to-store-text">Return to TONES</span>
+  </a>
+  
+  
+  
+  <!-- Split View (50/50) -->
+  <div
+    class="login-container d-flex flex-column h-100  flex-md-row "
+  >
+    <div class="brand-cover-image">
+      
+      <img src="https://logisy-connect.s3.amazonaws.com/MerchantUploadedMedia/1093/11334_Toneslogojpg.jpg" alt="Brand cover image" />
+      
+    </div>
+
+    <div
+      class="login-section split-view col-md-6 col-12 d-flex flex-column align-items-center justify-content-center"
+    >
+      <img class="merchant-brand-logo mb-4" src="https://logisy-connect.s3.amazonaws.com/MerchantUploadedMedia/1093/11334_Toneslogojpg.jpg" />
+
+      <!-- Login State -->
+      <div
+        id="loginState"
+        style="
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <p class="return-title text-center text-md-left">Track your order</p>
+        <div class="form-group">
+          <label for="contact" class="input-label">Email / Phone #</label>
+          <input
+            type="text"
+            class="form-control"
+            required
+            id="contact"
+            aria-describedby="contactHelp"
+            placeholder="johndoe@somesite.com"
+            value=""
+            style="border-radius: 0px; border-bottom: 1px solid var(--custom-primary); border-top: none; border-left: none; border-right: none; padding: 10px 0;"
+          />
+          <small id="contactHelp" class="form-text text-muted"
+            >Please provide your phone number or email id.</small
+          >
+        </div>
+        <button
+          id="sendOtpBtn"
+          type="button"
+          class="btn btn-custom-primary btn-block w-100 mb-3"
+          style="max-width: 450px;border-radius: 0px;color: #ffffff; margin-top: 20px; font-weight: 600; padding: 10px;"
+        >
+          <span
+            class="spinner-grow spinner-grow-sm"
+            role="status"
+            aria-hidden="true"
+            style="display: none"
+          ></span>
+          <span class="label">Proceed</span>
+        </button>
+      </div>
+
+      <!-- OTP State -->
+      <div
+        id="otpSection"
+        class="otp-section"
+        style="display: none; flex-direction: column; align-items: center"
+      >
+        <p
+          class="return-title text-center text-md-left"
+          style="margin-bottom: 25px"
+        >
+          Track your order
+        </p>
+        <p style="line-height: 1rem; width: 100%; max-width: 450px">
+          We have sent an OTP to
+          <span id="otpSentTo" style="font-weight: 600"></span>.
+          <span
+            id="changeNumberBtn"
+            style="
+              color: var(--custom-primary);
+              text-decoration: underline;
+              cursor: pointer;
+              font-weight: 600;
+            "
+            >Change</span
+          >
+        </p>
+
+        <p
+          style="
+            margin-top: 40px;
+            text-align: left;
+            width: 100%;
+            max-width: 450px;
+          "
+        >
+          Enter OTP here
+        </p>
+
+        <div class="otp-fields-container w-100" style="max-width: 450px">
+          <input type="number" class="otp-input" maxlength="1" id="otp-1" />
+          <input type="number" class="otp-input" maxlength="1" id="otp-2" />
+          <input type="number" class="otp-input" maxlength="1" id="otp-3" />
+          <input type="number" class="otp-input" maxlength="1" id="otp-4" />
+          <input type="number" class="otp-input" maxlength="1" id="otp-5" />
+          <input type="number" class="otp-input" maxlength="1" id="otp-6" />
+        </div>
+
+        <button
+          id="verifyOtpBtn"
+          type="button"
+          class="btn btn-custom-primary btn-block w-100 mb-3"
+          style="max-width: 450px;border-radius: 0px;color: #ffffff; margin-top: 20px; font-weight: 600; padding: 10px;"
+        >
+          <span
+            class="spinner-grow spinner-grow-sm"
+            role="status"
+            aria-hidden="true"
+            style="display: none"
+          ></span>
+          <span class="label">Proceed</span>
+        </button>
+
+        <!-- Resend OTP Placeholder (Non-functional in template logic but UI placed) -->
+        <div style="margin-top: 20px; text-align: center; width: 100%">
+          <a
+            href="javascript:void(0)"
+            id="resendOtpLink"
+            style="color: #000000b2; font-size: 16px"
+            >Resend OTP</a
+          >
+        </div>
+      </div>
+
+      <!-- Order List State -->
+      <div id="orderListSection" class="w-100" style="display: none">
+        <!-- Duplicate logo removed as per request -->
+        <h6 class="mb-3">Select an order to track</h6>
+        <div id="orderListContainer"></div>
+      </div>
+
+      <div
+        id="orderTrackingMessage"
+        class="d-flex justify-content-center mt-3"
+      ></div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<div id="trackingDetailsSection" class="row"></div>
+
+
+
+        
+        <div class="d-flex align-items-center justify-content-center powered-by">
+          <h6 class="text-muted mr-2 mb-0">Powered by</h6>
+          <a href="https://bepragma.ai" target="_blank"><img src="https://d7y6q7motgve2.cloudfront.net/static/metronic/assets/media/logos/pragma-default-light.svg" alt="Pragma"></a>
+        </div>
+        
+      
+    </div>
+
+
+    
+    
+    
+    
+
+    <div class="position-fixed top-0 right-0 p-3" style="z-index: 9999; right: 0; top: 0;">
+      <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+        <div class="toast-header">
+          <strong class="mr-auto">Bootstrap</strong>
+          <small>11 mins ago</small>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="toast-body">
+        </div>
+      </div>
+    </div>
+
+    <div id="kt_docs_toast_stack_container" class="toast-container position-fixed top-0 end-0 p-3 z-index-9">
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-kt-docs-toast="stack">
+        <div class="toast-header">
+          <i class="me-3 fas text-succes"></i>
+          <strong class="me-auto toast-title"></strong>
+          <!-- <small>now</small> -->
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body"></div>
+      </div>
+    </div>
+  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a0875781cfa6b2956ee8796d-|49" defer></script></body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="a0875781cfa6b2956ee8796d-text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" type="a0875781cfa6b2956ee8796d-text/javascript"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" type="a0875781cfa6b2956ee8796d-text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9" type="a0875781cfa6b2956ee8796d-text/javascript"></script>
+
+  <script src="https://d7y6q7motgve2.cloudfront.net/static/js/common.js?v=YAUKwjQz" type="a0875781cfa6b2956ee8796d-text/javascript"></script>
+
+  
+<script type="a0875781cfa6b2956ee8796d-text/javascript">
+  var merchantId;
+  var orderNumber;
+  var contact;
+  var source = 'website';
+  var SOURCES = ['website', 'sms', 'email', 'whatsapp'];
+  var secondaryThemeColor = '#ffffff';
+  var otpCooldownSeconds = 30;
+  var otpCooldownRemaining = 0;
+  var otpCooldownTimer = null;
+
+
+  $(document).ready(function() {
+    merchantId = getParameterByName('mid');
+    if (merchantId == null) {
+      merchantId = $('#merchantId').val();
+    };
+    orderNumber = getParameterByName('ono');
+    contact = getParameterByName('c');
+    _source = getParameterByName('source');
+    if (!_source) {
+      _source = getParameterByName('s');
+    };
+    for (i = 0; i < SOURCES.length; i++) {
+      if (_source == SOURCES[i]) {
+        source = SOURCES[i];
+      };
+    };
+
+    
+      $('.brand-logo').addClass('d-none');
+      $('.parent-wrapper').removeClass('container');
+    
+
+    function setupAnnouncementBanners() {
+      var speedIntervals = {
+        slow: 5000,
+        normal: 3500,
+        fast: 2500
+      };
+      var marqueeScale = {
+        slow: 0.42,
+        normal: 0.32,
+        fast: 0.22
+      };
+
+      $('.tracking-announcement-banner').each(function() {
+        var banner = this;
+        var storageKey = banner.getAttribute('data-banner-storage-key');
+        if (storageKey && window.sessionStorage && sessionStorage.getItem(storageKey) === 'hidden') {
+          banner.style.display = 'none';
+          return;
+        }
+
+        var animation = banner.getAttribute('data-banner-animation');
+        var speed = banner.getAttribute('data-banner-speed') || 'normal';
+        var messages = banner.querySelectorAll('.tracking-announcement-banner__message:not([aria-hidden="true"])');
+        var closeBtn = banner.querySelector('.tracking-announcement-banner__close');
+        if (closeBtn) {
+          closeBtn.addEventListener('click', function() {
+            if (storageKey && window.sessionStorage) {
+              sessionStorage.setItem(storageKey, 'hidden');
+            }
+            banner.style.display = 'none';
+          });
+        }
+
+        if (animation === 'marquee_left') {
+          var textLength = banner.textContent.trim().length || 40;
+          var duration = Math.max(10, Math.ceil(textLength * (marqueeScale[speed] || marqueeScale.normal)));
+          banner.style.setProperty('--tracking-banner-duration', duration + 's');
+          return;
+        }
+
+        if (messages.length <= 1 || animation === 'marquee_left' || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          return;
+        }
+
+        var activeIndex = 0;
+        var interval = window.setInterval(function() {
+          messages[activeIndex].classList.remove('is-active');
+          activeIndex = (activeIndex + 1) % messages.length;
+          messages[activeIndex].classList.add('is-active');
+          banner.setAttribute('data-banner-message-index', activeIndex);
+        }, speedIntervals[speed] || speedIntervals.normal);
+
+        banner.addEventListener('mouseenter', function() {
+          window.clearInterval(interval);
+        });
+        banner.addEventListener('mouseleave', function() {
+          interval = window.setInterval(function() {
+            messages[activeIndex].classList.remove('is-active');
+            activeIndex = (activeIndex + 1) % messages.length;
+            messages[activeIndex].classList.add('is-active');
+            banner.setAttribute('data-banner-message-index', activeIndex);
+          }, speedIntervals[speed] || speedIntervals.normal);
+        });
+      });
+    }
+
+    function setupFixedBannerOffset() {
+      var banner = document.querySelector('.tracking-announcement-banner--top_fixed');
+      function syncOffset() {
+        var height = banner && banner.style.display !== 'none'
+          ? Math.ceil(banner.getBoundingClientRect().height)
+          : 0;
+        document.body.classList.toggle('has-tracking-top-fixed-banner', height > 0);
+        document.body.style.setProperty('--tracking-fixed-banner-offset', height + 'px');
+      }
+      syncOffset();
+      window.addEventListener('resize', syncOffset);
+      if (!banner) {
+        return;
+      }
+      var closeButton = banner.querySelector('.tracking-announcement-banner__close');
+      if (closeButton) {
+        closeButton.addEventListener('click', function() {
+          window.requestAnimationFrame(syncOffset);
+        });
+      }
+      if (window.ResizeObserver) {
+        new ResizeObserver(syncOffset).observe(banner);
+      }
+    }
+
+    function escapeRecommendationHtml(value) {
+      return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function setupAutoRecommendedProductsCarousel(root) {
+      if (!root || root.dataset.autoCarouselInitialized === 'true') {
+        return;
+      }
+      if (root.dataset.displayMode !== 'carousel' || root.dataset.carouselScrollMode !== 'auto') {
+        return;
+      }
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return;
+      }
+      var viewport = root.querySelector('.tracking-recommended-products__viewport');
+      if (!viewport) {
+        return;
+      }
+      root.dataset.autoCarouselInitialized = 'true';
+      var timer = null;
+      var advance = function() {
+        var maxLeft = viewport.scrollWidth - viewport.clientWidth;
+        if (maxLeft <= 1) {
+          return;
+        }
+        var step = Math.max(viewport.clientWidth * 0.85, 240);
+        if (viewport.scrollLeft >= maxLeft - 4) {
+          viewport.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          viewport.scrollTo({
+            left: Math.min(viewport.scrollLeft + step, maxLeft),
+            behavior: 'smooth'
+          });
+        }
+      };
+      var stop = function() {
+        if (timer) {
+          window.clearInterval(timer);
+          timer = null;
+        }
+      };
+      var start = function() {
+        stop();
+        if (!document.hidden) {
+          timer = window.setInterval(advance, 4000);
+        }
+      };
+      root.addEventListener('mouseenter', stop);
+      root.addEventListener('mouseleave', start);
+      root.addEventListener('focusin', stop);
+      root.addEventListener('focusout', function() {
+        window.setTimeout(function() {
+          if (!root.contains(document.activeElement)) {
+            start();
+          }
+        }, 0);
+      });
+      document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+          stop();
+        } else {
+          start();
+        }
+      });
+      start();
+    }
+
+    function loadLoginRecommendations() {
+      var section = document.getElementById('centeredLoginRecommendedProducts');
+      if (!section) {
+        return;
+      }
+      var url = section.getAttribute('data-recommendations-url');
+      var localMerchantId = section.getAttribute('data-merchant-id');
+      var sharedTrackingMid = getParameterByName('mid');
+      if (sharedTrackingMid) {
+        url += (url.indexOf('?') === -1 ? '?' : '&') + 'mid=' + encodeURIComponent(sharedTrackingMid);
+      } else if (localMerchantId && window.location.hostname === 'localhost') {
+        url += (url.indexOf('?') === -1 ? '?' : '&') + 'merchant_id=' + encodeURIComponent(localMerchantId);
+      }
+      fetch(url, { credentials: 'same-origin' })
+        .then(function(response) {
+          if (!response.ok) {
+            throw new Error('Recommendations unavailable');
+          }
+          return response.json();
+        })
+        .then(function(payload) {
+          var products = payload && Array.isArray(payload.products) ? payload.products : [];
+          if (!payload || !payload.enabled || !products.length) {
+            section.remove();
+            return;
+          }
+          var cards = products.map(function(product) {
+            var cardTag = product.url ? 'a' : 'div';
+            var linkAttributes = product.url
+              ? ' href="' + escapeRecommendationHtml(product.url) + '" target="_blank" rel="noopener noreferrer"'
+              : '';
+            var image = product.image
+              ? '<img class="tracking-recommended-product__image" src="' + escapeRecommendationHtml(product.image) + '" alt="' + escapeRecommendationHtml(product.title) + '" loading="lazy">'
+              : '<div class="tracking-recommended-product__placeholder" aria-hidden="true">' + escapeRecommendationHtml(String(product.title || 'P').charAt(0)) + '</div>';
+            return '<' + cardTag + ' class="tracking-recommended-product"' + linkAttributes + '>' +
+              '<div class="tracking-recommended-product__image-wrap">' + image + '</div>' +
+              '<div class="tracking-recommended-product__body">' +
+                '<div class="tracking-recommended-product__title">' + escapeRecommendationHtml(product.title) + '</div>' +
+                (product.price_label ? '<div class="tracking-recommended-product__price">' + escapeRecommendationHtml(product.price_label) + '</div>' : '') +
+                (product.variant_label ? '<div class="tracking-recommended-product__variants">' + escapeRecommendationHtml(product.variant_label) + '</div>' : '') +
+              '</div></' + cardTag + '>';
+          }).join('');
+          var displayMode = payload.display_mode === 'grid' ? 'grid' : 'carousel';
+          var carouselScrollMode = payload.carousel_scroll_mode === 'auto' ? 'auto' : 'manual';
+          section.innerHTML = '<div class="tracking-recommended-products tracking-recommended-products--' + displayMode + '" data-display-mode="' + displayMode + '" data-carousel-scroll-mode="' + carouselScrollMode + '">' +
+            '<div class="tracking-recommended-products__header">' +
+              '<h2 class="tracking-recommended-products__title font-google">' + escapeRecommendationHtml(payload.title || 'Recommended products') + '</h2>' +
+              (displayMode === 'carousel' && products.length > 1 ? '<div class="tracking-recommended-products__controls"><button type="button" class="tracking-recommended-products__button" data-products-scroll="prev" aria-label="Previous recommended products">&#8249;</button><button type="button" class="tracking-recommended-products__button" data-products-scroll="next" aria-label="Next recommended products">&#8250;</button></div>' : '') +
+            '</div><div class="tracking-recommended-products__viewport"><div class="tracking-recommended-products__track">' + cards + '</div></div></div>';
+          var viewport = section.querySelector('.tracking-recommended-products__viewport');
+          section.querySelectorAll('[data-products-scroll]').forEach(function(button) {
+            button.addEventListener('click', function() {
+              var direction = button.getAttribute('data-products-scroll') === 'prev' ? -1 : 1;
+              viewport.scrollBy({ left: direction * Math.max(viewport.clientWidth * 0.85, 240), behavior: 'smooth' });
+            });
+          });
+          setupAutoRecommendedProductsCarousel(section.querySelector('.tracking-recommended-products'));
+        })
+        .catch(function() {
+          section.remove();
+        });
+    }
+
+    setupAnnouncementBanners();
+    setupFixedBannerOffset();
+    loadLoginRecommendations();
+    document.querySelectorAll('.tracking-recommended-products').forEach(setupAutoRecommendedProductsCarousel);
+
+    function updateOrderTrackingMessage(message, isError) {
+      if (!isError) {
+        $('#orderTrackingMessage').empty();
+        return;
+      }
+      $('#orderTrackingMessage').html('<span class="mt-2 small text-danger">' + message + '</span>');
+    }
+
+    function renderOrderList(orders) {
+      var container = $('#orderListContainer');
+      container.empty();
+      if (!orders.length) {
+        container.append('<div class="order-list-card"><div class="order-meta">No orders found for this contact.</div></div>');
+        return;
+      }
+      orders.forEach(function(order) {
+        var trackingParams = {
+          c: contact,
+          ono: order.order_number
+        };
+        if (merchantId) {
+          trackingParams.mid = merchantId;
+        }
+        var trackingUrl = buildUrl(window.location.pathname, trackingParams);
+
+        // Generate Line Item Images HTML
+        var imagesHtml = '';
+        if (order.line_items && order.line_items.length > 0) {
+            imagesHtml += '<div class="order-line-items">';
+            // Limit to first 4 images to avoid clutter
+            for(var i=0; i<Math.min(order.line_items.length, 4); i++) {
+                var img = order.line_items[i].image || order.line_items[i].product_image;
+                // Fallback placeholder if no image, or skip. Assuming valid URL if present.
+                if (img) {
+                    imagesHtml += '<img src="' + img + '" class="order-line-item-img" alt="Item" />';
+                }
+            }
+            imagesHtml += '</div>';
+        }
+
+        /*
+           Whole card clickable logic:
+           We wrap the content in a div checking for click, or just make the whole card an anchor/click listener.
+           Simplest is to wrap in <a> or add onclick.
+        */
+        var card = '<div class="order-list-card" style="cursor: pointer;" onclick="window.location.href=\'' + trackingUrl + '\'">';
+        card += '<div class="d-flex justify-content-between align-items-center">';
+        card += '<div>';
+        card += '<div><strong>' + (order.order_name || order.order_number) + '</strong></div>';
+        card += '<div class="order-meta">Placed on ' + order.order_created_at + '</div>';
+        // Add images below "Placed on"
+        card += imagesHtml;
+        card += '</div>';
+        // Remove View Details button
+        // card += '<div><a ...>View Details</a></div>';
+        card += '</div>';
+        card += '</div>';
+        container.append(card);
+      });
+    }
+
+    // OTP Input Logic
+    $('.otp-input').on('input', function() {
+      var $this = $(this);
+      var val = $this.val();
+
+      // Ensure only numbers
+      if (isNaN(val)) {
+          $this.val('');
+          return;
+      }
+
+      if (val.length === 1) {
+          var next = $this.next('.otp-input');
+          if (next.length) {
+              next.focus();
+          }
+
+          // Auto-verify if 6 digits entered
+          var otpVal = '';
+          // Only check inputs in the current visible section (though only one exists in DOM due to template if/else, but to be safe)
+          $('.otp-input').each(function() {
+              otpVal += $(this).val();
+          });
+          if (otpVal.length === 6) {
+              $('#verifyOtpBtn').click();
+          }
+
+      } else if (val.length > 1) {
+           // Handle paste (simplified)
+           $this.val(val[0]);
+      }
+      $('#orderTrackingMessage').empty(); // Clear errors on input
+    });
+
+    // Enter key support for contact input
+    $('#contact').on('keypress', function(e) {
+        if(e.which === 13) {
+            $('#sendOtpBtn').click();
+        }
+    });
+
+    $('.otp-input').on('keydown', function(e) {
+      var $this = $(this);
+      if (e.keyCode === 8 && $this.val().length === 0) {
+          var prev = $this.prev('.otp-input');
+          if (prev.length) {
+              prev.focus();
+          }
+      }
+    });
+
+    // Change Number Click
+    $(document).on('click', '#changeNumberBtn', function() {
+        $('#otpSection').hide();
+        $('#loginState').show();
+        $('.otp-input').val(''); // Clear OTP inputs
+    });
+
+    function getContactValue() {
+      var activeContact = getActiveContactInput().val();
+      return (activeContact || contact || '').trim();
+    }
+
+    function getActiveContactInput() {
+      return $('#orderFormSection #contact:visible').first();
+    }
+
+    function validateLoginContact($input, contactValue) {
+      var loginMethod = $input.data('login-method') || 'any';
+      var errorMessage = '';
+      if (!contactValue) {
+        errorMessage = loginMethod === 'email'
+          ? 'Please provide your email address.'
+          : loginMethod === 'phone'
+            ? 'Please provide your phone number.'
+            : 'Please provide your phone number or email id.';
+      } else if (loginMethod === 'email' && $input[0] && !$input[0].checkValidity()) {
+        errorMessage = 'Please enter a valid email address.';
+      } else if (loginMethod === 'phone') {
+        var phoneDigits = contactValue.replace(/\D/g, '');
+        if (phoneDigits.length < 10 || phoneDigits.length > 15) {
+          errorMessage = 'Please enter a valid phone number.';
+        }
+      }
+
+      var $help = $input.siblings('#contactHelp');
+      $input.toggleClass('border border-danger', Boolean(errorMessage));
+      $help
+        .toggleClass('text-muted', !errorMessage)
+        .toggleClass('text-danger', Boolean(errorMessage))
+        .text(errorMessage || $help.data('default-text'));
+      return !errorMessage;
+    }
+
+    function getTrackingButtonDefaultLabel(btn) {
+      var $btn = $(btn);
+      var defaultLabel = $btn.data('tracking-default-label');
+      if (typeof defaultLabel === 'undefined') {
+        defaultLabel = $btn.find('.label').text();
+        $btn.data('tracking-default-label', defaultLabel);
+      }
+      return defaultLabel;
+    }
+
+    function restoreTrackingButton(btn, defaultLabel) {
+      var $btn = $(btn);
+      $btn.prop('disabled', false);
+      $btn.find('.spinner-grow, .spinner-border').hide();
+      $btn.find('.label').text(defaultLabel);
+    }
+
+    function setResendOtpState(enabled, label) {
+      $('[id="resendOtpLink"]')
+        .text(label)
+        .css({
+          'pointer-events': enabled ? 'auto' : 'none',
+          'opacity': enabled ? '1' : '0.6'
+        });
+    }
+
+    function startOtpCooldown(seconds) {
+      otpCooldownRemaining = parseInt(seconds || otpCooldownSeconds, 10);
+      if (otpCooldownTimer) {
+        clearInterval(otpCooldownTimer);
+      }
+      setResendOtpState(false, 'Resend OTP in ' + otpCooldownRemaining + 's');
+      otpCooldownTimer = setInterval(function() {
+        otpCooldownRemaining -= 1;
+        if (otpCooldownRemaining <= 0) {
+          clearInterval(otpCooldownTimer);
+          otpCooldownTimer = null;
+          otpCooldownRemaining = 0;
+          setResendOtpState(true, 'Resend OTP');
+          return;
+        }
+        setResendOtpState(false, 'Resend OTP in ' + otpCooldownRemaining + 's');
+      }, 1000);
+    }
+
+    function sendOrderTrackingOtp(btn, loaderText) {
+      var contactValue = getContactValue();
+      var $activeInput = getActiveContactInput();
+      var isResend = $(btn).attr('id') === 'resendOtpLink';
+      if (isResend && otpCooldownRemaining > 0) {
+        return;
+      }
+      if (!validateLoginContact($activeInput, contactValue)) {
+        return;
+      }
+      contact = contactValue;
+      if (isResend) {
+        setResendOtpState(false, loaderText);
+      } else {
+        var defaultButtonLabel = getTrackingButtonDefaultLabel(btn);
+        showLoader(btn, loaderText);
+      }
+      post_with_csrf(
+        url=$('#sendOtpAPI').val(),
+        data={
+          mid: merchantId,
+          contact: contactValue
+        },
+        success=function(data) {
+          if (data.success) {
+          //   $('#orderFormSection').removeClass('show-order-list');
+          //   $('.parent-wrapper').removeClass('show-order-list');
+
+            // Hide Login State, Show OTP State
+            $('[id="loginState"]').hide();
+            $('[id="otpSection"]').css('display', 'flex'); // Use flex for centering logic
+            $('[id="otpSentTo"]').text(contactValue);
+            $('.otp-input').val('');
+            startOtpCooldown((data.data && data.data.cooldown_seconds) || otpCooldownSeconds);
+
+            $('#orderListSection').hide();
+            $('#orderListContainer').empty();
+            updateOrderTrackingMessage('', false);
+
+            // Focus first OTP input
+            setTimeout(function(){ $('#otp-1').focus(); }, 100);
+
+          } else {
+            if (isResend) {
+              setResendOtpState(true, 'Resend OTP');
+            }
+            updateOrderTrackingMessage(data.error.message || 'Unable to send OTP.', true);
+          }
+        },
+        error=function(err) {
+          var response = err.responseJSON || {};
+          var message = (response.error && response.error.message) || 'Unable to send OTP.';
+          if (response.error && response.error.cooldown_seconds) {
+            startOtpCooldown(response.error.cooldown_seconds);
+          } else if (isResend) {
+            setResendOtpState(true, 'Resend OTP');
+          }
+          updateOrderTrackingMessage(message, true);
+        },
+        complete=function() {
+          if (!isResend) {
+            restoreTrackingButton(btn, defaultButtonLabel);
+          }
+        }
+      );
+    }
+
+    $('#sendOtpBtn').click(function () {
+      sendOrderTrackingOtp(this, 'Sending OTP...');
+    });
+
+    $(document).on('click', '#resendOtpLink', function() {
+      sendOrderTrackingOtp(this, 'Resending OTP...');
+    });
+
+    $('#verifyOtpBtn').click(function () {
+      var btn = this;
+      var defaultButtonLabel = getTrackingButtonDefaultLabel(btn);
+
+      // Concatenate OTP inputs
+      var otpValue = '';
+      $('.otp-input').each(function() {
+          otpValue += $(this).val();
+      });
+
+      if (otpValue.length < 6) {
+         updateOrderTrackingMessage('Please enter a valid 6-digit OTP', true);
+         return;
+      }
+
+      if (!contact) {
+          // Fallback if contact var is lost, though it shouldn't be
+           var splitContact = $('.login-section.split-view #contact').val();
+           var fullContact = $('.login-section.overlay-view #contact').val();
+           contact = (splitContact || fullContact || '').trim();
+      }
+
+      showLoader(btn, 'Verifying...');
+      post_with_csrf(
+        url=$('#verifyOtpAPI').val(),
+        data={
+          mid: merchantId,
+          contact: contact,
+          otp: otpValue
+        },
+        success=function(data) {
+          if (data.success) {
+            $('[id="otpSection"]').hide(); // Hide OTP section
+            $('#orderListSection').show();
+            renderOrderList(data.data.orders || []);
+            $('#orderFormSection').addClass('show-order-list');
+            $('.parent-wrapper').addClass('show-order-list');
+            updateOrderTrackingMessage('', false);
+          } else {
+            updateOrderTrackingMessage(data.error.message || 'Unable to verify OTP.', true);
+          }
+        },
+        error=function(err) {
+          var response = err.responseJSON || {};
+          var message = (response.error && response.error.message) || 'Unable to verify OTP.';
+          updateOrderTrackingMessage(message, true);
+        },
+        complete=function() {
+          restoreTrackingButton(btn, defaultButtonLabel);
+        }
+      );
+    });
+
+
+    $('#saveNPS').click(function() {
+      var btn = this;
+      showLoader(btn, 'Submitting...');
+
+      var netPromoterScore = parseInt($('input[name="nps"]:checked').val());
+      if (!(netPromoterScore >=0 && netPromoterScore <=10)) {
+        alertMessage(
+          'Please select a score before submitting your feedback.',
+          title='Error!',
+          icon=swalIcons.error);
+        hideLoader(btn, 'Submit');
+        return;
+      };
+
+      post_with_csrf(
+        url=$('#submitNPSAPI').val(),
+        data={
+          mid: merchantId,
+          order: orderNumber,
+          net_promoter_score: netPromoterScore,
+          nps_comment: $('#npsComment').val(),
+          nps_source: source
+        },
+        success=function(data) {
+          if (data.success) {
+            alertMessage(
+              'We really appreciate you taking time to provide your valuable feedback.',
+              title='Thank you!',
+              icon=swalIcons.success);
+          } else {
+            alertMessage(
+              'Oops! Something went wrong. Please try again.',
+              title='Error!',
+              icon=swalIcons.error);
+          }
+        },
+        error=function(err) {
+          alertMessage(
+            'Oops! Something went wrong. Please try again.',
+            title='Error!',
+            icon=swalIcons.error);
+        },
+        complete=function() {
+          hideLoader(btn, 'Submit');
+        }
+      );
+    });
+  });
+</script>
+
+
+   
+   
+
+</html>

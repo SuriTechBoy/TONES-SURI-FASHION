@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/maroon-double-pocket-shirt",
+  "collected_at": "2026-09-22T17:02:59.689355",
+  "name": "MAROON DOUBLE POCKET FLANNEL SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/maroon-double-pocket-shirt",
+  "description": "Fit: Relaxed Oversized Flannel ShirtNote: The size runs large, opt for smaller Size\n\n\nA laid-back essential made for everyday comfort. Crafted from soft brushed flannel, this relaxed oversized shirt blends style and ease effortlessly. Perfect for college goers and casual outings, it’s designed for those who like to keep it comfortable yet confident. Wear it buttoned up or layer it open over a tee for a relaxed, off-duty vibe.color: Maroon\n\n\nKey Features:\n • Relaxed oversized fit\n • Soft brushed flannel fabric\n • Classic button-down front\n • Dual chest flap pockets with button fastening\n • Curved hem for easy layering\n • DTM stitching for a clean finish",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "MAROON DOUBLE POCKET FLANNEL SHIRT - S",
+      "sku": "MDPS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Maroon_DPF_596b88e7-bca3-41c0-b752-6824211b1fa2.png?v=1762948100&width=1920"
+    },
+    {
+      "name": "MAROON DOUBLE POCKET FLANNEL SHIRT - M",
+      "sku": "MDPM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Maroon_DPF_596b88e7-bca3-41c0-b752-6824211b1fa2.png?v=1762948100&width=1920"
+    },
+    {
+      "name": "MAROON DOUBLE POCKET FLANNEL SHIRT - L",
+      "sku": "MDPL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Maroon_DPF_596b88e7-bca3-41c0-b752-6824211b1fa2.png?v=1762948100&width=1920"
+    },
+    {
+      "name": "MAROON DOUBLE POCKET FLANNEL SHIRT - XL",
+      "sku": "MDPXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Maroon_DPF_596b88e7-bca3-41c0-b752-6824211b1fa2.png?v=1762948100&width=1920"
+    },
+    {
+      "name": "MAROON DOUBLE POCKET FLANNEL SHIRT - XXL",
+      "sku": "MDPXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Maroon_DPF_596b88e7-bca3-41c0-b752-6824211b1fa2.png?v=1762948100&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0050"
+}

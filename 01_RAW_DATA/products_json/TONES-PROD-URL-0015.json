@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/maroon-satin-shirt",
+  "collected_at": "2026-09-22T17:01:49.790816",
+  "name": "Maroon Satin Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/maroon-satin-shirt",
+  "description": "Fit: Slim\nModel Size: Male - L\nFabric: Cotton Lycra Blend\nColour:  White\nHow To Style:\nThe fitted shirt is a wardrobe essential that can be styled across occasions ; from casual to formal. Wear it untucked with cargos or jeans for a laid-back street look, or tuck it into chinos with clean sneakers for a smart-casual vibe. For formal settings, button it up and pair it with tailored trousers and dress shoes for a sharp, polished appearance.\nYou can also layer it over a tee or under a jacket to add depth and versatility. Whether you're heading to a date, work, or just stepping out, our Satin shirts fit every vibe.\nWash Care:\n\nLow to Medium heat iron\nGentle Hand wash\nDo not dry in direct sunlight\nDo not bleach\nDo not tumble dry",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Maroon Satin Shirt - S",
+      "sku": "TS0725MRNS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Untitled-1_5e447243-8966-4d0d-89df-720137316be6.jpg?v=1751631630&width=1920"
+    },
+    {
+      "name": "Maroon Satin Shirt - M",
+      "sku": "TS0725MRNM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Untitled-1_5e447243-8966-4d0d-89df-720137316be6.jpg?v=1751631630&width=1920"
+    },
+    {
+      "name": "Maroon Satin Shirt - L",
+      "sku": "TS0725MRNL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Untitled-1_5e447243-8966-4d0d-89df-720137316be6.jpg?v=1751631630&width=1920"
+    },
+    {
+      "name": "Maroon Satin Shirt - XL",
+      "sku": "TS0725MRNXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Untitled-1_5e447243-8966-4d0d-89df-720137316be6.jpg?v=1751631630&width=1920"
+    },
+    {
+      "name": "Maroon Satin Shirt - 2XL",
+      "sku": "",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Untitled-1_5e447243-8966-4d0d-89df-720137316be6.jpg?v=1751631630&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0015"
+}

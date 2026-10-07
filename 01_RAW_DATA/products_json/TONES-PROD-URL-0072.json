@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/the-alpha-oversized-tee-copy",
+  "collected_at": "2026-09-22T17:03:52.128349",
+  "name": "The Final Act - Oversized Tee",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/the-alpha-oversized-tee-copy",
+  "description": "Fabric : CottonFit: Relaxed FitModel Size: LProduct description:A golden yellow oversized tee crafted from 100% cotton loop knit, featuring a flowing white script graphic across the front. Finished with a classic ribbed crew neck and an oversized silhouette for an effortless, statement-making look.Wash Care:Machine Wash at 86° F / 30° CNo Chlorine BleachDo not tumble dryMaximum iron at 230° F / 110 °CDry CleanWash inside out and dry separately.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "The Final Act - Oversized Tee - S",
+      "sku": "FAOTS",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Yellow_Main.jpg?v=1788264183&width=1920"
+    },
+    {
+      "name": "The Final Act - Oversized Tee - M",
+      "sku": "FAOTM",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Yellow_Main.jpg?v=1788264183&width=1920"
+    },
+    {
+      "name": "The Final Act - Oversized Tee - L",
+      "sku": "FAOTL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Yellow_Main.jpg?v=1788264183&width=1920"
+    },
+    {
+      "name": "The Final Act - Oversized Tee - XL",
+      "sku": "FAOTXL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Yellow_Main.jpg?v=1788264183&width=1920"
+    },
+    {
+      "name": "The Final Act - Oversized Tee - 2XL",
+      "sku": "FAOTXXL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Yellow_Main.jpg?v=1788264183&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0072"
+}

@@ -1,0 +1,55 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/red-drip-sweatshirt",
+  "collected_at": "2026-09-22T17:01:56.593760",
+  "name": "Red Drip Sweatshirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/red-drip-sweatshirt",
+  "description": "Oversized cotton fleece sweatshirt featuring the bold dripping TONES graphic. Designed for effortless comfort and statement street style, available in two colors - deep royal blue and striking red.\nFit: Oversized Relaxed Fabric: Cotton (Fleece)\nHow to Style: Pair it with denims and sneakers for a classic street vibe, or layer it with joggers and chunky shoes for an elevated casual look.\nWash Care Instructions:\n\nWarm Iron, Inside out\nNo Tumble Dry\nNo Chlorine Bleach\nLight Machine Wash",
+  "brand": "Tones Fashion",
+  "category": "Sweatshirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Red Drip Sweatshirt - S",
+      "sku": "RDS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/nd.jpg?v=1756976273&width=1920"
+    },
+    {
+      "name": "Red Drip Sweatshirt - M",
+      "sku": "RDM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/nd.jpg?v=1756976273&width=1920"
+    },
+    {
+      "name": "Red Drip Sweatshirt - L",
+      "sku": "RDL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/nd.jpg?v=1756976273&width=1920"
+    },
+    {
+      "name": "Red Drip Sweatshirt - XL",
+      "sku": "RDXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/nd.jpg?v=1756976273&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0019"
+}

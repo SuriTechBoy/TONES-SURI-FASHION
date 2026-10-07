@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/maroon-courdry-shacket-copy",
+  "collected_at": "2026-09-22T17:03:25.671063",
+  "name": "Mustard Corduroy Shacket",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/maroon-courdry-shacket-copy",
+  "description": "Fit: Relaxed - fit Note: Size runs large, opt for the smaller one\n\n\n\nCrafted in premium cotton corduroy, this shirt features a relaxed-fit silhouette with a classic spread collar and a full-length button placket for a clean, structured finish. Dual chest patch pockets add a utilitarian touch, while the fine wale corduroy texture brings depth, warmth, and a soft hand-feel to the design.\nDesigned for comfort and durability, the corduroy construction offers insulation with breathability, making it ideal for transitional and winter layering.\nStyle with tailored trousers or cargos for an elevated casual look, or layer over a tee with denim and Chelsea boots for a modern utility-inspired outfit.\nColor: MaroonWash Care: \nGentle Machine Wash \nDo Not Tumble Dry\nDo Not Bleach",
+  "brand": "Tones Fashion",
+  "category": "Coats & Jackets",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Mustard Corduroy Shacket - S",
+      "sku": "MYCSS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/02_2.jpg?v=1770719136&width=1920"
+    },
+    {
+      "name": "Mustard Corduroy Shacket - M",
+      "sku": "MYCSM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/02_2.jpg?v=1770719136&width=1920"
+    },
+    {
+      "name": "Mustard Corduroy Shacket - L",
+      "sku": "MYCSL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/02_2.jpg?v=1770719136&width=1920"
+    },
+    {
+      "name": "Mustard Corduroy Shacket - XL",
+      "sku": "MYCSXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/02_2.jpg?v=1770719136&width=1920"
+    },
+    {
+      "name": "Mustard Corduroy Shacket - XXL",
+      "sku": "MYCSXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/02_2.jpg?v=1770719136&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0060"
+}

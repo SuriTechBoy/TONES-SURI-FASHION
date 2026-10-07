@@ -1,0 +1,55 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/blue-drip-sweatshirt-copy",
+  "collected_at": "2026-09-22T17:01:58.758854",
+  "name": "Blue Drip Sweatshirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/blue-drip-sweatshirt-copy",
+  "description": "Oversized cotton fleece sweatshirt featuring the bold dripping TONES graphic. Designed for effortless comfort and statement street style, available in two colors - deep royal blue and striking red.\nFit: Oversized Relaxed Fabric: Cotton (Fleece)\nHow to Style: Pair it with denims and sneakers for a classic street vibe, or layer it with joggers and chunky shoes for an elevated casual look.\nWash Care Instructions:\n\nWarm Iron, Inside out\nNo Tumble Dry\nNo Chlorine Bleach\nLight Machine Wash",
+  "brand": "Tones Fashion",
+  "category": "Sweatshirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Blue Drip Sweatshirt - S",
+      "sku": "BDS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_ce56018b-fc56-4f6e-9d36-0884fef81b87.png?v=1756975943&width=1920"
+    },
+    {
+      "name": "Blue Drip Sweatshirt - M",
+      "sku": "BDM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_ce56018b-fc56-4f6e-9d36-0884fef81b87.png?v=1756975943&width=1920"
+    },
+    {
+      "name": "Blue Drip Sweatshirt - L",
+      "sku": "BDL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_ce56018b-fc56-4f6e-9d36-0884fef81b87.png?v=1756975943&width=1920"
+    },
+    {
+      "name": "Blue Drip Sweatshirt - XL",
+      "sku": "BDXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/4_2_ce56018b-fc56-4f6e-9d36-0884fef81b87.png?v=1756975943&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0020"
+}

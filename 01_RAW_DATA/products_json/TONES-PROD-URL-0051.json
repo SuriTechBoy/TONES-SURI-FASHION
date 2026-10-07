@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/cream-short-kurta-copy",
+  "collected_at": "2026-09-22T17:03:01.740121",
+  "name": "Tusker Trails  Powder Blue Short Kurta",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/cream-short-kurta-copy",
+  "description": "Product Description: \nCrafted in a soft, breathable fabric with a subtle natural sheen, the Tusker Trails kurta is designed for effortless festive dressing. The relaxed-fit silhouette is elevated with intricate tusker-inspired embroidery, featuring a striking pop of colour that adds depth and visual interest to the minimal base. Finished with a clean mandarin collar, it balances tradition with contemporary ease.\nStyling:Style it with straight-fit jeans for a modern festive look, as paired, or dress it up with classic ethnic bottoms. Complete with mojaris or sleek leather footwear for a refined finish.Material: 100% Cotton\nColor: Blue\nModel Size: M",
+  "brand": "Tones Fashion",
+  "category": "Tunics",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Tusker Trails  Powder Blue Short Kurta - S",
+      "sku": "TTPBS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_3_543c27ec-c342-4217-8a6a-e4e3a56aa7e1.jpg?v=1767186808&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Powder Blue Short Kurta - M",
+      "sku": "TTPBM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_3_543c27ec-c342-4217-8a6a-e4e3a56aa7e1.jpg?v=1767186808&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Powder Blue Short Kurta - L",
+      "sku": "TTPBL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_3_543c27ec-c342-4217-8a6a-e4e3a56aa7e1.jpg?v=1767186808&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Powder Blue Short Kurta - XL",
+      "sku": "TTPBXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_3_543c27ec-c342-4217-8a6a-e4e3a56aa7e1.jpg?v=1767186808&width=1920"
+    },
+    {
+      "name": "Tusker Trails  Powder Blue Short Kurta - XXL",
+      "sku": "TTPBXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_3_543c27ec-c342-4217-8a6a-e4e3a56aa7e1.jpg?v=1767186808&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0051"
+}

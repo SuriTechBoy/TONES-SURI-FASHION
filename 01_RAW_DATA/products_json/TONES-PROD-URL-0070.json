@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/jet-black-shirt",
+  "collected_at": "2026-09-22T17:03:47.336858",
+  "name": "Jet Black - Satin Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/jet-black-shirt",
+  "description": "Fabric : SatinFit: Slim FitModel Size: MProduct description : Slim Fit Satin ShirtCrafted in smooth satin with a soft, fluid drape.Designed in a relaxed fit for effortless comfort and movement.Features a clean button-down front with a classic collar.A versatile elevated essential with a subtle, refined finish.\nStyle With:Pair with tailored trousers or relaxed-fit trousers for a polished, contemporary look.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Jet Black - Satin Shirt - S",
+      "sku": "JBSSS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_v1_jpg.jpg?v=1786970476&width=1920"
+    },
+    {
+      "name": "Jet Black - Satin Shirt - M",
+      "sku": "JBSSM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_v1_jpg.jpg?v=1786970476&width=1920"
+    },
+    {
+      "name": "Jet Black - Satin Shirt - L",
+      "sku": "JBSSL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_v1_jpg.jpg?v=1786970476&width=1920"
+    },
+    {
+      "name": "Jet Black - Satin Shirt - XL",
+      "sku": "JBSSXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_v1_jpg.jpg?v=1786970476&width=1920"
+    },
+    {
+      "name": "Jet Black - Satin Shirt - 2XL",
+      "sku": "JBSSXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_v1_jpg.jpg?v=1786970476&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0070"
+}

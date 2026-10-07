@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/acid-wash-muscle-tee",
+  "collected_at": "2026-09-22T17:03:28.041349",
+  "name": "ACID WASH MUSCLE TEE",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/acid-wash-muscle-tee",
+  "description": "Product Description: \n ACID WASH MUSCLE TEE- Charcoal GreyA black acid wash muscle tee with distressed blood-red graphics and a relaxed oversized fit, built for bold everyday wear and gym-ready styling.\nStyle it with:Pair it with cargos, baggy denim, or gym shorts and finish the look with chunky sneakers, silver accessories, or a layered flannel for an effortless streetwear fit.Model Size: LWash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild Detergent",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "ACID WASH MUSCLE TEE - S",
+      "sku": "AWMTS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Grey1_ab80a192-c0eb-4714-8d9e-95e5c39c7c8f.jpg?v=1780038567&width=1920"
+    },
+    {
+      "name": "ACID WASH MUSCLE TEE - M",
+      "sku": "AWMTM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Grey1_ab80a192-c0eb-4714-8d9e-95e5c39c7c8f.jpg?v=1780038567&width=1920"
+    },
+    {
+      "name": "ACID WASH MUSCLE TEE - L",
+      "sku": "AWMTL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Grey1_ab80a192-c0eb-4714-8d9e-95e5c39c7c8f.jpg?v=1780038567&width=1920"
+    },
+    {
+      "name": "ACID WASH MUSCLE TEE - XL",
+      "sku": "AWMTXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Grey1_ab80a192-c0eb-4714-8d9e-95e5c39c7c8f.jpg?v=1780038567&width=1920"
+    },
+    {
+      "name": "ACID WASH MUSCLE TEE - XXL",
+      "sku": "AWMTXXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Grey1_ab80a192-c0eb-4714-8d9e-95e5c39c7c8f.jpg?v=1780038567&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0061"
+}

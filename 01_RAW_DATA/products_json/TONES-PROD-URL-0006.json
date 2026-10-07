@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-white-copy",
+  "collected_at": "2026-09-22T17:01:32.449516",
+  "name": "Round Neck Slim Fit Tee – Grey",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-white-copy",
+  "description": "Subtle and sharp, the Grey Round Neck Slim Fit Tee is a great neutral addition to your wardrobe. Its 160 GSM build makes it lightweight yet substantial, perfect for solo wear or layering through the seasons.Product Features:\n* Round neck* Slim fit* 100% cotton* 160 GSM* Breathable & lightweight* Soft-touch finish* Pocket detail\nStyle it with: Match with black jeans and sneakers for a minimal, monochrome vibe that always works.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Round Neck Slim Fit Tee – Grey - S",
+      "sku": "RNTGR0425_S",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer.jpg?v=1744194731&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee – Grey - M",
+      "sku": "RNTGR0425_M",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer.jpg?v=1744194731&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee – Grey - L",
+      "sku": "RNTGR0425_L",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer.jpg?v=1744194731&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee – Grey - XL",
+      "sku": "RNTGR0425_XL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer.jpg?v=1744194731&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee – Grey - 2XL",
+      "sku": "RNTGR0425_2XL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/5_imresizer.jpg?v=1744194731&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0006"
+}

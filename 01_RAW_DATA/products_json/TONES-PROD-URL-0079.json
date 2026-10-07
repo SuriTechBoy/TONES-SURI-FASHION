@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/blue-oxford-shirt-copy",
+  "collected_at": "2026-09-22T17:04:07.704450",
+  "name": "Sage Oxford Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/blue-oxford-shirt-copy",
+  "description": "Fabric : CottonFit: Relaxed Box FitModel Size: L\nProduct Description:\nCrafted from 100% cotton Oxford fabric, featuring classic blue and white stripes with a relaxed, box-fit silhouette. Designed with a pointed collar, full sleeves and a front pocket. Finished with Money Buys Freedom embroidery above the pocket.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Sage Oxford Shirt - S",
+      "sku": "SOSS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Green_Main_jpg.jpg?v=1790059169&width=1920"
+    },
+    {
+      "name": "Sage Oxford Shirt - M",
+      "sku": "SOSM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Green_Main_jpg.jpg?v=1790059169&width=1920"
+    },
+    {
+      "name": "Sage Oxford Shirt - L",
+      "sku": "SOSL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Green_Main_jpg.jpg?v=1790059169&width=1920"
+    },
+    {
+      "name": "Sage Oxford Shirt - XL",
+      "sku": "SOSXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Green_Main_jpg.jpg?v=1790059169&width=1920"
+    },
+    {
+      "name": "Sage Oxford Shirt - 2XL",
+      "sku": "SOSXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Green_Main_jpg.jpg?v=1790059169&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0079"
+}

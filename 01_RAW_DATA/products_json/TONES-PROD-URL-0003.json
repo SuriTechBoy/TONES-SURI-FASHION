@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/tones-original-black",
+  "collected_at": "2026-09-22T17:01:26.428176",
+  "name": "Tones Original - Black",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/tones-original-black",
+  "description": "Fit: Oversized Fit\nFabric: Pure Cotton (280gsm)\nColor: Beige\nModel Size: M\nFemale Model Size: S\nHow to Style: Create an effortless look by pairing it with light-washed denim or layering with a beige leather jacket. Add depth and visual interest by pairing this tee with rugged accessories that go in and complement your outfit. Stand out at barbecues, picnics, or outdoor events with this stylish and relaxed piece that blends seamlessly with nature.",
+  "brand": "Tones Fashion",
+  "category": "Apparel & Accessories",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Tones Original - Black - S",
+      "sku": "TOB_S",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/DSC00728.jpg?v=1745770115&width=1920"
+    },
+    {
+      "name": "Tones Original - Black - M",
+      "sku": "TOB_M",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/DSC00728.jpg?v=1745770115&width=1920"
+    },
+    {
+      "name": "Tones Original - Black - L",
+      "sku": "TOB_L",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/DSC00728.jpg?v=1745770115&width=1920"
+    },
+    {
+      "name": "Tones Original - Black - XL",
+      "sku": "TOB_XL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/DSC00728.jpg?v=1745770115&width=1920"
+    },
+    {
+      "name": "Tones Original - Black - XXL",
+      "sku": "TOB_XXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/DSC00728.jpg?v=1745770115&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0003"
+}

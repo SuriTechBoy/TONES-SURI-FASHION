@@ -1,0 +1,254 @@
+{
+  "total": 41,
+  "passed": 41,
+  "failed": 0,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "question": "Show me a red t-shirt",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me black t-shirts under ₹800",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me XL t-shirts that are in stock",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me oversized t-shirts under ₹1000",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me products under ₹500",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "What is the cheapest TONES product?",
+      "pass": true,
+      "reason": "",
+      "intent": "CHEAPEST_PRODUCT"
+    },
+    {
+      "question": "What is the most expensive TONES product?",
+      "pass": true,
+      "reason": "",
+      "intent": "MOST_EXPENSIVE_PRODUCT"
+    },
+    {
+      "question": "Show me products on sale",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_OFFERS"
+    },
+    {
+      "question": "Tell me everything about Tones Original Black",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_DETAILS"
+    },
+    {
+      "question": "What fabric is Tones Original Black?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "What sizes are available for Tones Original Black?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "Is Tones Original Black in stock?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "Is Tones Original Black available in size M?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "Is XXL available for Tones Original Black?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "What is the price of Tones Original Black?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "What is the color of Tones Original Black?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    },
+    {
+      "question": "What do customers say about Tones Original Black?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_REVIEWS"
+    },
+    {
+      "question": "What is the rating of Daily Tees - orange?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_REVIEWS"
+    },
+    {
+      "question": "Is TONES Fashion based in Hyderabad?",
+      "pass": true,
+      "reason": "",
+      "intent": "BRAND_BUSINESS"
+    },
+    {
+      "question": "Who owns TONES Fashion?",
+      "pass": true,
+      "reason": "",
+      "intent": "BRAND_BUSINESS"
+    },
+    {
+      "question": "What is TONES Fashion?",
+      "pass": true,
+      "reason": "",
+      "intent": "BRAND_BUSINESS"
+    },
+    {
+      "question": "Why should I choose TONES Fashion?",
+      "pass": true,
+      "reason": "",
+      "intent": "BRAND_BUSINESS"
+    },
+    {
+      "question": "How do I contact TONES Fashion?",
+      "pass": true,
+      "reason": "",
+      "intent": "CONTACT"
+    },
+    {
+      "question": "How long does shipping take?",
+      "pass": true,
+      "reason": "",
+      "intent": "SHIPPING"
+    },
+    {
+      "question": "What is your return policy?",
+      "pass": true,
+      "reason": "",
+      "intent": "RETURN_EXCHANGE"
+    },
+    {
+      "question": "How can I track my order?",
+      "pass": true,
+      "reason": "",
+      "intent": "ORDER_TRACKING"
+    },
+    {
+      "question": "Can I cancel my order?",
+      "pass": true,
+      "reason": "",
+      "intent": "CANCELLATION"
+    },
+    {
+      "question": "Can I pay using COD?",
+      "pass": true,
+      "reason": "",
+      "intent": "PAYMENTS"
+    },
+    {
+      "question": "What is the TFV25 offer?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_OFFERS"
+    },
+    {
+      "question": "Show me men's t-shirts",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me women's dresses",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me red men's t-shirts under ₹1000",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me a red women's dress under ₹500",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "Show me Nike products",
+      "pass": true,
+      "reason": "",
+      "intent": "OUT_OF_SCOPE"
+    },
+    {
+      "question": "Show me smartphones",
+      "pass": true,
+      "reason": "",
+      "intent": "OUT_OF_SCOPE"
+    },
+    {
+      "question": "Explain Python loops",
+      "pass": true,
+      "reason": "",
+      "intent": "OUT_OF_SCOPE"
+    },
+    {
+      "question": "What is the capital of India?",
+      "pass": true,
+      "reason": "",
+      "intent": "OUT_OF_SCOPE"
+    },
+    {
+      "question": "Show me products in my budget",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "FOLLOW-UP: Only oversized ones",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "FOLLOW-UP: under ₹700",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_SEARCH"
+    },
+    {
+      "question": "FOLLOW-UP: What sizes are available?",
+      "pass": true,
+      "reason": "",
+      "intent": "PRODUCT_ATTRIBUTE"
+    }
+  ]
+}

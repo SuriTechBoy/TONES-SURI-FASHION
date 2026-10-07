@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/storm-weaver-relaxed-fit-coffee-beige",
+  "collected_at": "2026-09-22T17:01:40.870943",
+  "name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/storm-weaver-relaxed-fit-coffee-beige",
+  "description": "Size Note:Our oversized t-shirts run slightly big we recommend going one size down for the best fit.\nFit: Relaxed\nFabric: 100% cotton, 240 GSM Loop Knit\nModel Size: Male - M, Female - S\nColor:  Coffee Beige\nHow To Style:\nThe Coffee Beige Storm Weaver Oversized T-shirt offers a clean, relaxed aesthetic. Pair it with Light or dark skinny jeans or cargo pants for a balanced look. Layer it under a denim jacket for a casual street-style vibe, or keep it simple with sneakers and a cap for an easy, laid-back outfit.\nWash Care:\n\nMachine Wash at 86° F / 30° C\nNo Chlorine Bleach\nDo not tumble dry\nMaximum iron at 230° F / 110 °C\nDry Clean\nWash inside out and dry separately",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE - S",
+      "sku": "SWCBS",
+      "url": "",
+      "price": "899.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_A.png?v=1749819823&width=1920"
+    },
+    {
+      "name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE - M",
+      "sku": "SWCBM",
+      "url": "",
+      "price": "899.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_A.png?v=1749819823&width=1920"
+    },
+    {
+      "name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE - L",
+      "sku": "SWCBL",
+      "url": "",
+      "price": "899.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_A.png?v=1749819823&width=1920"
+    },
+    {
+      "name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE - XL",
+      "sku": "SWCBXL",
+      "url": "",
+      "price": "899.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_A.png?v=1749819823&width=1920"
+    },
+    {
+      "name": "STORM WEAVER  OVERSIZED TEE - COFEE BEIGE - 2XL",
+      "sku": "SWCB2XL",
+      "url": "",
+      "price": "899.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_A.png?v=1749819823&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0010"
+}

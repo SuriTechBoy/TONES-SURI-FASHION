@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/double-pocket-black-shirt",
+  "collected_at": "2026-09-22T17:02:16.431756",
+  "name": "Black - Double Pocket Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/double-pocket-black-shirt",
+  "description": "Product Description:Designed with a tailored slim fit, this double pocket shirt features dual chest pockets with box pleats for a structured, utility-inspired look. Crafted from 100% cotton, it combines comfort with a sharp, versatile style.\nFit: Tailored Slim Fit\nFabric: 100% Cotton\nColor: Black\nModel Size: L\nHow To Style:Pair it with chinos or slim-fit jeans for a clean everyday look, or tuck it into trousers for a semi-formal edge. The dual chest pockets add character, making it easy to dress up with a blazer or keep casual with sneakers or boots.\nWash Care:\n\n\nGentle Machine Wash Cold with Similar Colors\n\n\nNo Tumble Dry\n\n\nNo Chlorine Bleach\n\n\nWarm Iron",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Black - Double Pocket Shirt - S",
+      "sku": "BCS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6419.jpg?v=1758981241&width=1920"
+    },
+    {
+      "name": "Black - Double Pocket Shirt - M",
+      "sku": "BCM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6419.jpg?v=1758981241&width=1920"
+    },
+    {
+      "name": "Black - Double Pocket Shirt - L",
+      "sku": "BCL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6419.jpg?v=1758981241&width=1920"
+    },
+    {
+      "name": "Black - Double Pocket Shirt - XL",
+      "sku": "BCXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6419.jpg?v=1758981241&width=1920"
+    },
+    {
+      "name": "Black - Double Pocket Shirt - XXL",
+      "sku": "BCXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_6419.jpg?v=1758981241&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0029"
+}

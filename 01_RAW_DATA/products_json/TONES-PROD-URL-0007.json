@@ -1,0 +1,55 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/elivated-basics-oversized",
+  "collected_at": "2026-09-22T17:01:34.540865",
+  "name": "Elevated Basics - Relaxed - Beige Color",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/elivated-basics-oversized",
+  "description": "Fit: Relaxed\nFabric: 100% cotton, 240 GSM French Terry\n Model Size: Male - M, Female - S\nColor: Beige\nHow To Style:\nThe Beige Elevated Basics Relaxed T-shirt offers a clean, relaxed aesthetic. Pair it with dark skinny jeans or cargo pants for a balanced look. Layer it under a denim jacket for a casual street-style vibe, or keep it simple with sneakers and a cap for an easy, laid-back outfit.\nWash Care: \n\nMachine Wash at 86° F / 30°  C\nNo Chlorine Bleach\nDo not tumble dry\nMaximum iron at 230° F / 110 ° C\nDry Clean\nWash inside out and dry separately",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Elevated Basics - Relaxed - Beige Color - S",
+      "sku": "EBOBG_S",
+      "url": "",
+      "price": "499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Frame9446_updated.png?v=1749195186&width=1920"
+    },
+    {
+      "name": "Elevated Basics - Relaxed - Beige Color - M",
+      "sku": "EBOBG_M",
+      "url": "",
+      "price": "499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Frame9446_updated.png?v=1749195186&width=1920"
+    },
+    {
+      "name": "Elevated Basics - Relaxed - Beige Color - L",
+      "sku": "EBOBG_L",
+      "url": "",
+      "price": "499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Frame9446_updated.png?v=1749195186&width=1920"
+    },
+    {
+      "name": "Elevated Basics - Relaxed - Beige Color - XL",
+      "sku": "EBOBG_XL",
+      "url": "",
+      "price": "499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Frame9446_updated.png?v=1749195186&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0007"
+}

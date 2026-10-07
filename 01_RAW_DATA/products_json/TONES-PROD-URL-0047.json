@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/charcoal-grey-flannel-double-pocket-shirt",
+  "collected_at": "2026-09-22T17:02:53.201643",
+  "name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/charcoal-grey-flannel-double-pocket-shirt",
+  "description": "Fit: Relaxed Oversized Flannel ShirtNote: The size runs large, opt for smaller Size\n\n\nA laid-back essential made for everyday comfort. Crafted from soft brushed flannel, this relaxed oversized shirt blends style and ease effortlessly. Perfect for college goers and casual outings, it’s designed for those who like to keep it comfortable yet confident. Wear it buttoned up or layer it open over a tee for a relaxed, off-duty vibe.color: Charcoal Grey\n\n\nKey Features:\n • Relaxed oversized fit\n • Soft brushed flannel fabric\n • Classic button-down front\n • Dual chest flap pockets with button fastening\n • Curved hem for easy layering\n • DTM stitching for a clean finish",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT - S",
+      "sku": "CGFDPS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Charcoal_Grey_DF.png?v=1762948344&width=1920"
+    },
+    {
+      "name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT - M",
+      "sku": "CGFDPM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Charcoal_Grey_DF.png?v=1762948344&width=1920"
+    },
+    {
+      "name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT - L",
+      "sku": "CGFDPL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Charcoal_Grey_DF.png?v=1762948344&width=1920"
+    },
+    {
+      "name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT - XL",
+      "sku": "CGFDPXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Charcoal_Grey_DF.png?v=1762948344&width=1920"
+    },
+    {
+      "name": "CHARCOAL GREY  DOUBLE POCKET FLANNEL  SHIRT - XXL",
+      "sku": "CGFDPXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Charcoal_Grey_DF.png?v=1762948344&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0047"
+}

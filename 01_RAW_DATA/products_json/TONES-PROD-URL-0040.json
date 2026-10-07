@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-brown",
+  "collected_at": "2026-09-22T17:02:38.306089",
+  "name": "Round Neck Slim Fit Tee - Brown",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/round-neck-slim-fit-tee-brown",
+  "description": "Crafted from 160 GSM breathable cotton, the Brown Neck Slim Fit Tee is designed for those who prefer timeless, versatile style. Its tailored slim fit hugs the body just right, while the deep navy hue adds a refined edge to any outfit.\nProduct Features:•⁠  ⁠Round neck•⁠  ⁠Slim fit•⁠  ⁠100% cotton•⁠  ⁠160 GSM•⁠  ⁠Breathable & lightweight•⁠  ⁠Soft-touch finish•⁠  ⁠Pocket detail\nStyle it with: Pair it with beige chinos or light-wash denim for a clean, put-together look that works from day to night.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Round Neck Slim Fit Tee - Brown - S",
+      "sku": "RNBS",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_2_c193a03f-b0a6-42f1-a0d5-422232db383a.png?v=1761204522&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Brown - M",
+      "sku": "RNBM",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_2_c193a03f-b0a6-42f1-a0d5-422232db383a.png?v=1761204522&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Brown - L",
+      "sku": "RNBML",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_2_c193a03f-b0a6-42f1-a0d5-422232db383a.png?v=1761204522&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Brown - XL",
+      "sku": "RNBMXL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_2_c193a03f-b0a6-42f1-a0d5-422232db383a.png?v=1761204522&width=1920"
+    },
+    {
+      "name": "Round Neck Slim Fit Tee - Brown - XXL",
+      "sku": "RNBMXXL",
+      "url": "",
+      "price": "399.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/3_2_c193a03f-b0a6-42f1-a0d5-422232db383a.png?v=1761204522&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0040"
+}

@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/predator-tee-relaxed-fit-green",
+  "collected_at": "2026-09-22T17:01:43.254375",
+  "name": "PREDATOR OVERSIZED TEE - GREEN",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/predator-tee-relaxed-fit-green",
+  "description": "Size Note:Our oversized t-shirts run slightly big we recommend going one size down for the best fit.\nFit: Relaxed\nFabric: 100% cotton, 240 GSM Loop Knit\nModel Size: Male - M, Female - S\nColor:  Green\nHow To Style:\nThe Green Predator Over-sized T-shirt offers a clean, relaxed aesthetic. Pair it with Light or dark skinny jeans or cargo pants for a balanced look. Layer it under a denim jacket for a casual street-style vibe, or keep it simple with sneakers and a cap for an easy, laid-back outfit.\nWash Care:\n\nMachine Wash at 86° F / 30° C\nNo Chlorine Bleach\nDo not tumble dry\nMaximum iron at 230° F / 110 °C\nDry Clean\nWash inside out and dry separately",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "PREDATOR OVERSIZED TEE - GREEN - S",
+      "sku": "PRGRS",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_a72ad2ca-c2ad-4a58-84f6-d6c2ee9cb302.png?v=1749806854&width=1920"
+    },
+    {
+      "name": "PREDATOR OVERSIZED TEE - GREEN - M",
+      "sku": "PRGRM",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_a72ad2ca-c2ad-4a58-84f6-d6c2ee9cb302.png?v=1749806854&width=1920"
+    },
+    {
+      "name": "PREDATOR OVERSIZED TEE - GREEN - L",
+      "sku": "PRGRL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_a72ad2ca-c2ad-4a58-84f6-d6c2ee9cb302.png?v=1749806854&width=1920"
+    },
+    {
+      "name": "PREDATOR OVERSIZED TEE - GREEN - XL",
+      "sku": "PRGRXL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_a72ad2ca-c2ad-4a58-84f6-d6c2ee9cb302.png?v=1749806854&width=1920"
+    },
+    {
+      "name": "PREDATOR OVERSIZED TEE - GREEN - 2XL",
+      "sku": "PRGR2XL",
+      "url": "",
+      "price": "999.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/6_a72ad2ca-c2ad-4a58-84f6-d6c2ee9cb302.png?v=1749806854&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0012"
+}

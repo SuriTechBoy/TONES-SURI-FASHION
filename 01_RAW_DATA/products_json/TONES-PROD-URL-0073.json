@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/the-final-act-oversized-tee-copy",
+  "collected_at": "2026-09-22T17:03:54.181144",
+  "name": "Created To Create - Oversized Tee",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/the-final-act-oversized-tee-copy",
+  "description": "Fabric : CottonFit: Relaxed FitModel Size: LProduct description:A red oversized tee crafted from 100% cotton loop knit, featuring a clean white script graphic reading “Created To Create” with a subtle tonal emblem detail. Finished with a classic ribbed crew neck and an oversized silhouette for a relaxed, contemporary streetwear look.Wash Care:Machine Wash at 86° F / 30° CNo Chlorine BleachDo not tumble dryMaximum iron at 230° F / 110 °CDry CleanWash inside out and dry separately.",
+  "brand": "Tones Fashion",
+  "category": "T-Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Created To Create - Oversized Tee - S",
+      "sku": "CCOTS",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Red_Main_1.jpg?v=1788263969&width=1920"
+    },
+    {
+      "name": "Created To Create - Oversized Tee - M",
+      "sku": "CCOTM",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Red_Main_1.jpg?v=1788263969&width=1920"
+    },
+    {
+      "name": "Created To Create - Oversized Tee - L",
+      "sku": "CCOTL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Red_Main_1.jpg?v=1788263969&width=1920"
+    },
+    {
+      "name": "Created To Create - Oversized Tee - XL",
+      "sku": "CCOTXL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Red_Main_1.jpg?v=1788263969&width=1920"
+    },
+    {
+      "name": "Created To Create - Oversized Tee - 2XL",
+      "sku": "CCOTXXL",
+      "url": "",
+      "price": "1199.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Red_Main_1.jpg?v=1788263969&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0073"
+}

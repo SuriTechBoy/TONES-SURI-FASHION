@@ -1,0 +1,173 @@
+{
+  "total": 33,
+  "passed": 33,
+  "failed": 0,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "question": "Show me T-shirts",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me red T-shirts",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me T-shirts under ₹1000",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me green T-shirts under ₹900",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me black oversized T-shirts under ₹1200",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me shirts between ₹500 and ₹1500",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me blue shirts under ₹2000",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me T-shirts under ₹1000 in XL",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me black oversized T-shirts under ₹1200 in XL",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me products under ₹1000",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me T-shirts between ₹500 and ₹1000",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me red T-shirts under ₹999",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me T-shirts below ₹1000 with ratings above 4",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me green oversized T-shirts under ₹500",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me men's t-shirts",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me women's dresses",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me red men's t-shirts under ₹1000",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me XL t-shirts that are in stock",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Tell me everything about Tones Original Black",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "What did customers say about the quality of Tones Original Black?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Is Tones Original Black available in size M?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Is XXL available for Tones Original Black?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Is TONES Fashion based in Hyderabad?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Who owns TONES Fashion?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "What is the customer support email?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Do you deliver across India?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "What is the return policy?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Can I pay using COD?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me Nike products",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Show me smartphones",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Who won the cricket match?",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "Tell me a joke",
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "question": "FOLLOW-UP: Only black ones",
+      "pass": true,
+      "reason": ""
+    }
+  ]
+}

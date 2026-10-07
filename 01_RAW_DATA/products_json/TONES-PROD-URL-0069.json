@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/navy-blue-shirt",
+  "collected_at": "2026-09-22T17:03:45.263616",
+  "name": "Navy Blue - Satin Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/navy-blue-shirt",
+  "description": "Fabric : SatinFit: Slim FitModel Size: MProduct description : Slim Fit Satin ShirtCrafted in smooth satin with a soft, fluid drape.Designed in a relaxed fit for effortless comfort and movement.Features a clean button-down front with a classic collar.A versatile elevated essential with a subtle, refined finish.\nStyle With:Pair with tailored trousers or relaxed-fit trousers for a polished, contemporary look.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Navy Blue - Satin Shirt - S",
+      "sku": "NBSSS",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_3_20c4fe30-6b20-42ae-a0fa-b896b7e29557.jpg?v=1786628708&width=1920"
+    },
+    {
+      "name": "Navy Blue - Satin Shirt - M",
+      "sku": "NBSSM",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_3_20c4fe30-6b20-42ae-a0fa-b896b7e29557.jpg?v=1786628708&width=1920"
+    },
+    {
+      "name": "Navy Blue - Satin Shirt - L",
+      "sku": "NBSSL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_3_20c4fe30-6b20-42ae-a0fa-b896b7e29557.jpg?v=1786628708&width=1920"
+    },
+    {
+      "name": "Navy Blue - Satin Shirt - XL",
+      "sku": "NBSSXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_3_20c4fe30-6b20-42ae-a0fa-b896b7e29557.jpg?v=1786628708&width=1920"
+    },
+    {
+      "name": "Navy Blue - Satin Shirt - 2XL",
+      "sku": "NBSSXXL",
+      "url": "",
+      "price": "1499.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/Main_3_20c4fe30-6b20-42ae-a0fa-b896b7e29557.jpg?v=1786628708&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0069"
+}

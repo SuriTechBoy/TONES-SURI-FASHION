@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/white-bloom-shirt",
+  "collected_at": "2026-09-22T17:02:21.224561",
+  "name": "WHITE - BLOOM SHIRT",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/white-bloom-shirt",
+  "description": "Product Description:BLOOM – Relaxed Fit Cuban Collar Embroidered Designer Shirt\nBloom blends relaxed structure with artistic detail. This relaxed fit Cuban collar designer shirt features floral embroidery emerging from the chest pocket, creating the illusion of blooms casually tucked in, subtle yet striking.Color: WHITEModel Size: M\nAvailable in White, it’s ideal for resort settings, brunches, sundowners, and easy luxe evenings. Style it with linen trousers, relaxed chinos, or tailored shorts for an effortlessly elevated look.",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "WHITE - BLOOM SHIRT - S",
+      "sku": "WBS",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_8.jpg?v=1760176072&width=1920"
+    },
+    {
+      "name": "WHITE - BLOOM SHIRT - M",
+      "sku": "WBM",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_8.jpg?v=1760176072&width=1920"
+    },
+    {
+      "name": "WHITE - BLOOM SHIRT - L",
+      "sku": "WBL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_8.jpg?v=1760176072&width=1920"
+    },
+    {
+      "name": "WHITE - BLOOM SHIRT - XL",
+      "sku": "WBXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/OutOfStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_8.jpg?v=1760176072&width=1920"
+    },
+    {
+      "name": "WHITE - BLOOM SHIRT - XXL",
+      "sku": "WBXXL",
+      "url": "",
+      "price": "799.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/2_8.jpg?v=1760176072&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0032"
+}

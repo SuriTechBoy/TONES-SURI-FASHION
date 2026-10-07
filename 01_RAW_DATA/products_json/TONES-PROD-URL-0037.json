@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/karma-white-shirt",
+  "collected_at": "2026-09-22T17:02:31.843846",
+  "name": "Karma - White shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/karma-white-shirt",
+  "description": "Product Description:\nKARMA – Slim Fit Designer Shirt with Statement Embroidery\nKarma merges structure with attitude. The slim-fit silhouette is elevated with contrast piping across the shoulders, back yoke, placket, and cuffs, creating a defined, tailored frame. The bold chest embroidery adds intent and identity without overpowering the look.\nColor: whiteModel Size: L\nAvailable in Jet Black and Porcelain White, it’s ideal for cocktail nights, sundowners, private celebrations, and luxe evening gatherings. Style it with tailored trousers, sharp denim, or layered jackets and finish with polished shoes to complete the statement.",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Karma - White shirt - S",
+      "sku": "KWS",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7541.jpg?v=1760513259&width=1920"
+    },
+    {
+      "name": "Karma - White shirt - M",
+      "sku": "KWM",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7541.jpg?v=1760513259&width=1920"
+    },
+    {
+      "name": "Karma - White shirt - L",
+      "sku": "KWL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7541.jpg?v=1760513259&width=1920"
+    },
+    {
+      "name": "Karma - White shirt - XL",
+      "sku": "KWXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7541.jpg?v=1760513259&width=1920"
+    },
+    {
+      "name": "Karma - White shirt - XXL",
+      "sku": "KWXXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/IMG_7541.jpg?v=1760513259&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0037"
+}

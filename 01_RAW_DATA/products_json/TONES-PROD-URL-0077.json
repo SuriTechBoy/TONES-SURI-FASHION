@@ -1,0 +1,64 @@
+{
+  "source_url": "https://www.tonesfashion.com/products/deep-sage-gauze-cotton-shirt",
+  "collected_at": "2026-09-22T17:04:03.528726",
+  "name": "Deep Sage - Gauze Cotton Shirt",
+  "sku": "",
+  "url": "https://www.tonesfashion.com/products/deep-sage-gauze-cotton-shirt",
+  "description": "Fabric : CottonFit: Relaxed Box FitModel Size: L\nProduct Description:\nA relaxed box fit shirt crafted in lightweight gauze cotton, offering a soft, breathable feel with a naturally textured finish. Designed with a classic collar, full sleeves and a button-down front, creating an effortless and versatile everyday silhouette.Wash Care:Machine Cold WashDo Not BleachTumble Dry LowTurn Inside OutUse Mild DetergentWash With Like Colors",
+  "brand": "Tones Fashion",
+  "category": "Shirts",
+  "image": [],
+  "aggregate_rating": {
+    "rating_value": null,
+    "review_count": null
+  },
+  "variants": [
+    {
+      "name": "Deep Sage - Gauze Cotton Shirt - S",
+      "sku": "DSGCS",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9ed28187-3279-4377-8845-0c61ce7d4b24.jpg?v=1789022050&width=1920"
+    },
+    {
+      "name": "Deep Sage - Gauze Cotton Shirt - M",
+      "sku": "DSGCM",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9ed28187-3279-4377-8845-0c61ce7d4b24.jpg?v=1789022050&width=1920"
+    },
+    {
+      "name": "Deep Sage - Gauze Cotton Shirt - L",
+      "sku": "DSGCL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9ed28187-3279-4377-8845-0c61ce7d4b24.jpg?v=1789022050&width=1920"
+    },
+    {
+      "name": "Deep Sage - Gauze Cotton Shirt - XL",
+      "sku": "DSGCXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9ed28187-3279-4377-8845-0c61ce7d4b24.jpg?v=1789022050&width=1920"
+    },
+    {
+      "name": "Deep Sage - Gauze Cotton Shirt - 2XL",
+      "sku": "DSGCXXL",
+      "url": "",
+      "price": "1299.00",
+      "currency": "INR",
+      "availability": "http://schema.org/InStock",
+      "image": "https://www.tonesfashion.com/cdn/shop/files/1_9ed28187-3279-4377-8845-0c61ce7d4b24.jpg?v=1789022050&width=1920"
+    }
+  ],
+  "collection_method": "JSON-LD",
+  "url_id": "TONES-PROD-URL-0077"
+}
