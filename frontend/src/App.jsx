@@ -18,11 +18,12 @@ const FEATURE_ITEMS = [
 ];
 
 const FLOATING_GARMENTS = [
-  { image: "https://www.tonesfashion.com/cdn/shop/files/Main_4de729d4-17e8-4212-93cd-8056fe0694cb.jpg?v=1788264430", label: "THE ALPHA · TEE", className: "garment-one" },
-  { image: "https://www.tonesfashion.com/cdn/shop/files/Yellow_Main.jpg?v=1788264183", label: "THE FINAL ACT · TEE", className: "garment-two" },
-  { image: "https://www.tonesfashion.com/cdn/shop/files/Main_7.jpg?v=1789996422", label: "BLUE OXFORD · SHIRT", className: "garment-three" },
-  { image: "https://www.tonesfashion.com/cdn/shop/files/Green_Main_jpg.jpg?v=1790059169", label: "SAGE OXFORD · SHIRT", className: "garment-four" },
+  {  image: "/images/product-1.webp", label: "Rose Bloom Maroon Sweatshirt", className: "garment-one" },
+  { image: "/images/product-2.webp", label: "Navy Blue Quarter zip Sweatshirt", className: "garment-two" },
+  { image: "/images/product-3.webp", label: "Mustard Corduroy Shacket", className: "garment-three" },
+  { image: "/images/product-4.webp", label: "Dusty Rose Short Kurta", className: "garment-four" },
 ];
+
 
 
 function GarmentSvg({ type }) {
@@ -146,9 +147,7 @@ function Home({ onOpenAssistant }) {
               <div className="garment-card"><img src={garment.image} alt={garment.label} className="real-garment-image" loading="eager" /><span>{garment.label}</span></div>
             </div>
           ))}
-          <div className="floating-chip chip-one">BLACK · OVERSIZED</div>
-          <div className="floating-chip chip-two">UNDER ₹1000</div>
-          <div className="floating-chip chip-three">SMART SEARCH ✦</div>
+         
         </div>
       </section>
 

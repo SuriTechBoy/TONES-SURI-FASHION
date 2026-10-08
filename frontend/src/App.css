@@ -92,8 +92,49 @@
 
 .fashion-stage { min-height:620px; position:relative; display:grid; place-items:center; perspective:1200px; }
 .stage-glow { position:absolute; border-radius:50%; filter:blur(20px); }.glow-a { width:330px;height:330px;background:rgba(236,72,153,.2); }.glow-b { width:240px;height:240px;background:rgba(6,182,212,.16); transform:translate(120px,130px); }
-.orbit { position:absolute; border:1px solid rgba(124,58,237,.17); border-radius:50%; transform:rotate(-20deg); }.orbit-a { width:510px;height:330px; animation:orbitSpin 15s linear infinite; }.orbit-b { width:390px;height:250px; animation:orbitSpin 11s linear reverse infinite; }
-@keyframes orbitSpin { to { transform:rotate(340deg) rotateX(62deg); } }
+.orbit {
+  position: absolute;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  background: transparent;
+}
+
+.orbit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 1px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(147, 51, 234, 0.15),
+    rgba(236, 72, 153, 0.35),
+    rgba(59, 130, 246, 0.20),
+    rgba(147, 51, 234, 0.15)
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  pointer-events: none;
+}
+
+.orbit-a {
+  width: 510px;
+  height: 330px;
+  animation: orbitSpin 15s linear infinite;
+}
+
+.orbit-b {
+  width: 390px;
+  height: 250px;
+  animation: orbitSpin 11s linear reverse infinite;
+}@keyframes orbitSpin { to { transform:rotate(340deg) rotateX(62deg); } }
 .stage-core { width:210px;height:210px;border-radius:50%; background:radial-gradient(circle at 35% 25%,#fff,#f4eaff 50%,#ddd1ff); box-shadow:0 30px 80px rgba(104,65,170,.22), inset 0 0 0 1px rgba(255,255,255,.8); display:grid; place-items:center; position:relative; z-index:2; animation:pulseCore 4s ease-in-out infinite; }
 @keyframes pulseCore { 50% { transform:scale(1.05); } }
 .core-ring { position:absolute; inset:17px;border-radius:50%;border:1px dashed rgba(124,58,237,.35); }.core-label { font-family:'Space Grotesk'; text-align:center;font-size:30px;line-height:.85;letter-spacing:3px; }.core-label span { color:#ec4899; }
